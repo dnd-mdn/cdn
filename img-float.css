@@ -1,0 +1,31 @@
+.img-flt-lft-4 {
+    width: 33%;
+    float: left;
+    padding: 10px 20px 0px 0px;
+}
+
+
+.img-flt-rght-4 {
+    width: 33%;
+    float: right;
+    padding: 10px 0px 0px 20px;
+}
+
+.img-flt-lft-3 {
+    width: 25%;
+    float: left;
+    padding: 10px 20px 0px 0px;
+}
+
+
+.img-flt-rght-3 {
+    width: 25%;
+    float: right;
+    padding: 10px 0px 0px 20px;
+}
+
+
+
+[class^="img-flt-"] {
+width: 100%;
+}

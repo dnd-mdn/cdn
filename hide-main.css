@@ -1,0 +1,17 @@
+
+main {
+    visibility: hidden;
+}
+
+.wb-tabs {
+    display: none;
+}
+
+
+#visible-heading {
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}

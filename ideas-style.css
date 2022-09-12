@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.column
+{
+	position: relative;
+	width: 100%; 
+	padding: 0px; 
+	height: 255px;
+    margin: 0px auto;
+	 display: table;
+}
+.column .card
+{
+	position: relative;
+	width: 210px;
+	height: 280px;
+	background: #ffffff;
+	float: left;
+	border: 1px solid #000000;
+	margin: 10px;
+	box-sizing: border-box;
+	overflow: hidden;
+	border-radius: 10px;
+}
+/* Clear floats after the columns 
+.column .card .title
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    background: #5f1f5b;
+    transition: 0.5s;
+    z-index: -1;
+}*/
+
+.column .card .icon1
+{     
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FF5733;
+    transition: 0.5s;
+    z-index: 1;
+}
+.column .card .icon1 h2
+{
+  position: static;
+    margin: 30px -10px 0;
+    padding: 60px;
+    color: #FDFEFE;
+    font-size: 1em;
+}
+.column .card:hover .icon1
+{
+	top: 40px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 20%;
+}
+.column .card .icon1 .fas
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	font-size: 70px;
+	transition: 0.5s;
+	color: #fff;
+}
+.column .card:hover .icon1 .fas
+{
+	font-size: 30px;
+}
+.column .card .icon2
+{     
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFB233;
+    transition: 0.5s;
+    z-index: 1;
+}
+.column .card .icon2 h2
+{
+  position: static;
+    margin: 30px -10px 0;
+    padding: 60px;
+    color: #FDFEFE;
+    font-size: 1em;
+}
+.column .card:hover .icon2
+{
+	top: 40px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 20%;
+}
+.column .card .icon2 .fas
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	font-size: 70px;
+	transition: 0.5s;
+	color: #fff;
+}
+.column .card:hover .icon2 .fas
+{
+	font-size: 30px;
+}
+.column .card .icon3
+{     
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FF3390;
+    transition: 0.5s;
+    z-index: 1;
+}
+.column .card .icon3 h2
+{
+  position: static;
+    margin: 30px -10px 0;
+    padding: 60px;
+    color: #FDFEFE;
+    font-size: 1em;
+}
+.column .card:hover .icon3
+{
+	top: 40px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 20%;
+}
+.column .card .icon3 .fas
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	font-size: 70px;
+	transition: 0.5s;
+	color: #fff;
+}
+.column .card:hover .icon3 .fas
+{
+	font-size: 30px;
+}
+.column .card .icon4
+{     
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #33C1FF;
+    transition: 0.5s;
+    z-index: 1;
+}
+.column .card .icon4 h2
+{
+  position: static;
+    margin: 30px -10px 0;
+    padding: 60px;
+    color: #FDFEFE;
+    font-size: 1em;
+}
+.column .card:hover .icon4
+{
+	top: 40px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 20%;
+}
+.column .card .icon4 .fas
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	font-size: 70px;
+	transition: 0.5s;
+	color: #fff;
+}
+.column .card:hover .icon4 .fas
+{
+	font-size: 30px;
+}
+.column .card .icon5
+{     
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #33FF8D;
+    transition: 0.5s;
+    z-index: 1;
+}
+.column .card .icon5 h2
+{
+  position: static;
+    margin: 30px -10px 0;
+    padding: 60px;
+    color: #FDFEFE;
+    font-size: 1em;
+}
+.column .card:hover .icon5
+{
+	top: 40px;
+	left: calc(50% - 40px);
+	width: 80px;
+	height: 80px;
+	border-radius: 20%;
+}
+.column .card .icon5 .fas
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+	font-size: 70px;
+	transition: 0.5s;
+	color: #fff;
+}
+.column .card:hover .icon5 .fas
+{
+	font-size: 30px;
+}
+.column .card .content
+{
+	position: absolute;
+	top: 100%;
+	height: calc(100% - 100px);
+	text-align: center;
+	padding: 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	opacity: 0;
+}
+.column .card:hover .content
+{
+	top: 100px;
+	opacity: 1;
+}
+.column .card .content h3
+{
+	margin: 50px 10px 10px;
+	padding: 0;
+	color: #5f1f5b;
+	font-size: 1.0em;	
+}
+.column .card .content p
+{
+	margin: 0;
+	padding: 0;
+	color:#000000;
+	font-size: 0.7em;
+}

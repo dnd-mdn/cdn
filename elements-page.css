@@ -1,0 +1,746 @@
+ @charset "utf-8";
+/* CSS Document */
+/* FAQ */
+.header-faq p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+.header-faq p {
+    margin-left: 31px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.header-faq h1 {
+color: #fff;
+    font-size: 2.8em;
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 29px;
+    border: none;
+    padding: 0;
+}
+
+.header-faq {
+    border-bottom: none;
+    margin-bottom: .33em;
+    margin-top: .33em;
+    padding-bottom: 1.75em;
+    padding-top: 1.75em;
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/question-sign.png) no-repeat 97% 25%;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.header-faq h1 {
+    font-size: 1.6em;
+    margin-left: 19px;
+}
+
+.header-faq {
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/question-sign.png) no-repeat 150% 25%;
+}
+
+.header-faq p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+}
+
+
+/* Element Pages */
+
+.header-in p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+.header-in p {
+    margin-left: 31px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.header-in h1 {
+color: #fff;
+    font-size: 2.8em;
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 29px;
+    border: none;
+    padding: 0;
+}
+
+.header-in {
+    border-bottom: none;
+    margin-bottom: .33em;
+    margin-top: .33em;
+    padding-bottom: 1.75em;
+    padding-top: 1.75em;
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/inn-network.png) no-repeat 97% 50%;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.header-in h1 {
+    font-size: 1.6em;
+    margin-left: 19px;
+}
+
+.header-in {
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/inn-network.png) no-repeat 150% 50%;
+}
+
+.header-in p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+}
+
+/* Element Pages sandboxes */
+
+.header-sb p {
+    margin-left: 31px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.header-sb h1 {
+ color: #fff;
+    font-size: 2.8em;
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 29px;
+    border: none;
+    padding: 0;
+}
+
+.header-sb {
+    border-bottom: none;
+    margin-bottom: .33em;
+    margin-top: .33em;
+    padding-bottom: 1.75em;
+    padding-top: 1.75em;
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/sandboxes.png) no-repeat 97% 50%;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.header-sb h1 {
+    font-size: 1.6em;
+    margin-left: 19px;
+}
+
+.header-sb {
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/sandboxes.png) no-repeat 150% 50%;
+}
+.header-sb p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+}
+/* Element Pages Competitive Projects */
+
+.header-cp p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+.header-cp p {
+    margin-left: 31px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.header-cp h1 {
+ color: #fff;
+    font-size: 2.8em;
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 29px;
+    border: none;
+    padding: 0;
+}
+
+.header-cp {
+    border-bottom: none;
+    margin-bottom: .33em;
+    margin-top: .33em;
+    padding-bottom: 1.75em;
+    padding-top: 1.75em;
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/comp-projects.png) no-repeat 97% 50%;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.header-cp h1 {
+    font-size: 1.6em;
+    margin-left: 19px;
+}
+
+.header-cp {
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/comp-projects.png) no-repeat 150% 50%;
+}
+
+.header-cp p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+
+	
+}
+
+/* Element Pages contests */
+.header-cont p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+.header-cont p {
+    margin-left: 31px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.header-cont h1 {
+ color: #fff;
+    font-size: 2.8em;
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 29px;
+    border: none;
+    padding: 0;
+}
+
+.header-cont {
+    border-bottom: none;
+    margin-bottom: .33em;
+    margin-top: .33em;
+    padding-bottom: 1.75em;
+    padding-top: 1.75em;
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/contests.png) no-repeat 97% 50%;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.header-cont h1 {
+    font-size: 1.6em;
+    margin-left: 19px;
+}
+
+.header-cont {
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/contests.png) no-repeat 150% 50%;
+}
+
+.header-cont p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+
+	
+}
+/* Element Pages test drives */
+.header-td p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+.header-td p {
+    margin-left: 31px;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.header-td h1 {
+ color: #fff;
+    font-size: 2.8em;
+    margin: 0;
+    text-transform: uppercase;
+    margin-left: 29px;
+    border: none;
+    padding: 0;
+}
+
+.header-td {
+    border-bottom: none;
+    margin-bottom: .33em;
+    margin-top: .33em;
+    padding-bottom: 1.75em;
+    padding-top: 1.75em;
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/test-drive.png) no-repeat 97% 50%;
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 767px) {
+
+.header-td h1 {
+    font-size: 1.6em;
+    margin-left: 19px;
+}
+
+.header-td {
+    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/test-drive.png) no-repeat 150% 50%;
+}
+
+.header-td p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+
+	
+}
+#datatable_filter label {
+    display: none;
+}
+
+.box {
+    background: #e8e8e8;
+}
+
+p.intro-opp {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 3px;
+    margin-bottom: 0px;
+}
+
+
+table.dataTable {
+    font-size: 16px;
+    border-radius: 0px;
+    padding: 0px;
+    background: #ffffff;
+    border: none !important;
+}
+
+
+td.title {
+    padding-left: 10px !important;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.3 !important;
+}
+
+.title details h2 {
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.apply-now a {
+    background: #754471;
+    padding: 6px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 0px #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.apply-now p {
+    margin-bottom: 15px;
+}
+
+
+.learn-more a {
+    background: #754471;
+    padding: 6px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 0px #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.title details[open] {
+    border: none;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+.title details {
+    border: none;
+    border-radius: 0px;
+    padding: 5px;
+font-weight: 100;
+    font-size: 15px;
+}
+
+.title details summary {
+    border: none !important;
+    border-radius: 0px;
+    color: #754471;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.title details summary:focus, details summary:hover {
+    background-color: transparent;
+    color: #754471;
+    text-decoration: none;
+}
+
+.title img {
+    float: left;
+    padding: 3px 10px 3px 0px;
+    max-width: 145px;
+}
+
+p.status-Closed {
+    width: 95px;
+    color: #b70c09;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+p.status-Update {
+    width: 95px;
+    color: #0d6179;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+p.status-Open {
+    width: 95px;
+    color: #166517;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+p.status-On-Hold {
+    width: 95px;
+    color: #80620e;
+    font-size: 13px;
+    margin-bottom: 0px;
+    margin-top: 6px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-transform: uppercase; 
+}
+
+
+#datatable_paginate .paginate_button {
+    background-color: #e8e8e8;
+    color: #000000;
+    margin-bottom: 22px;
+    margin-left: 5px;
+    border: none;
+}
+
+
+.dataTables_wrapper .dataTables_paginate {
+    padding-top: 0.6em;
+    text-align: left;
+    font-size: 75%;
+}
+ 
+#datatable_paginate .paginate_button.current {
+     
+    border-color: #754471;
+    color: #fff;
+    cursor: default;
+    z-index: 2;
+}
+ 
+a.btn-subscribe {
+    display: block;
+    width: 100%;
+    background-color: #6e2f69;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px;
+    font-size: 15px;
+    text-align: center;
+font-weight: bold;
+    text-transform: uppercase;
+}
+
+a.btn-subscribe:hover {
+background-color: #77096f;
+   transition: 0.8s;
+}
+
+p.hashtag {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+text-align: center;
+}
+
+p.hashtag a {
+    text-decoration: none;
+color: #6e2f69;
+}
+
+.ideas-menu h3 {
+    background-color: #6e2f69;
+    color: #ffffff;
+    margin: 0;
+}
+
+.ideas-menu {
+    background-color: #6e2f69;
+    margin-top: 16px;
+}
+
+.ideas-menu ul {
+    list-style-type: none;
+    padding: 3px 10px 3px 15px;
+    width: auto;
+    border-radius: 0px;
+    background-color: #e8e8e8;
+font-size: 18px;
+}
+
+.ideas-menu li a {
+    display: block;
+    color: #000;
+    background-color: #e8e8e8;
+    padding: 1px 8px;
+    text-decoration: none;
+    width: auto;
+    border: none;
+}
+
+.ideas-menu li a:hover {
+    background-color: #6e2f69;
+    color: white;
+    width: auto;
+    border-radius: 0;
+}
+
+
+#datatable_filter label {
+    display: none;
+}
+
+.box {
+    background: #e8e8e8;
+}
+
+p.intro-opp {
+    font-size: 16px;
+    line-height: 1.4;
+    padding: 3px;
+    margin-bottom: 0px;
+}
+
+
+table.dataTable {
+    font-size: 16px;
+    border-radius: 0px;
+    padding: 0px;
+    background: #ffffff;
+    border: none !important;
+}
+
+
+td.title {
+    padding-left: 10px !important;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.3 !important;
+}
+
+.title details h2 {
+    margin-top: 5px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.apply-now a {
+background-color: #6e2f69;
+color: #fff !important;
+font-weight: bold;
+font-size: 18px;
+padding: 7px 11px 8px 12px;
+text-decoration: none;
+text-align: center;
+display: inline;
+float: middle;
+}
+
+.apply-now a:hover {
+background: #464646;
+}
+
+.learn-more a {
+    background: #754471;
+    padding: 6px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 0px #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.title details[open] {
+    border: none;
+    border-radius: 0px;
+    padding: 5px;
+}
+
+.title details {
+    border: none;
+    border-radius: 0px;
+    padding: 5px;
+font-weight: 100;
+    font-size: 15px;
+}
+
+.title details summary {
+    border: none !important;
+    border-radius: 0px;
+    color: #754471 !important;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.title details summary:focus, details summary:hover {
+    background-color: transparent;
+    color: #754471;
+    text-decoration: none;
+}
+
+.title img {
+    float: left;
+    padding: 3px 10px 3px 0px;
+    max-width: 145px;
+}
+
+[class^="status-"] {
+    font-size: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-top: 1px;
+    color: #fff;
+    border-radius: 20px;
+    padding-left: 9px;
+    padding-right: 9px;
+    float: left;
+}
+
+span.status-Update {
+    background-color: #0d6179;
+}
+
+span.status-Closed {
+    background-color: #b70c09;
+}
+
+span.status-Open {
+   background-color: #166517;
+}
+
+span.status-On-Hold {
+    background-color: #80620e;
+}
+
+
+
+
+#datatable_paginate .paginate_button {
+    background-color: #e8e8e8;
+    color: #000000;
+    margin-bottom: 22px;
+    margin-left: 5px;
+    border: none;
+}
+
+
+.dataTables_wrapper .dataTables_paginate {
+    padding-top: 0.6em;
+    text-align: left;
+    font-size: 75%;
+}
+ 
+#datatable_paginate .paginate_button.current {
+        background-color: #754471;
+    border-color: #754471;
+    color: #fff;
+    cursor: default;
+    z-index: 2;
+}
+
+table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
+    background-color: #ffffff;
+}
+
+
+
+*/ TABBED INTERFACE  */
+
+
+.wb-tabs [role="tablist"] > li.active {
+    background: #6e2f69;
+border: none !important;
+}
+
+.wb-tabs [role="tablist"] > li {
+    border: none !important;
+}
+
+.wb-tabs [role="tablist"] > li.active a {
+background: #6e2f69;
+    color: #fff;
+  border-color: #6e2f69;
+}   
+  
+
+@media screen and (min-width: 992px) {
+.wb-tabs > details, .wb-tabs > .tabpanels > details {
+    border: none !important;
+    padding: 0;
+    margin-top: 15px;
+}
+}
+
+
