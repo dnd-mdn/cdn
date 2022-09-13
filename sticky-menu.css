@@ -1,79 +1,74 @@
-
-
-@media (max-width: 900px) { 
-.btn-sticky {
-  position: fixed;
-  bottom: 0%;
-    width: 95%;
-  -webkit-transform: translateY(0%);
-  -ms-transform: translateY(0%);
-  transform: translateY(0%);
-        z-index: 1000;
-}
+@media (max-width: 900px) {
+	.btn-sticky {
+		position: fixed;
+		bottom: 0%;
+		width: 95%;
+		-webkit-transform: translateY(0%);
+		-ms-transform: translateY(0%);
+		transform: translateY(0%);
+		z-index: 1000;
+	}
 }
 
-@media (min-width: 901px) {     
-.btn-sticky {
-position: fixed;
-top: 50%;
-right: 1%;
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-max-width: 75px;
-        z-index: 1000;
-}
-}
-
-@media (min-width: 1200px) {     
-.btn-sticky {
-position: fixed;
-top: 50%;
-right: 1%;
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-    max-width: 78px;
-        z-index: 1000;
-}
+@media (min-width: 901px) {
+	.btn-sticky {
+		position: fixed;
+		top: 50%;
+		right: 1%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		max-width: 75px;
+		z-index: 1000;
+	}
 }
 
-@media (min-width: 1500px) {     
-.btn-sticky {
-position: fixed;
-top: 50%;
-right: 5%;
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-    max-width: 78px;
-        z-index: 1000;
-}
-}
-
-
-@media (min-width: 1900px) { 
-.btn-sticky {
-position: fixed;
-top: 50%;
-right: 14%;
--webkit-transform: translateY(-50%);
--ms-transform: translateY(-50%);
-transform: translateY(-50%);
-        z-index: 1000;
-}
+@media (min-width: 1200px) {
+	.btn-sticky {
+		position: fixed;
+		top: 50%;
+		right: 1%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		max-width: 78px;
+		z-index: 1000;
+	}
 }
 
+@media (min-width: 1500px) {
+	.btn-sticky {
+		position: fixed;
+		top: 50%;
+		right: 5%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		max-width: 78px;
+		z-index: 1000;
+	}
+}
 
+@media (min-width: 1900px) {
+	.btn-sticky {
+		position: fixed;
+		top: 50%;
+		right: 14%;
+		-webkit-transform: translateY(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-50%);
+		z-index: 1000;
+	}
+}
 
 .btn-sticky a {
-  display: block;
-  text-align: center;
-  padding: 12px;
-  transition: all 0.3s ease;
-  color: white;
+	display: block;
+	text-align: center;
+	padding: 12px;
+	transition: all 0.3s ease;
+	color: white;
 }
 
 .btn-sticky a:hover {
-  background-color: #000;
+	background-color: #000;
 }

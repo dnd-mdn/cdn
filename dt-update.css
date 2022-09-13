@@ -1,8 +1,6 @@
 ﻿h1[dir*="ltr"] {
-  display: none;
+    display: none;
 }
-
-
 
 h2 {
     font-size: 1.35em;
@@ -11,12 +9,10 @@ h2 {
     padding: 9px 5px 9px 15px;
 }
 
-
 .dt-news {
-background: #2b5788;
-padding: 1em 1em 0.7em 1em;
+    background: #2b5788;
+    padding: 1em 1em 0.7em 1em;
 }
-
 
 .dt-news h1 {
     border: none;
@@ -26,7 +22,6 @@ padding: 1em 1em 0.7em 1em;
     font-size: 2.2em;
 }
 
-
 .dt-news p {
     padding-top: 5px;
     font-size: 1em;
@@ -35,15 +30,15 @@ padding: 1em 1em 0.7em 1em;
     border-top: 3px solid;
 }
 
-
 @media screen and (max-width: 768px) {
-.dt-news h1 {
-    margin: 0px 0px 0px 5px;
-    font-size: 2em;
-}
-.dt-news p {
-    padding-top: 5px;
-    font-size: 0.9em;
-    margin: 0px 0px 0px 5px;
-}
+    .dt-news h1 {
+        margin: 0px 0px 0px 5px;
+        font-size: 2em;
+    }
+
+    .dt-news p {
+        padding-top: 5px;
+        font-size: 0.9em;
+        margin: 0px 0px 0px 5px;
+    }
 }

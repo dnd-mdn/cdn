@@ -7,20 +7,19 @@
 
 .jumbotron {
     background: rgb(62, 62, 62);
-    background: linear-gradient(90deg, rgba(241,241,241) 0%, rgba(121,119,119) 49%, rgba(29,29,29) 100%);
+    background: linear-gradient(90deg, rgba(241, 241, 241) 0%, rgba(121, 119, 119) 49%, rgba(29, 29, 29) 100%);
 }
-
 
 @media only screen and (max-width: 767px) {
     .jumbotron {
         background: #3e3e3e;
         background: linear-gradient(to bottom, #f1f1f1 0%, #797777 49%, #1d1d1d 100%);
-  }
+    }
 
-  .text-spectrum {
-    color: #000;
-    background: #e4f2ff;
-    border-radius: 20px;
-    padding: 3px 0 3px 0;
-}
+    .text-spectrum {
+        color: #000;
+        background: #e4f2ff;
+        border-radius: 20px;
+        padding: 3px 0 3px 0;
+    }
 }

@@ -1,19 +1,20 @@
 .cloaked {
-display: none;
+    display: none;
 }
+
 .bg-drone {
     background: url('https://canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/cuas.jpg') left center;
     height: 250px;
     background-size: cover;
-} 
- 
+}
+
 .bg-ship {
     background: url('https://canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/cdis-boat.jpg') left center;
     height: 250px;
     background-size: cover;
 }
- 
- .bg-covid {
+
+.bg-covid {
     background: url('https://canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/covid.png') left center;
     height: 250px;
     background-size: cover;
@@ -29,73 +30,73 @@ display: none;
     line-height: 1.2;
 }
 
-
 .intro-header {
     border-bottom: 2px solid;
     padding-bottom: 5px;
     font-size: 23px;
-font-weight: bold;
+    font-weight: bold;
 }
-  
-.bg-purp { 
-    background-color: rgba(105, 49, 99, 0.8784313725490196); 
-    height: 250px; 
-width: 35%; 
-float: right; 
-} 
-.bg-purp-left { 
-    background-color: rgba(105, 49, 99, 0.8784313725490196); 
-    height: 250px; 
-width: 35%; 
-float: left; 
-}   
-  
+
+.bg-purp {
+    background-color: rgba(105, 49, 99, 0.8784313725490196);
+    height: 250px;
+    width: 35%;
+    float: right;
+}
+
+.bg-purp-left {
+    background-color: rgba(105, 49, 99, 0.8784313725490196);
+    height: 250px;
+    width: 35%;
+    float: left;
+}
+
 .apply-now a {
-background-color: #6e2f69;
-color: #fff !important;
-font-weight: bold;
-font-size: 18px;
-padding: 7px 11px 8px 12px;
-text-decoration: none;
-text-align: center;
-display: inline;
-float: middle;
+    background-color: #6e2f69;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px 11px 8px 12px;
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    float: middle;
 }
 
 .apply-now a:hover {
-background: #464646;
+    background: #464646;
 }
 
 
 @media only screen and (max-width: 1199px) {
-   .bg-purp {
-width: 47%;
-}
-.intro-header {
-    font-size: 21px;
-}
-.intro-text {
-    font-size: 17px;
-}
-}
+    .bg-purp {
+        width: 47%;
+    }
 
+    .intro-header {
+        font-size: 21px;
+    }
 
+    .intro-text {
+        font-size: 17px;
+    }
+}
 
 
 @media only screen and (max-width: 700px) {
-   .bg-purp {  
-width: 100%; 
-} 
-.intro-header {
-    font-size: 20px;
-}
-.intro-text {
-    font-size: 16px;
-}
+    .bg-purp {
+        width: 100%;
+    }
+
+    .intro-header {
+        font-size: 20px;
+    }
+
+    .intro-text {
+        font-size: 16px;
+    }
 }
 
-
- 
 .nav-header .btn {
     border-radius: 0;
     background-color: #fff;
@@ -103,71 +104,63 @@ width: 100%;
     margin-top: 10px;
     font-weight: bold;
 }
- 
- 
+
 .btn-purp {
     background-color: #693163 !important;
     color: #FFF;
     font-weight: bold;
 }
- 
- 
-.btn-purp:hover, .btn-purp:focus, .btn-purp.focus {
+
+.btn-purp:hover,
+.btn-purp:focus,
+.btn-purp.focus {
     color: #FFF;
     text-decoration: none;
 }
- 
- 
-.ajaxed-in details summary:focus, details summary:hover {
+
+.ajaxed-in details summary:focus,
+details summary:hover {
     background-color: #000000;
     color: #fff !important;
 }
- 
- 
-.ajaxed-in details[open] { 
- 
+
+.ajaxed-in details[open] {
+
     border: none;
     border-radius: 0;
     background-color: #eeeeee;
     color: #282828;
 }
- 
- 
-.ajaxed-in details[open] > summary {
+
+.ajaxed-in details[open]>summary {
     background-color: #754471;
     color: #fff;
 }
- 
- 
+
 .ajaxed-in details summary {
     border: none;
     border-radius: 0;
     color: #333;
     padding: 5px 15px;
-margin-top: 12px;
-margin-bottom: 12px;
- 
+    margin-top: 12px;
+    margin-bottom: 12px;
+
 }
- 
- 
-   .ajaxed-in h2 {
- font-size: 1.9em;
+
+.ajaxed-in h2 {
+    font-size: 1.9em;
     margin-top: 8px;
     margin-bottom: 10px;
     color: #754471;
 }
 
-
 button.btn-text {
     border: none;
     text-decoration: underline;
     color: #284162;
-padding: 0;
+    padding: 0;
 }
-
 
 button.btn-text:hover {
     color: #0535d2;
 }
-
-

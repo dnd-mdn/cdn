@@ -1,78 +1,75 @@
 @charset "utf-8";
-/* CSS Document */
-
 
 /*@-webkit-keyframes ticker {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-  100% {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
+	0% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		visibility: visible;
+	}
+	100% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
 }
 @keyframes ticker {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-  100% {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
+	0% {
+		-webkit-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		visibility: visible;
+	}
+	100% {
+		-webkit-transform: translate3d(-100%, 0, 0);
+		transform: translate3d(-100%, 0, 0);
+	}
 }
 .ticker-wrap .ticker__item {
-  display: inline-block;
-  padding: 0 2rem;
-  font-size: 1.5rem;
-  color: #6e2f69;
+	display: inline-block;
+	padding: 0 2rem;
+	font-size: 1.5rem;
+	color: #6e2f69;
 }
 
 .ticker-wrap {
-  position: relative; 
-  width: 90%;
-  overflow: hidden;
-  height: 4rem;
-  background-color: #FFFFFF;
-  box-sizing: content-box;
-  padding-left: 10%;
+	position: relative; 
+	width: 90%;
+	overflow: hidden;
+	height: 4rem;
+	background-color: #FFFFFF;
+	box-sizing: content-box;
+	padding-left: 10%;
 }
 /*.ticker-wrap .title {
-    position: absolute;
-    background: #6e2f69;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 24px;
-    color: white;
-    font-weight: bold;
-    z-index: 100;
+		position: absolute;
+		background: #6e2f69;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		padding: 0 24px;
+		color: white;
+		font-weight: bold;
+		z-index: 100;
 }*/
-a.news-btn{
+
+a.news-btn {
 	position: absolute;
-    background-color: #313131;
-    color: #fff;
-    display: block;
-    padding: 4px 24px;
-    max-width: 280px;
-    text-decoration: none;
-    margin-top: 0em;
-    border: 2px solid #000;
-    text-align: center;
+	background-color: #313131;
+	color: #fff;
+	display: block;
+	padding: 4px 24px;
+	max-width: 280px;
+	text-decoration: none;
+	margin-top: 0em;
+	border: 2px solid #000;
+	text-align: center;
 	z-index: 100;
 }
-a.news-btn:hover{
-background-color: #6e2f69;
+
+a.news-btn:hover {
+	background-color: #6e2f69;
 }
 
-.news-btn h2{
+.news-btn h2 {
 	display: inline-block;
-    margin: 0;
+	margin: 0;
 	font-size: 2.5rem;
 }
-
-
-

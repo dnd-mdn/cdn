@@ -1,5 +1,5 @@
- @charset "utf-8";
-/* CSS Document */
+@charset "utf-8";
+
 /* FAQ */
 .header-faq p {
     margin-left: 20px;
@@ -7,6 +7,7 @@
     width: 40%;
     line-height: 1.5;
 }
+
 .header-faq p {
     margin-left: 31px;
     color: #fff;
@@ -14,7 +15,7 @@
 }
 
 .header-faq h1 {
-color: #fff;
+    color: #fff;
     font-size: 2.8em;
     margin: 0;
     text-transform: uppercase;
@@ -31,28 +32,26 @@ color: #fff;
     padding-top: 1.75em;
     background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/question-sign.png) no-repeat 97% 25%;
     width: 100%;
-
 }
 
 @media only screen and (max-width: 767px) {
 
-.header-faq h1 {
-    font-size: 1.6em;
-    margin-left: 19px;
-}
+    .header-faq h1 {
+        font-size: 1.6em;
+        margin-left: 19px;
+    }
 
-.header-faq {
-    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/question-sign.png) no-repeat 150% 25%;
-}
+    .header-faq {
+        background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/question-sign.png) no-repeat 150% 25%;
+    }
 
-.header-faq p {
-    margin-left: 20px;
-    font-size: 0.7em;
-    width: 40%;
-    line-height: 1.5;
+    .header-faq p {
+        margin-left: 20px;
+        font-size: 0.7em;
+        width: 40%;
+        line-height: 1.5;
+    }
 }
-}
-
 
 /* Element Pages */
 
@@ -62,6 +61,7 @@ color: #fff;
     width: 40%;
     line-height: 1.5;
 }
+
 .header-in p {
     margin-left: 31px;
     color: #fff;
@@ -69,7 +69,7 @@ color: #fff;
 }
 
 .header-in h1 {
-color: #fff;
+    color: #fff;
     font-size: 2.8em;
     margin: 0;
     text-transform: uppercase;
@@ -91,25 +91,24 @@ color: #fff;
 
 @media only screen and (max-width: 767px) {
 
-.header-in h1 {
-    font-size: 1.6em;
-    margin-left: 19px;
-}
+    .header-in h1 {
+        font-size: 1.6em;
+        margin-left: 19px;
+    }
 
-.header-in {
-    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/inn-network.png) no-repeat 150% 50%;
-}
+    .header-in {
+        background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/inn-network.png) no-repeat 150% 50%;
+    }
 
-.header-in p {
-    margin-left: 20px;
-    font-size: 0.7em;
-    width: 40%;
-    line-height: 1.5;
-}
+    .header-in p {
+        margin-left: 20px;
+        font-size: 0.7em;
+        width: 40%;
+        line-height: 1.5;
+    }
 }
 
 /* Element Pages sandboxes */
-
 .header-sb p {
     margin-left: 31px;
     color: #fff;
@@ -117,7 +116,7 @@ color: #fff;
 }
 
 .header-sb h1 {
- color: #fff;
+    color: #fff;
     font-size: 2.8em;
     margin: 0;
     text-transform: uppercase;
@@ -139,21 +138,23 @@ color: #fff;
 
 @media only screen and (max-width: 767px) {
 
-.header-sb h1 {
-    font-size: 1.6em;
-    margin-left: 19px;
+    .header-sb h1 {
+        font-size: 1.6em;
+        margin-left: 19px;
+    }
+
+    .header-sb {
+        background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/sandboxes.png) no-repeat 150% 50%;
+    }
+
+    .header-sb p {
+        margin-left: 20px;
+        font-size: 0.7em;
+        width: 40%;
+        line-height: 1.5;
+    }
 }
 
-.header-sb {
-    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/sandboxes.png) no-repeat 150% 50%;
-}
-.header-sb p {
-    margin-left: 20px;
-    font-size: 0.7em;
-    width: 40%;
-    line-height: 1.5;
-}
-}
 /* Element Pages Competitive Projects */
 
 .header-cp p {
@@ -162,6 +163,7 @@ color: #fff;
     width: 40%;
     line-height: 1.5;
 }
+
 .header-cp p {
     margin-left: 31px;
     color: #fff;
@@ -169,7 +171,7 @@ color: #fff;
 }
 
 .header-cp h1 {
- color: #fff;
+    color: #fff;
     font-size: 2.8em;
     margin: 0;
     text-transform: uppercase;
@@ -191,23 +193,23 @@ color: #fff;
 
 @media only screen and (max-width: 767px) {
 
-.header-cp h1 {
-    font-size: 1.6em;
-    margin-left: 19px;
-}
+    .header-cp h1 {
+        font-size: 1.6em;
+        margin-left: 19px;
+    }
 
-.header-cp {
-    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/comp-projects.png) no-repeat 150% 50%;
-}
+    .header-cp {
+        background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/comp-projects.png) no-repeat 150% 50%;
+    }
 
-.header-cp p {
-    margin-left: 20px;
-    font-size: 0.7em;
-    width: 40%;
-    line-height: 1.5;
-}
+    .header-cp p {
+        margin-left: 20px;
+        font-size: 0.7em;
+        width: 40%;
+        line-height: 1.5;
+    }
 
-	
+
 }
 
 /* Element Pages contests */
@@ -217,6 +219,7 @@ color: #fff;
     width: 40%;
     line-height: 1.5;
 }
+
 .header-cont p {
     margin-left: 31px;
     color: #fff;
@@ -224,7 +227,7 @@ color: #fff;
 }
 
 .header-cont h1 {
- color: #fff;
+    color: #fff;
     font-size: 2.8em;
     margin: 0;
     text-transform: uppercase;
@@ -246,24 +249,23 @@ color: #fff;
 
 @media only screen and (max-width: 767px) {
 
-.header-cont h1 {
-    font-size: 1.6em;
-    margin-left: 19px;
+    .header-cont h1 {
+        font-size: 1.6em;
+        margin-left: 19px;
+    }
+
+    .header-cont {
+        background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/contests.png) no-repeat 150% 50%;
+    }
+
+    .header-cont p {
+        margin-left: 20px;
+        font-size: 0.7em;
+        width: 40%;
+        line-height: 1.5;
+    }
 }
 
-.header-cont {
-    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/contests.png) no-repeat 150% 50%;
-}
-
-.header-cont p {
-    margin-left: 20px;
-    font-size: 0.7em;
-    width: 40%;
-    line-height: 1.5;
-}
-
-	
-}
 /* Element Pages test drives */
 .header-td p {
     margin-left: 20px;
@@ -271,6 +273,7 @@ color: #fff;
     width: 40%;
     line-height: 1.5;
 }
+
 .header-td p {
     margin-left: 31px;
     color: #fff;
@@ -278,7 +281,7 @@ color: #fff;
 }
 
 .header-td h1 {
- color: #fff;
+    color: #fff;
     font-size: 2.8em;
     margin: 0;
     text-transform: uppercase;
@@ -300,24 +303,23 @@ color: #fff;
 
 @media only screen and (max-width: 767px) {
 
-.header-td h1 {
-    font-size: 1.6em;
-    margin-left: 19px;
+    .header-td h1 {
+        font-size: 1.6em;
+        margin-left: 19px;
+    }
+
+    .header-td {
+        background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/test-drive.png) no-repeat 150% 50%;
+    }
+
+    .header-td p {
+        margin-left: 20px;
+        font-size: 0.7em;
+        width: 40%;
+        line-height: 1.5;
+    }
 }
 
-.header-td {
-    background: #6e2f69 url(https://www.canada.ca/content/dam/dnd-mdn/images/ideas/test-drive.png) no-repeat 150% 50%;
-}
-
-.header-td p {
-    margin-left: 20px;
-    font-size: 0.7em;
-    width: 40%;
-    line-height: 1.5;
-}
-
-	
-}
 #datatable_filter label {
     display: none;
 }
@@ -393,7 +395,7 @@ td.title {
     border: none;
     border-radius: 0px;
     padding: 5px;
-font-weight: 100;
+    font-weight: 100;
     font-size: 15px;
 }
 
@@ -406,7 +408,8 @@ font-weight: 100;
     font-weight: bold;
 }
 
-.title details summary:focus, details summary:hover {
+.title details summary:focus,
+details summary:hover {
     background-color: transparent;
     color: #754471;
     text-decoration: none;
@@ -459,7 +462,7 @@ p.status-On-Hold {
     margin-top: 6px;
     padding-top: 3px;
     padding-bottom: 3px;
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
 
 
@@ -477,15 +480,15 @@ p.status-On-Hold {
     text-align: left;
     font-size: 75%;
 }
- 
+
 #datatable_paginate .paginate_button.current {
-     
+
     border-color: #754471;
     color: #fff;
     cursor: default;
     z-index: 2;
 }
- 
+
 a.btn-subscribe {
     display: block;
     width: 100%;
@@ -495,25 +498,25 @@ a.btn-subscribe {
     padding: 6px;
     font-size: 15px;
     text-align: center;
-font-weight: bold;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
 a.btn-subscribe:hover {
-background-color: #77096f;
-   transition: 0.8s;
+    background-color: #77096f;
+    transition: 0.8s;
 }
 
 p.hashtag {
     margin-top: 15px;
     font-weight: bold;
     font-size: 1.2em;
-text-align: center;
+    text-align: center;
 }
 
 p.hashtag a {
     text-decoration: none;
-color: #6e2f69;
+    color: #6e2f69;
 }
 
 .ideas-menu h3 {
@@ -533,7 +536,7 @@ color: #6e2f69;
     width: auto;
     border-radius: 0px;
     background-color: #e8e8e8;
-font-size: 18px;
+    font-size: 18px;
 }
 
 .ideas-menu li a {
@@ -593,19 +596,19 @@ td.title {
 }
 
 .apply-now a {
-background-color: #6e2f69;
-color: #fff !important;
-font-weight: bold;
-font-size: 18px;
-padding: 7px 11px 8px 12px;
-text-decoration: none;
-text-align: center;
-display: inline;
-float: middle;
+    background-color: #6e2f69;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px 11px 8px 12px;
+    text-decoration: none;
+    text-align: center;
+    display: inline;
+    float: middle;
 }
 
 .apply-now a:hover {
-background: #464646;
+    background: #464646;
 }
 
 .learn-more a {
@@ -629,7 +632,7 @@ background: #464646;
     border: none;
     border-radius: 0px;
     padding: 5px;
-font-weight: 100;
+    font-weight: 100;
     font-size: 15px;
 }
 
@@ -642,7 +645,8 @@ font-weight: 100;
     font-weight: bold;
 }
 
-.title details summary:focus, details summary:hover {
+.title details summary:focus,
+details summary:hover {
     background-color: transparent;
     color: #754471;
     text-decoration: none;
@@ -677,15 +681,12 @@ span.status-Closed {
 }
 
 span.status-Open {
-   background-color: #166517;
+    background-color: #166517;
 }
 
 span.status-On-Hold {
     background-color: #80620e;
 }
-
-
-
 
 #datatable_paginate .paginate_button {
     background-color: #e8e8e8;
@@ -695,52 +696,48 @@ span.status-On-Hold {
     border: none;
 }
 
-
 .dataTables_wrapper .dataTables_paginate {
     padding-top: 0.6em;
     text-align: left;
     font-size: 75%;
 }
- 
+
 #datatable_paginate .paginate_button.current {
-        background-color: #754471;
+    background-color: #754471;
     border-color: #754471;
     color: #fff;
     cursor: default;
     z-index: 2;
 }
 
-table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc {
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
     background-color: #ffffff;
 }
 
 
-
-*/ TABBED INTERFACE  */
-
-
-.wb-tabs [role="tablist"] > li.active {
+/* TABBED INTERFACE */
+.wb-tabs [role="tablist"]>li.active {
     background: #6e2f69;
-border: none !important;
-}
-
-.wb-tabs [role="tablist"] > li {
     border: none !important;
 }
 
-.wb-tabs [role="tablist"] > li.active a {
-background: #6e2f69;
+.wb-tabs [role="tablist"]>li {
+    border: none !important;
+}
+
+.wb-tabs [role="tablist"]>li.active a {
+    background: #6e2f69;
     color: #fff;
-  border-color: #6e2f69;
-}   
-  
+    border-color: #6e2f69;
+}
 
 @media screen and (min-width: 992px) {
-.wb-tabs > details, .wb-tabs > .tabpanels > details {
-    border: none !important;
-    padding: 0;
-    margin-top: 15px;
-}
-}
 
-
+    .wb-tabs>details,
+    .wb-tabs>.tabpanels>details {
+        border: none !important;
+        padding: 0;
+        margin-top: 15px;
+    }
+}

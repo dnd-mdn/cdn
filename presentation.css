@@ -1,28 +1,29 @@
-.wb-tabs.carousel-s1 [role="tabpanel"] a, .wb-tabs.carousel-s2 [role="tabpanel"] a {
+.wb-tabs.carousel-s1 [role="tabpanel"] a,
+.wb-tabs.carousel-s2 [role="tabpanel"] a {
     color: #6e2f69;
     outline-offset: 0;
     text-decoration: none;
 }
- 
- 
+
 [id^="tab"] {
     height: auto;
     overflow-y: hidden;
 }
- 
-.wb-tabs.carousel-s1 figure img, .wb-tabs.carousel-s2 figure img {
+
+.wb-tabs.carousel-s1 figure img,
+.wb-tabs.carousel-s2 figure img {
     margin-bottom: 60px;
 }
- 
-.wb-tabs.carousel-s1 [role="tablist"] > li.tab-count {
+
+.wb-tabs.carousel-s1 [role="tablist"]>li.tab-count {
     display: none !important;
 }
-.wb-tabs [role="tablist"] > li {
+
+.wb-tabs [role="tablist"]>li {
     background: rgba(235, 242, 252, 0);
     border: none;
 }
- 
- 
+
 .wb-tabs.carousel-s1 [role="tablist"] {
     bottom: 20px;
     left: 0;
@@ -34,34 +35,33 @@
     text-transform: uppercase;
     text-align: right;
     line-height: 1.4;
-padding-bottom: 3px;
+    padding-bottom: 3px;
 }
- 
- 
-.wb-tabs [role="tablist"] > li:focus, .wb-tabs [role="tablist"] > li:hover {
+
+.wb-tabs [role="tablist"]>li:focus,
+.wb-tabs [role="tablist"]>li:hover {
     background: none;
 }
- 
- 
-.wb-tabs [role="tablist"] > li a {
+
+.wb-tabs [role="tablist"]>li a {
     color: #fff;
     padding: 10px;
     text-decoration: none;
 }
- 
- 
-.wb-tabs.carousel-s1 [role="tabpanel"] a figcaption, .wb-tabs.carousel-s2 [role="tabpanel"] a figcaption {
+
+.wb-tabs.carousel-s1 [role="tabpanel"] a figcaption,
+.wb-tabs.carousel-s2 [role="tabpanel"] a figcaption {
     color: #fff;
     text-decoration: none;
 }
- 
- 
-.wb-tabs.carousel-s1 figure, .wb-tabs.carousel-s2 figure {
+
+.wb-tabs.carousel-s1 figure,
+.wb-tabs.carousel-s2 figure {
     background-color: #fff;
 }
- 
- 
-.wb-tabs.carousel-s1 figcaption, .wb-tabs.carousel-s2 figcaption {
+
+.wb-tabs.carousel-s1 figcaption,
+.wb-tabs.carousel-s2 figcaption {
     bottom: 60px;
     left: 0;
     padding: .5em .5em .5em .85em;
@@ -91,10 +91,9 @@ padding-bottom: 3px;
 	 color: #ffffff;
 
 }
-
 */
 
-a.slide-btn{
+a.slide-btn {
     background-color: #313131;
     color: #fff;
     display: block;
@@ -106,11 +105,10 @@ a.slide-btn{
     text-align: center;
 }
 
-
-a.slide-btn:hover{
-background-color: #6e2f69;
+a.slide-btn:hover {
+    background-color: #6e2f69;
 }
 
-.slide-btn h2{
+.slide-btn h2 {
     margin: 0;
 }
