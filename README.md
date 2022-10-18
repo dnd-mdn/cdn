@@ -1,8 +1,25 @@
 # cdn
-Static assets used in other applications
+
+This repository stores static assets for use in other applications.
 
 ## Usage
 
-```
+These files are to be loaded through [jsDelivr](https://www.jsdelivr.com/?docs=gh), a free and open source CDN service with global infrastucture.
+
+
+Example CSS file
+```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dnd-mdn/cdn/maple-leaf.css" />
 ```
+
+Adding `.min` to any JS/CSS will use an automatically generated minified version.
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dnd-mdn/cdn/maple-leaf.min.css" />
+```
+
+[View 'dnd-mdn/cdn' files on jsDelivr](https://cdn.jsdelivr.net/gh/dnd-mdn/cdn/)
+
+## Caching
+
+Updates to this repository may take 24 hours to update due to CDN caching.
