@@ -72,6 +72,7 @@ min-height: 670px;
 	color: white;
 	border-bottom: 5px solid #8c8c8c;
 	background-image: url(https://www.canada.ca/content/dam/dnd-mdn/images/minds/minds-menu.jpg);
+	background-size: cover;
 }
 
 #wb-sec .list-group a.list-group-item[href]:hover {
