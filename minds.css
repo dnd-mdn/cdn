@@ -263,10 +263,24 @@ background: #000;
 color: #fff;
 }
 
+
+/* aside calendar */
+
+.center {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.bw {
+	background-color: black;
+	color: white;
+}
+
+
+
 img#mobile-banner {
 background-color: #e2f3fa;
 }
-
 
 /* MOBILE ONLY */
 
