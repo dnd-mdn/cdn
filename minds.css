@@ -278,6 +278,28 @@ color: #fff;
 }
 
 
+/* Carousel height and background */
+
+.wb-tabs.carousel-s1 {
+	height: 550px;
+	background-color: rgba(36,56,80);
+}
+
+.wb-tabs {
+	color: white;
+	background-color: rgba(36,56,80);
+}
+
+li.control {
+	color: white;
+	background-color: rgba(36,56,80);
+}
+
+
+
+
+
+
 
 img#mobile-banner {
 background-color: #e2f3fa;
