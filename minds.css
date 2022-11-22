@@ -290,12 +290,7 @@ color: #fff;
 	background-color: rgba(36,56,80);
 }
 
-li.control {
-	color: white;
-	background-color: rgba(36,56,80);
-}
-
-.car-text {
+li.control.tab-count {
 	color: white;
 	background-color: rgba(36,56,80);
 }
