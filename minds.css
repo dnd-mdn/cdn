@@ -295,7 +295,10 @@ li.control.tab-count {
 	background-color: rgba(36,56,80);
 }
 
-
+.wb-tabs [role=tablist]>li a {
+	color: white;
+	background-color: rgba(36,56,80); 
+}
 
 
 
