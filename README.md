@@ -9,13 +9,13 @@ These files are to be loaded through [jsDelivr](https://github.com/jsdelivr/jsde
 
 Example CSS file
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dnd-mdn/cdn/maple-leaf.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dnd-mdn/cdn@latest/maple-leaf.css" />
 ```
 
 Adding `.min` to any JS/CSS will use an automatically generated minified version.
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dnd-mdn/cdn/maple-leaf.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dnd-mdn/cdn@latest/maple-leaf.min.css" />
 ```
 
 ## Caching
