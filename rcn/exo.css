@@ -1,0 +1,25 @@
+/* Apply custom font */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital@0;1&display=swap');
+
+h1.exo {
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+}
+
+.exo h2 {
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+}
+
+.exo p {
+    font-family: 'Exo', sans-serif;
+}
+
+.exo-underline h2::after {
+    border-bottom: 0.18em solid #5092c6;
+    content: "";
+    display: block;
+    padding-bottom: 8px;
+    width: 70px;
+}
