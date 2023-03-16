@@ -1,6 +1,6 @@
 # cdn
 
-[![hit counter](https://data.jsdelivr.com/v1/stats/packages/gh/dnd-mdn/cdn/badge)](https://www.jsdelivr.com/package/gh/dnd-mdn/cdn)
+[![hit counter](https://img.shields.io/jsdelivr/gh/hm/dnd-mdn/cdn)](https://www.jsdelivr.com/package/gh/dnd-mdn/cdn) ![repo size](https://img.shields.io/github/repo-size/dnd-mdn/cdn) 
 
 This repository stores static assets for use in our other applications.  It is recommended to only commit changes ready for production rather than for active development.
 
