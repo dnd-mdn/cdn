@@ -20,4 +20,6 @@ Adding `.min` to any JS/CSS will use an automatically generated minified version
 
 ## Caching
 
-Updates to this repository may take 24 hours to update due to [caching](https://github.com/jsdelivr/jsdelivr#caching).
+Updates to this repository will take time to reach users due to CDN [caching](https://github.com/jsdelivr/jsdelivr#caching).  This repository is not meant for active development, only commit changes that are ready for production.
+
+We do have the ability to [purge](https://github.com/jsdelivr/jsdelivr#purge-cache) cached files within minutes, contact @Ben on [Slack](slack://user?team=THM0PFTTQ&id=UJ1JVAU4F) for more information.
