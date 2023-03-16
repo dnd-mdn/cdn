@@ -1,6 +1,6 @@
 # cdn
 
-![jsDelivr hit counter](https://data.jsdelivr.com/v1/stats/packages/gh/dnd-mdn/cdn/badge)
+[![hit counter](https://data.jsdelivr.com/v1/stats/packages/gh/dnd-mdn/cdn/badge)](https://cdn.jsdelivr.net/gh/dnd-mdn/cdn/)
 
 This repository stores static assets for use in our other applications.  It is recommended to only commit changes ready for production rather than for active development.
 
