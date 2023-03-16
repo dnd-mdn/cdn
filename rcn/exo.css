@@ -2,21 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital@0;1&display=swap');
 
+.exo {
+    font-family: 'Exo', sans-serif;
+}
+
+.exo h2,
 h1.exo {
     font-family: 'Exo', sans-serif;
     text-transform: uppercase;
 }
 
-.exo h2 {
-    font-family: 'Exo', sans-serif;
-    text-transform: uppercase;
-}
-
-.exo p {
-    font-family: 'Exo', sans-serif;
-}
-
 .exo-underline h2::after {
+    font-family: 'Exo', sans-serif;
     border-bottom: 0.18em solid #5092c6;
     content: "";
     display: block;
