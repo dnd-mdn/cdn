@@ -1,4 +1,6 @@
-﻿h1[dir*="ltr"] {
+﻿/* The Maple Leaf - Defence Team news articles */
+
+h1[dir*="ltr"] {
     display: none;
 }
 
