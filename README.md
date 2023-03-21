@@ -10,11 +10,11 @@ Files are to be loaded through [jsDelivr](https://github.com/jsdelivr/jsdelivr#g
 
 Example CSS file
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dnd-mdn/cdn@latest/maple-leaf.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dnd-mdn/cdn@latest/ml/maple-leaf.min.css" />
 ```
 All URLs should include the `@latest` tag as shown in the example above.
 
-For CSS/JS files, changing the extension to `.min.css` or `.min.js` will automatically generate a minified version.
+For CSS/JS files, adding `.min` before the file extension is optional, but recommended.  It automatically generates a compressed version.
 
 ## Caching
 
