@@ -1,0 +1,405 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Boxes and the fonts within them */
+
+.box h2 {
+font-size: 1.7em;
+margin-top: 4px;
+}
+
+
+.box {
+margin-top: 5px;
+margin-bottom: 5px;
+padding: 15px 30px 15px 30px;
+}
+
+.box2 {
+	width: 300px;
+	float: right;
+	clear: both;
+	margin-left: 20px;
+	padding: 2px 18px 2px 18px;
+	background-color: darkgrey;
+}
+
+.box2 .btn {
+	width: 210px;
+}
+
+.box2 .row {
+	padding: 4px;
+}
+
+.box p {
+font-size: 18px;
+line-height: 1.4;
+margin-bottom: 1em;
+}
+
+.box-icons {
+background: #fff;
+}
+
+.box-connected {
+margin-top: 0;
+margin-bottom: 2px;
+padding: 28px;
+background: #2d2d2d;
+color: #fff;
+}
+
+.box-connected h2 {
+margin-top: 0px;
+}
+
+.box-what {
+background: #754471;
+color: #fff;
+min-height: 670px;
+}
+
+.box-table {
+background: #fbfbfb;
+min-height: 670px;
+}
+
+/* Right Hand Menu */
+
+#wb-sec h3 {
+	background-color: black;
+	color: white;
+	border-bottom: 5px solid #8c8c8c;
+	background-image: url(https://www.canada.ca/content/dam/dnd-mdn/images/minds/minds-menu.jpg);
+	background-size: cover;
+}
+
+#wb-sec .list-group a.list-group-item[href]:hover {
+	background-color: #4a4a4a;
+	color: white;
+}
+
+#wb-sec .list-group .list-group .list-group-item.active {
+	background-color: #4a4a4a;
+	color: white;
+	border-top: 5px solid #8c8c8c;
+	border-bottom: 5px solid #8c8c8c;
+	border-left: none;
+	border-right: none;
+	
+}
+
+
+
+
+
+
+
+.ideas-menu h3 {
+background-color: #6e2f69;
+color: #ffffff;
+margin: 0;
+}
+
+.ideas-menu {
+background-color: #6e2f69;
+margin-top: 16px;
+}
+
+.ideas-menu ul {
+list-style-type: none;
+padding: 3px 10px 3px 15px;
+width: auto;
+border-radius: 0px;
+background-color: #e8e8e8;
+font-size: 18px;
+}
+
+.ideas-menu li a {
+display: block;
+color: #000;
+background-color: #e8e8e8;
+padding: 1px 8px;
+text-decoration: none;
+width: auto;
+border: none;
+}
+
+.ideas-menu li a:hover {
+background-color: #6e2f69;
+color: white;
+width: auto;
+border-radius: 0;
+}
+
+a.btn-subscribe {
+display: block;
+width: 100%;
+background-color: #6e2f69;
+color: #fff;
+text-decoration: none;
+padding: 6px;
+font-size: 15px;
+text-align: center;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+a.btn-subscribe:hover {
+background-color: #77096f;
+transition: 0.8s;
+}
+
+p.hashtag {
+margin-top: 15px;
+font-weight: bold;
+font-size: 1.2em;
+text-align: center;
+}
+
+p.hashtag a {
+text-decoration: none;
+color: #6e2f69;
+}
+
+
+
+.all-opp a {
+background-color: #6e2f69;
+color: #fff !important;
+font-weight: bold;
+font-size: 18px;
+padding: 7px 11px 8px 12px;
+text-decoration: none;
+text-align: center;
+display: inline;
+float: right;
+}
+
+/* 5 Elements */
+
+.boxarea {
+display: flex;
+flex-wrap: wrap; 
+justify-content: center;
+align-items:center;
+}
+
+.singlebox {
+position: relative;
+display: table;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+width: 200px;
+height: 400px;
+background-color: transparent;
+text-align: center;
+margin: 5px;
+padding: 25px;
+transition: .3s;
+text-decoration: none;
+}
+
+a.singlebox {
+text-decoration: none;
+}
+
+.imgarea {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 90px;
+height: 90px;
+border: 6px solid #ddd;
+border-radius: 60%;
+margin-bottom: 20px;
+padding: 75px;
+background-size: cover;
+background-position: center center;
+}
+
+.singlebox:nth-child(1) .imgarea {
+background-image: url(https://www.canada.ca/content/dam/dnd-mdn/images/minds/expert-briefing-series.png);
+}
+
+.singlebox:nth-child(2) .imgarea {
+background-image: url(https://www.canada.ca/content/dam/dnd-mdn/images/minds/targeted-engagment-grants.png);
+}
+
+.singlebox:nth-child(3) .imgarea {
+background-image: url(https://www.canada.ca/content/dam/dnd-mdn/images/minds/colabritive-networks.png);
+}
+
+.singlebox:nth-child(4) .imgarea {
+background-image: url(https://www.canada.ca/content/dam/dnd-mdn/images/minds/rapid-response-mechanism.png);
+}
+
+.singlebox:nth-child(5) .imgarea {
+background-image: url(https://www.canada.ca/content/dam/dnd-mdn/images/minds/scholarships.png);
+}
+
+.headertext {
+font-size: 20px;
+margin-top: 2px;
+line-height: 1em;
+}
+
+.imgtext {
+padding-top: 10px;	
+}
+
+.imgtext p {
+font-size: 15px; 
+font-weight: 300;
+line-height: 20px;
+margin: 0;
+padding: 0;
+}
+
+.singlebox:hover {
+background: #000;
+color: #fff;
+}
+
+
+/* aside calendar */
+
+.center {
+  padding: 15px 0;
+  text-align: center;
+}
+
+.bw {
+	background-color: black;
+	color: white;
+	padding: 0px 10px;
+}
+
+
+/* Carousel height and background */
+
+.wb-tabs.carousel-s1 {
+	height: 550px;
+	background-color: rgba(36,56,80);
+}
+
+.wb-tabs {
+	color: white;
+	background-color: rgba(36,56,80);
+}
+
+li.control.tab-count {
+	color: white;
+	background-color: rgba(36,56,80);
+}
+
+.wb-tabs [role=tablist]>li a {
+	color: white;
+	background-color: rgba(36,56,80); 
+}
+
+
+
+
+img#mobile-banner {
+background-color: #e2f3fa;
+}
+
+/* MOBILE ONLY */
+
+@media only screen and (max-width: 767px) {
+table.dataTable {
+font-size: 16px;
+border-radius: 0px;
+padding: 0px;
+background: #ffffff;
+border: none !important;
+}
+
+td.title {
+font-size: 1.4em !important;
+font-weight: bold;
+line-height: 1.3 !important;
+margin-top: 6px;
+}
+
+td.status {
+margin-bottom: 15px;
+}
+
+td.element {
+color: #6e2f69;
+font-weight: bold;
+}
+
+#datatable td {
+border: none;
+font-size: 1em;
+margin-left: -5px;
+max-width: 91%;
+display: block;
+padding: 5px 2px 0px 20px;
+}
+
+#datatable th {
+display: none;
+} 
+
+#datatable tr {
+border-bottom: 3px solid #000 !important;
+margin-bottom: 10px;
+} 
+
+.box p {
+font-size: 19px;
+line-height: 1.4;
+margin-bottom: 2em;
+}
+
+.all-opp a {
+background: #754471;
+padding: 6px 10px 6px 10px;
+border: 1px solid #000;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+margin: auto;
+display: block;
+float: none;
+}
+
+.box-what {
+min-height: 450px;
+}
+
+.apply-now p {
+text-align: left;
+padding: 5px 0px 5px 15px;
+max-width: 135px;
+}
+
+.imgarea {
+padding: 95px;
+}
+
+.singlebox {
+height: 380px;
+}
+
+[class^="header-"] h1 {
+    font-size: 1.6em;
+    margin-left: 19px;
+}
+
+[class^="header-"] p {
+    margin-left: 20px;
+    font-size: 0.7em;
+    width: 40%;
+    line-height: 1.5;
+}
+	
+}
