@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+/* CSS Document */
+/* CATEGORY BUTTONS */
+iv#datatable-news_paginate {
+	display: none;
+}
+
+.feed {
+	background: #ccbea9;
+	color: #0c0d29;
+	padding: 9px 0px 9px 12px;
+	font-size: 1.875em;
+	/* text-transform: uppercase;*/
+	margin-top: 20px;
+}
+
+div[class^='category'] a:hover {
+	margin-left: 20px;
+	transition: 0.6s ease-in-out;
+}
+
+div[class^='category'] a {
+	color: #FFF;
+	text-decoration: none;
+	transition: 1s;
+}
+
+div[class^='category'] h2 {
+	color: #fff;
+	font-size: 1.2em;
+	padding: 12px;
+	background: linear-gradient(90deg, rgba(0, 0, 0, 0.74) 0%, rgba(54, 53, 53, 0.77) 54%, rgba(255, 255, 255, 0.34) 100%);
+	position: relative;
+	top: 140px;
+	border-top: 2px solid #26374a29;
+	border-bottom: 2px solid #26374a29;
+	margin-top: 5px;
+}
+
+.category-1 {
+	background: linear-gradient(rgba(255, 255, 255, 0.02), rgba(28, 28, 28, 0.8)), url(https://canada.ca/content/dam/dnd-mdn/images/caf-offer/caf-offer-recruiting.jpg) center no-repeat;
+	min-height: 225px;
+	margin-bottom: 10px;
+	background-size: cover;
+}
+
+.category-2 {
+	background: linear-gradient(rgba(255, 255, 255, 0.02), rgba(28, 28, 28, 0.8)), url(https://canada.ca/content/dam/dnd-mdn/images/caf-offer/caf-offer-mycompensation.jpg) center no-repeat;
+	min-height: 225px;
+	margin-bottom: 10px;
+	background-size: cover;
+}
+
+.category-3 {
+	background: linear-gradient(rgba(255, 255, 255, 0.02), rgba(28, 28, 28, 0.8)), url(https://canada.ca/content/dam/dnd-mdn/images/caf-offer/caf-offer-mybenefits.jpg) center no-repeat;
+	min-height: 225px;
+	margin-bottom: 10px;
+	background-size: cover;
+}
+
+.category-4 {
+	background: linear-gradient(rgba(255, 255, 255, 0.02), rgba(28, 28, 28, 0.8)), url(https://canada.ca/content/dam/dnd-mdn/images/caf-offer/caf-offer-mywork.jpg) center no-repeat;
+	min-height: 225px;
+	margin-bottom: 10px;
+	background-size: cover;
+}
+
+.category-a {
+	background: linear-gradient(rgba(255, 255, 255, 0.02), rgba(28, 28, 28, 0.8)), url(https://canada.ca/content/dam/themes/defence/features/20160921-1-360x203.jpg) center no-repeat;
+	min-height: 225px;
+	margin-bottom: 10px;
+	background-size: cover;
+}
+
+.category-b {
+	background: linear-gradient(rgba(255, 255, 255, 0.02), rgba(28, 28, 28, 0.8)), url(https://canada.ca/content/dam/themes/defence/services-benefits/conduct-culture-change.jpg) center no-repeat;
+	min-height: 225px;
+	margin-bottom: 10px;
+	background-size: cover;
+}
+
+.category-c {
+	background: linear-gradient(rgba(255, 255, 255, 0.02), rgba(28, 28, 28, 0.8)), url(https://www.canada.ca/content/dam/dnd-mdn/images/caf-offer/thawen-banner.jpg) center no-repeat;
+	min-height: 225px;
+	margin-bottom: 10px;
+	background-size: cover;
+}
+
+.overflow {
+	line-height: 1.5 !important;
+	height: 2.9em;
+	overflow: hidden;
+}

@@ -1,0 +1,763 @@
+@charset "utf-8";
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.column-x2 {
+    float: left;
+    width: 66%;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.column-x3 {
+    float: left;
+    width: 99%;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column-x2 {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Style the counter cards */
+.card {
+    /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.21); */
+    padding: 14px;
+    background-color: #ffffff;
+    min-height: 255px;
+    border: 2px solid #ababab;
+    border-radius: 20px;
+}
+
+.card h2 {
+    font-size: 1.2em;
+    margin-top: 9px;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+p.rm {
+    text-align: right;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.bg-ideas {
+    background-color: #efe8ee;
+    box-shadow: inset #a682a1 0px 0px 3px;
+}
+
+.bg-ideas p {
+    font-size: 1.1em;
+    padding: 10px 30px;
+    margin-bottom: 0px;
+    line-height: initial;
+}
+
+.font-ideas {
+    color: #5f1f5b;
+    font-weight: bold;
+}
+
+/* TABS */
+.wb-tabs [role="tablist"]>li.active {
+    background: #5f1f5b;
+}
+
+.wb-tabs [role="tablist"].generated li {
+    border-bottom: 1px solid #9d9d9d;
+    top: 1px;
+}
+
+.wb-tabs [role="tablist"]>li.active a {
+    border: none;
+    cursor: default;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.wb-tabs [role="tablist"]>li a {
+    border: none;
+    cursor: pointer;
+    color: #000;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.tabpanels details {
+    border: none !important;
+}
+
+.tabpanels ul {
+    margin-left: -20px;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-top: 10px;
+}
+
+.tabpanels p {
+    font-size: 16px;
+    line-height: 1.6em;
+    margin-top: 10px;
+}
+
+.tabpanels ul.list-unstyled {
+    margin-left: 0;
+}
+
+ul.social-list a {
+    text-decoration: none;
+}
+
+ul.social-list {
+    padding-left: 15px;
+}
+
+ul.social-list a:hover {
+    text-decoration: underline;
+}
+
+/* ACCORDION */
+.accordion {
+    position: relative;
+    margin: 15px auto;
+    width: 98%;
+    font-size: initial;
+}
+
+.accordion-content>.list-unstyled.social-list a {
+    color: black;
+    font-weight: normal;
+}
+
+[id*="open-accordion"],
+[id*="close-accordion"] {
+    background: #5f1f5b;
+    border-bottom: 1px solid #fff;
+    line-height: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    padding-left: 9px;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+[id*="close-accordion"] {
+    display: none;
+}
+
+.accordion-content ul {
+    line-height: 1.6;
+    margin-left: -15px;
+}
+
+.accordion a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: none;
+    font-weight: bold;
+    border-bottom: 3px solid #fff;
+}
+
+[id*="open-accordion"]:after,
+[id*="close-accordion"]:after {
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgba(255, 255, 255, 0.6);
+    position: absolute;
+    right: 5px;
+    top: 15px;
+    z-index: 999;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+a.list-group-item {
+    text-decoration: none !important;
+    color: #555;
+    line-height: 1.4 !important;
+    font-size: 16px;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    background-color: #eeeeee;
+    border-color: #693163;
+    cursor: pointer;
+}
+
+.panel-info .panel-heading {
+    padding: 10px 15px;
+    background-color: #693163;
+    color: #fff;
+    font-size: 110%;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    z-index: 2;
+    color: #222;
+}
+
+.target-fix {
+    display: block;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.accordion-content {
+    background: none;
+    height: 0;
+    margin: -1px auto 0;
+    padding: 0 2.5%;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+}
+
+.accordion span:target~.accordion-content {
+    display: block;
+    height: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.accordion span:target~[id*="close-accordion"] {
+    display: block;
+}
+
+.accordion span:target~[id*="open-accordion"] {
+    display: none;
+}
+
+.accordion span:target~[id*="close-accordion"]:after {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+
+/* HEADERS */
+header.inn-net {
+    font-size: 15px;
+    font-weight: bold;
+    color: #661478;
+    margin-bottom: 10px;
+}
+
+header.inn-net::before {
+    content: "Innovation Networks";
+    background-color: #5f1f5b;
+    padding: 6px 9px 6px 9px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+header.inn-net::after {
+    content: url(https://www.canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/icons/network-75p.png);
+    position: relative;
+    float: right;
+}
+
+header.comp-proj {
+    font-size: 15px;
+    font-weight: bold;
+    color: #661478;
+    margin-bottom: 10px;
+}
+
+header.comp-proj::before {
+    content: "Competitive Projects";
+    background-color: #5f1f5b;
+    padding: 6px 9px 6px 9px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+header.comp-proj::after {
+    content: url(https://www.canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/icons/challenges-75p.png);
+    position: relative;
+    float: right;
+}
+
+header.contests {
+    font-size: 15px;
+    font-weight: bold;
+    color: #661478;
+    margin-bottom: 10px;
+}
+
+header.contests::before {
+    content: "Contests";
+    background-color: #5f1f5b;
+    padding: 6px 9px 6px 9px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+header.contests::after {
+    content: url(https://www.canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/icons/contests-75p.png);
+    position: relative;
+    float: right;
+}
+
+header.sandboxes {
+    font-size: 15px;
+    font-weight: bold;
+    color: #661478;
+    margin-bottom: 10px;
+}
+
+header.sandboxes::before {
+    content: "Sandboxes";
+    background-color: #5f1f5b;
+    padding: 6px 9px 6px 9px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+header.sandboxes::after {
+    content: url(https://www.canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/icons/sandbox-75p.png);
+    position: relative;
+    float: right;
+}
+
+/* French HEADERS */
+header.inn-res {
+    font-size: 15px;
+    font-weight: bold;
+    color: #661478;
+    margin-bottom: 10px;
+}
+
+header.inn-res::before {
+    content: "Les réseaux d’innovation";
+    background-color: #5f1f5b;
+    padding: 6px 9px 6px 9px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+header.inn-res::after {
+    content: url(https://www.canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/icons/network-75p.png);
+    position: relative;
+    float: right;
+}
+
+header.proj-comp {
+    font-size: 15px;
+    font-weight: bold;
+    color: #661478;
+    margin-bottom: 10px;
+}
+
+header.proj-comp::before {
+    content: "Les projets compétitifs";
+    background-color: #5f1f5b;
+    padding: 6px 9px 6px 9px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+header.proj-comp::after {
+    content: url(https://www.canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/icons/challenges-75p.png);
+    position: relative;
+    float: right;
+}
+
+header.concours {
+    font-size: 15px;
+    font-weight: bold;
+    color: #661478;
+    margin-bottom: 10px;
+}
+
+header.concours::before {
+    content: "Les concours";
+    background-color: #5f1f5b;
+    padding: 6px 9px 6px 9px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+header.concours::after {
+    content: url(https://www.canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/icons/contests-75p.png);
+    position: relative;
+    float: right;
+}
+
+header.envi-prot {
+    font-size: 15px;
+    font-weight: bold;
+    color: #661478;
+    margin-bottom: 10px;
+}
+
+header.envi-prot::before {
+    content: "Environnements protégés";
+    background-color: #5f1f5b;
+    padding: 6px 9px 6px 9px;
+    color: #fff;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+header.envi-prot::after {
+    content: url(https://www.canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/icons/sandbox-75p.png);
+    position: relative;
+    float: right;
+}
+
+.wb-mltmd details {
+    font-size: 14px;
+    line-height: initial;
+    border: none;
+}
+
+.wb-mltmd summary {
+    border: none;
+}
+
+.wb-mm-cc {
+    font-size: 16px;
+    line-height: initial;
+}
+
+progress::-webkit-progress-value {
+    background-color: #5f1f5b !important;
+}
+
+.wb-mm-ctrls progress {
+    border: 7px solid #000000;
+}
+
+.wb-mm-ctrls .frstpnl {
+    text-align: left;
+    width: 20em;
+}
+
+.wb-mm-ctrls {
+    background: #000000;
+    font-size: 80%;
+    padding-top: 1.8em;
+}
+
+.wb-mltmd {
+    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-left: -5px;
+}
+
+.btn-danger {
+    color: #fff;
+    background-color: #5f1f5b;
+    border-color: #31072e;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #330a31;
+    border-color: #cbcbcb;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.top-banner {
+    background: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    margin-left: -5px;
+    margin-right: 6px;
+    margin-bottom: 10px;
+}
+
+.top-text {
+    padding: 13px;
+    color: #333;
+    line-height: initial;
+    font-size: 21px;
+    margin-bottom: 10px;
+    text-align: left;
+    border: none;
+    margin-top: 5px;
+}
+
+
+.top-text h1 {
+    border-bottom: #5f1f5b 2px solid;
+
+    color: #5f1f5b;
+    font-size: 1.8em;
+    margin-top: 8px;
+}
+
+@media (min-width: 426px) {
+    .top-banner {
+        background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(0 0 0 / 48%) 44%, rgb(0 0 0 / 77%) 91%), url(/content/dam/dnd-mdn/images/ideas/purple-smoke.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 0;
+        margin-left: -5px;
+        margin-right: 6px;
+        margin-bottom: 10px;
+    }
+
+    .top-text {
+        padding: 25px 25px 30px 50%;
+        line-height: initial;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #fff;
+        text-align: left;
+        line-height: initial;
+        font-weight: bold;
+        border: none;
+        margin-top: 5px;
+    }
+
+    .top-text h1 {
+        margin-top: 8px;
+        font-size: 2em;
+        color: #fff;
+        border-bottom: #fff 3px solid;
+    }
+}
+
+div#menu-1 {
+    margin-left: -5px;
+    margin-right: 5px;
+}
+
+
+.card .dl-horizontal {
+    font-size: 14px;
+    text-align: right;
+}
+
+#bottom-nav {
+    font-size: 17px;
+    /* box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.39); */
+    margin-top: 20px;
+    margin-left: -5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 2px solid #e3e3e3;
+}
+
+#bottom-nav a {
+    -webkit-transition: background-color 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#bottom-nav a:hover {
+    background-color: #5f1f5b;
+    color: #fff;
+}
+
+#bottom-nav ul li:first-child a {
+    border-radius: 18px 0px 0px 18px;
+}
+
+#bottom-nav ul li:last-child a {
+    border-radius: 0px 18px 18px 0px;
+}
+
+span.connect {
+    color: #296b64;
+    font-weight: bold;
+}
+
+span.develop {
+    color: #97337d;
+    font-weight: bold;
+}
+
+span.evaluate {
+    color: #4b2d88;
+    font-weight: bold;
+}
+
+.connect h3 {
+    background-color: #296b64;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1.3em;
+    padding: 10px 0px 10px 20px;
+    margin-top: 20px;
+}
+
+.connect p {
+    font-size: 90%;
+    line-height: initial;
+    padding-left: 10px;
+}
+
+h2.connect {
+    color: #296b64;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.develop h3 {
+    background-color: #97337d;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1.3em;
+    padding: 10px 0px 10px 20px;
+    margin-top: 20px;
+}
+
+.develop p {
+    font-size: 90%;
+    line-height: initial;
+    padding-left: 10px;
+}
+
+h2.develop {
+    color: #97337d;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.evaluate h3 {
+    background-color: #4b2d88;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1.3em;
+    padding: 10px 0px 10px 20px;
+    margin-top: 20px;
+}
+
+.evaluate p {
+    font-size: 90%;
+    line-height: initial;
+    padding-left: 10px;
+}
+
+h2.evaluate {
+    color: #4b2d88;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.btn-purp {
+    background-color: #693163 !important;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.btn-purp:hover,
+.btn-purp:focus,
+.btn-purp.focus {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.cloaked {
+    display: none;
+}
+
+#menu-1>details[open]>summary {
+    border: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: .25em;
+    background-color: #5f1f5b;
+    color: #fff;
+}
+
+#menu-1>details summary:hover {
+    background-color: #444;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu-1>details[open] {
+    border: 0;
+    border-radius: 4px;
+}
+
+#menu-1>details summary:focus,
+#menu-1>details summary {
+    background-color: #5f1f5b;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#menu-1 ul {
+    list-style: none;
+    margin-left: -40px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: initial;
+}
+
+#menu-1 li {
+    border-bottom: 2px solid #e4e4e4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#menu-1 a {
+    text-decoration: none;
+}
+
+#menu-1 a:hover {
+    text-decoration: underline;
+}

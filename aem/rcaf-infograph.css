@@ -1,0 +1,26 @@
+.wb-fieldflow-init {
+    font-size: 28px;
+    font-weight: bold;
+    height: auto;
+    border: 3px solid #335075;
+    border-radius: 0;
+    color: #335075;
+}
+
+:not(#wb-srch) form,
+.checkbox,
+.checkbox-inline,
+.radio,
+.radio-inline,
+form .btn:not(.btn-call-to-action) {
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.no-show {
+    display: none;
+}
+
+p.wb-fieldflow-label {
+    margin-top: -30px;
+}

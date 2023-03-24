@@ -1,0 +1,5 @@
+﻿#books figcaption {
+    display: block;
+    min-height: 100px;
+    margin-top: 10px;
+}

@@ -1,0 +1,695 @@
+@charset "utf-8";
+/* FONTS */
+
+.hdr2-tp-bttm {
+    font-size: 2.2em;
+    text-align: center;
+    border-bottom: 3px solid;
+    padding: 14px;
+    border-top: 3px solid;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+.font-85 {
+    font-size: 85%;
+}
+
+.font-115 {
+    font-size: 115%;
+}
+
+.larger-font {
+    font-size: 125%;
+}
+
+.font-150 {
+    font-size: 150%;
+}
+
+.font-200 {
+    font-size: 200%;
+}
+
+.jumbotron p {
+    font-size: 16px !important;
+}
+
+
+@media screen and (max-width: 991px) {
+    .hdr2-tp-bttm {
+        font-size: 1.9em;
+        text-align: center;
+        border-bottom: 3px solid;
+        padding: 12px;
+        border-top: 3px solid;
+        margin-bottom: .6em;
+    }
+
+    .larger-font {
+        font-size: 110%;
+    }
+
+    .compare>h3 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 5px;
+    }
+}
+
+/* HYPERLINKS */
+
+.learn-more {
+    font-size: 11px;
+    color: inherit;
+    text-shadow: none;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: inherit;
+    background: #000
+}
+
+.pb-apply-now {
+    font-size: 34%;
+    color: inherit;
+    text-shadow: none;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: inherit;
+    background: #000
+}
+
+h2>a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    box-shadow: 2px 2px #000;
+}
+
+h2>a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+h2>a {
+    position: relative;
+    color: #FFF;
+    text-decoration: none;
+}
+
+h2>a:visited {
+    position: relative;
+    color: #FFF;
+    text-decoration: none;
+}
+
+h2>a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+
+h3>a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    box-shadow: 2px 2px #000;
+}
+
+h3>a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+h3>a {
+    position: relative;
+    color: #FFF;
+    text-decoration: none;
+}
+
+h3>a:visited {
+    position: relative;
+    color: #FFF;
+    text-decoration: none;
+}
+
+h3>a:hover {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.secondary .row h2 a,
+.secondary .row h3 a,
+.secondary .row h4 a,
+.home .row h2 a,
+.home .row h3 a,
+.home .row h4 a {
+    font-size: inherit;
+}
+
+/* US vs THEM */
+
+.compare-us {
+    padding: 20px;
+    min-height: 325px;
+    background-color: #d5f7d6;
+    color: #000;
+    box-shadow: 3px 4px #000;
+    border: solid 2px;
+}
+
+.compare-them {
+    padding: 20px;
+    min-height: 325px;
+    background-color: #f1f1f1;
+    color: #000;
+    box-shadow: 3px 4px;
+    border: 2px solid;
+}
+
+.compare-them.jumbotron {
+    padding: 20px;
+    min-height: auto;
+    background-color: #f1f1f1;
+    color: #000;
+    box-shadow: 3px 4px;
+    border: 2px solid;
+}
+
+.compare-them>h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: solid 2px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+.compare-us>h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: solid 2px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
+}
+
+.img-blockquote {
+    border: 2px solid;
+    box-shadow: 3px 4px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* SELECT */
+
+.wb-mltmd {
+    box-shadow: 3px 4px !important;
+    border: 2px solid !important;
+}
+
+#wb-auto-11.form-control {
+    display: inline !important;
+    height: auto;
+    width: 100% !important;
+    padding: 13px 15px !important;
+    font-size: 26px !important;
+    line-height: 1.4375 !important;
+    font-weight: bold !important;
+    border: 2px solid #000 !important;
+    box-shadow: 3px 4px 0px 0px rgba(0, 0, 0, 0.88) !important;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s !important;
+}
+
+
+#wb-auto-5 label {
+    font-size: 20px;
+}
+
+/* TEXT ON BACKGROUNDS */
+
+.mob-s4l {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/mobility.jpg) center no-repeat;
+    min-height: 260px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.pe-s4l {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/students.jpg) center no-repeat;
+    min-height: 260px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.ito-s4l {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/ongoing.jpg) center no-repeat;
+    min-height: 260px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.life-wlb {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/wlb-life-military.jpg) center no-repeat;
+    min-height: 330px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.sports-wlb {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/wlb-sports.jpg) center no-repeat;
+    min-height: 330px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.family-wlb {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/wlb-family.jpg) center no-repeat;
+    min-height: 330px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.pt-army {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/pt-army.jpg) center no-repeat;
+    min-height: 270px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.pt-navy {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/pt-navy.jpg) center no-repeat;
+    min-height: 270px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.pt-air {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/pt-air.jpg) center no-repeat;
+    min-height: 270px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.pt-res {
+    background: linear-gradient(rgba(0, 0, 0, 0.24), rgba(34, 22, 22, 0.51)), url(/content/dam/dnd-mdn/images/jobs/what-is-res.jpg) center no-repeat;
+    box-shadow: 3px 4px;
+    min-height: 290px;
+    border: 3px solid;
+    margin-bottom: 25px;
+    background-size: cover;
+}
+
+.po-job-ast {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-ast.jpg) center no-repeat;
+    min-height: 295px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+
+.po-job-dt {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-dt.jpg) center no-repeat;
+    min-height: 295px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-eotl {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-eotl.jpg) center no-repeat;
+    min-height: 295px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-mar-tech {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-mar-tech.jpg) center no-repeat;
+    min-height: 295px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-med-officer {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-med-officer.jpg) center no-repeat;
+    min-height: 295px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-med-tech {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-med-tech.jpg) center no-repeat;
+    min-height: 295px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+
+.po-job-neso {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-neso.jpg) center no-repeat;
+    min-height: 295px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+
+.po-job-vt {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-vt.jpg) center no-repeat;
+    min-height: 295px;
+    box-shadow: 3px 4px;
+    border: 3px solid;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.pb-cook {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/cook-pb.jpg) center no-repeat;
+    min-height: 245px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.pb-vt {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/vehicle-tech-pb.jpg) center no-repeat;
+    min-height: 245px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.pb-law {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/law-pb.jpg) center no-repeat;
+    min-height: 245px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.pb-eng {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/eng-pb.jpg) center no-repeat;
+    min-height: 245px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.pb-doc {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/doc-pb.jpg) center no-repeat;
+    min-height: 245px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.pb-dent {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/dent-pb.jpg) center no-repeat;
+    min-height: 245px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+
+
+
+/* NEW JOBS */
+
+
+.po-job-aciss {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-aciss.jpg) center no-repeat;
+    min-height: 230px;
+    border: 3px solid #383838;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-acso {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-acso.jpg) center no-repeat;
+    min-height: 230px;
+    border: 3px solid #383838;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-ceeo {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-ceeo.jpg) center no-repeat;
+    min-height: 230px;
+    border: 3px solid #383838;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-do {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-do.jpg) center no-repeat;
+    min-height: 230px;
+    border: 3px solid #383838;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-mo {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-mo.jpg) center no-repeat;
+    min-height: 230px;
+    border: 3px solid #383838;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-ncio {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-ncio.jpg) center no-repeat;
+    min-height: 230px;
+    border: 3px solid #383838;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-nc {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-nc.jpg) center no-repeat;
+    min-height: 230px;
+    border: 3px solid #383838;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-so {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-so.jpg) center no-repeat;
+    min-height: 230px;
+    border: 3px solid #383838;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-st {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-st.jpg) center no-repeat;
+    min-height: 230px;
+    border: 3px solid #383838;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-wet {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-wet.jpg) center no-repeat;
+    min-height: 230px;
+    border: 3px solid #383838;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.po-job-mo {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.58)), url(/content/dam/dnd-mdn/images/jobs/po-job-mo.jpg) center no-repeat;
+    min-height: 230px;
+    border: 3px solid #383838;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+
+.pay-ben-border {
+    box-shadow: 3px 4px;
+    border: 2px solid;
+}
+
+.panel-body {
+    min-height: 120px !important;
+}
+
+
+/* PADDING CLASSES FOR TYPING ON IMAGES */
+
+.padding-top-sm>h2 {
+    font-size: 2.1em !important;
+    color: #fff;
+    text-shadow: 3px 3px #000;
+    text-transform: uppercase;
+}
+
+.padding-top-md>h2 {
+    font-size: 2.1em !important;
+    color: #fff;
+    text-shadow: 3px 3px #000;
+    text-transform: uppercase;
+}
+
+.padding-top-md-pb>h3 {
+    font-size: 2.5em !important;
+    color: #fff;
+    text-shadow: 3px 3px #000;
+    text-transform: uppercase;
+}
+
+.padding-top-lg>h2 {
+    font-size: 2.1em !important;
+    color: #fff;
+    text-shadow: 3px 3px #000;
+    text-transform: uppercase;
+}
+
+.padding-top-po>h2 {
+    color: #fff;
+    text-shadow: 1px 2px #000;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+
+.en>h2 {
+    font-size: 1.3em !important;
+}
+
+
+.fr>h2 {
+    font-size: 1.1em !important;
+}
+
+.padding-top-job>h2 {
+    font-size: 1.6em !important;
+    color: #fff;
+    text-shadow: 5px 1px #000;
+    text-transform: uppercase;
+    min-height: 120px;
+    text-align: right;
+}
+
+.padding-top-pt>h2 {
+    font-size: 2.6em !important;
+    color: #fff;
+    text-shadow: 3px 3px #000;
+    text-transform: uppercase;
+}
+
+.padding-top-pt>p {
+    font-size: 1.9em !important;
+    color: #fff;
+    text-shadow: 3px 3px #000;
+    text-align: right;
+    padding-right: 20px;
+    font-weight: 700;
+}
+
+.padding-top-po {
+    padding-top: 2.1em;
+    padding-left: .75em;
+}
+
+.padding-top-sm {
+    padding-top: 6em;
+    padding-left: 2em;
+}
+
+.padding-top-md {
+    padding-top: 9em;
+    padding-left: 2em;
+}
+
+.padding-top-md-pb {
+    padding-top: 6em;
+    padding-left: 2em;
+}
+
+.padding-top-lg {
+    padding-top: 11em;
+    padding-left: 2em;
+}
+
+.padding-top-pt {
+    padding-top: 8em;
+    padding-left: 2em;
+}
+
+.padding-top-job {
+    padding-top: 2em;
+    padding-right: 1em;
+}
+
+.padding-res {
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    color: white;
+}
+
+.padding-res>ul {
+    font-size: 1.5em;
+    font-weight: 700;
+    text-shadow: 3px 3px #000;
+    line-height: 110%;
+}
+
+
+/* BUTTONS */
+
+.btn-primary-drop {
+    background-color: #335075;
+    border-color: #335075;
+    box-shadow: #000 3px 4px;
+    border: 1px solid #000;
+}

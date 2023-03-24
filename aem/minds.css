@@ -1,0 +1,53 @@
+.minds h3 {
+    color: #ffffff;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(54, 53, 53, 1) 54%, rgba(255, 255, 255, 0.5186449579831933) 100%);
+    padding: 10px;
+    margin-top: 3px;
+}
+
+.minds p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.minds ul {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ul.enviro li {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2px 25px 2px 0px;
+}
+
+.button-ml span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button-ml {
+    border: none;
+    transition: all 0.7s;
+    cursor: pointer;
+}
+
+.enviro li:hover {
+    right: 0;
+}
+
+.button-ml span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}

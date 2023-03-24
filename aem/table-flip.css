@@ -1,0 +1,21 @@
+@media only screen and (max-width: 430px) {
+    .mobile-table td {
+        border: none !important;
+        padding: 5px !important;
+        font-size: 14px;
+        width: 100%;
+        display: block;
+    }
+
+    .mobile-table .table-bordered {
+        border-bottom: none;
+    }
+
+    .mobile-table table {
+        border: none;
+    }
+
+    .mobile-table tr {
+        border-bottom: 2px solid !important;
+    }
+}

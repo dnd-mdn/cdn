@@ -1,0 +1,353 @@
+@charset "utf-8";
+
+/* no-gutters Class Rules */
+.row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 25px;
+}
+
+.row.no-gutters>[class^="col-"],
+.row.no-gutters>[class*=" col-"] {
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+img.gtkyf {
+    vertical-align: middle;
+    box-shadow: 0px 3px 6px #424242;
+    border: 1px solid #525252;
+}
+
+@media (max-width: 767px) {
+    img.gtkyf {
+        margin-bottom: 20px;
+    }
+}
+
+p.small.text-center {
+    line-height: 16px;
+    margin-top: 12px;
+    min-height: 60px;
+}
+
+h1[property="name"] {
+    display: none;
+}
+
+/* Hover effect */
+
+.container-hover {
+    position: relative;
+    width: 100%;
+    box-shadow: 2px 2px 3px 0px #525252;
+}
+
+.photo {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .75s ease;
+    background-color: rgb(255, 0, 0);
+    background-color: rgba(41, 40, 40, 0.8392156862745098);
+
+}
+
+.container-hover:hover .overlay-link {
+    opacity: 1;
+}
+
+.text {
+    color: #FFF;
+    font-size: 1.4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.panel-body {
+    padding: 15px;
+    min-height: 500px;
+}
+
+#profiles h4 {
+    margin-top: 16px;
+}
+
+#profiles .badge {
+    border-radius: 0 !important;
+}
+
+#profiles a {
+    text-decoration: none;
+}
+
+.dataTables_wrapper .top [type=search] {
+    max-width: 100%;
+}
+
+table.dataTable tbody tr {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+    table.dataTable tbody tr {
+        width: 33%;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    table.dataTable tbody tr {
+        width: 50%;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    table.dataTable tbody tr {
+        width: 100%;
+        display: inline-block;
+    }
+}
+
+table.dataTable tbody td {
+    border: none !important;
+    min-height: 230px;
+    display: inline-block;
+}
+
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 6px 9px !important;
+    font-size: 14px !important;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    vertical-align: baseline;
+    white-space: nowrap;
+    text-align: center;
+    background-color: #3c3c3c !important;
+    border-radius: 8px !important;
+    text-transform: uppercase;
+}
+
+/* Customize the data table Search, Filters, and Labels*/
+.dataTables_wrapper .dataTables_filter input {
+    font-size: 1em;
+    /*border: 1px solid #ccc;   
+ border-radius: 4px;*/
+    border: 0;
+    border-bottom: 2px solid;
+    width: 100%;
+    display: table-cell;
+    margin-top: 8px;
+    background-color: transparent;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    margin-top: 0;
+    display: table;
+    width: 100%;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0;
+}
+
+[id^="dataset-"] input {
+    font-size: 1em;
+    border: 0;
+    border-bottom: 2px solid;
+    width: 30% !important;
+    display: table-cell;
+    margin-top: 8px;
+    background-color: transparent;
+    font-family: FontAwesome, Helvetica, Arial, sans-serif;
+    padding: 16px 5px;
+    margin-bottom: 40px;
+    float: right;
+}
+
+[id^="dataset-"] label {
+    display: block;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/*Space between the table and the filter information */
+table.dataTable {
+    margin-top: 15px !important;
+}
+
+
+.dataTables_wrapper .dataTables_info {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+
+table.dataTable thead th,
+table.dataTable thead td,
+table.dataTable tfoot th,
+table.dataTable tfoot td,
+table.dataTable.no-footer,
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: 1px solid #b2b2b2;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background-color: #eaebed;
+    border-color: #cbcbcb;
+    color: #1d52be;
+    cursor: default;
+    z-index: 2;
+}
+
+
+/* Lightbox */
+
+img.mfp-img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    line-height: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 100px 0 100px;
+    margin: 0 auto;
+    background: #131313;
+}
+
+.mfp-title>a.btn.btn-primary.btn-xs {
+    margin-left: 180px;
+}
+
+.mfp-title {
+    line-height: 24px !important;
+}
+
+.mfp-bottom-bar .mfp-title {
+    padding-right: 5px;
+    width: 100%;
+    margin-top: -30px;
+}
+
+
+.mfp-image-holder .mfp-close,
+.mfp-iframe-holder .mfp-close {
+    color: #FFF;
+    right: -6px;
+    text-align: right;
+    padding-right: 6px;
+    width: 100%;
+    font-size: 4em;
+    margin-top: 20px;
+}
+
+.mfp-title a:hover {
+    color: #74beff;
+}
+
+.mfp-title a:visited {
+    color: #FFF;
+}
+
+.mfp-title a {
+    color: #FFF;
+}
+
+
+a.btn-default.btn-navy:hover,
+a.btn-default.btn-army:hover,
+a.btn-default.btn-air:hover,
+a.btn-default.btn-spc:hover,
+a.btn-default.btn-form:hover,
+a.btn-default.btn-cmd:hover {
+    background-color: #eeeeee;
+    color: #000 !important;
+}
+
+a.btn-default.btn-navy.active,
+a.btn-default.btn-army.active,
+a.btn-default.btn-air.active,
+a.btn-default.btn-spc.active,
+a.btn-default.btn-cmd.active {
+    color: #000;
+}
+
+a.btn-default.btn-navy.active:visited,
+a.btn-default.btn-army.active:visited,
+a.btn-default.btn-air.active:visited,
+a.btn-default.btn-spc.active:visited,
+a.btn-default.btn-cmd.active:visited,
+a.btn-default.btn-form.active:visited {
+    color: #000;
+}
+
+a.btn-default.btn-navy:visited,
+a.btn-default.btn-army:visited,
+a.btn-default.btn-air:visited,
+a.btn-default.btn-cmd:visited,
+a.btn-default.btn-form:visited {
+    color: #ffffff;
+}
+
+
+a.btn-default.btn-spc:visited {
+    color: #000;
+}
+
+
+.btn-navy {
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.btn-army {
+    background-color: #355943;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.btn-air {
+    background-color: #0e5e79;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.btn-spc {
+    background-color: #cfbb65;
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-cmd {
+    background-color: #ab2117;
+    color: #fff;
+    font-weight: bold;
+}

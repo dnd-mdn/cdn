@@ -1,0 +1,69 @@
+.padding-top-banner {
+    padding-top: 3em;
+}
+
+.banner-img-es {
+    background: linear-gradient(rgba(28, 28, 28, 0.48), rgba(28, 28, 28, 0.3)), url(http://canada.ca/content/dam/dnd-mdn/images/sse/exec-summary.jpg) center no-repeat;
+    min-height: 330px;
+    background-size: cover;
+    margin-top: 10px;
+}
+
+.banner-img-1 {
+    background: linear-gradient(rgba(28, 28, 28, 0.48), rgba(28, 28, 28, 0.3)), url(http://canada.ca/content/dam/dnd-mdn/images/reports-publications/2018/strong-secure-engaged/h1-well-supported.jpg) center no-repeat;
+    min-height: 330px;
+    background-size: cover;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.banner-h1 {
+    line-height: 1;
+    color: #FFF;
+    font-weight: 700;
+    text-shadow: #000 1px 1px 9px;
+    border-left: 6px solid #2f2f2f;
+    border-bottom: none;
+    padding: 30px;
+    background-color: #207b7bba;
+    margin-top: 2em;
+}
+
+h1#wb-cont {
+    display: none;
+}
+
+h3.alt {
+    border-bottom: solid 2px #335175;
+    border-top: solid 2px #335175;
+    padding: 15px;
+    text-align: center;
+    margin-top: 16px;
+    color: #335175;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 22px;
+    margin-top: 12px;
+    background-color: #f3f1f1;
+    border: 1px solid #c5c5c5;
+    border-radius: 0px !important;
+}
+
+.well>h2 {
+    border-bottom: 2px solid #a9a9a9;
+    padding-bottom: 6px;
+    margin-top: 5px;
+    font-size: 21px;
+}
+
+.well img {
+    border: 1px solid #c5c5c5;
+    margin-top: 20px;
+}
+
+a.btn.btn-default.btn-block.h2 {
+    font-size: 19px;
+}

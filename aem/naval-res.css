@@ -1,0 +1,62 @@
+h1[property="name"] {
+    display: none;
+}
+
+.banner-header {
+    background-image: url(/content/dam/dnd-mdn/images/campaigns/jobs/two-ships-naval-reserve.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-header h1 {
+    border: none;
+    color: #fff;
+    font-size: 2.75em;
+    margin-top: 5px;
+    text-shadow: 3px 3px 6px #000;
+    padding-left: 20px;
+}
+
+.banner-header header {
+    min-height: 300px;
+    width: 30%;
+    float: right;
+    padding: 20px 0px 0px 0px;
+    background: #26374a;
+    border-left: 7px #af3c43 solid;
+}
+
+
+@media screen and (max-width: 991px) {
+    .banner-header h1 {
+        border: none;
+        color: #fff;
+        font-size: 1.75em !important;
+        margin-top: 5px;
+        text-shadow: 3px 3px 6px #000;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .banner-header header {
+        min-height: 300px;
+        width: 40% !important;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner-header header {
+        min-height: 140px;
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .banner-header {
+        background: none;
+        min-height: 140px;
+    }
+}

@@ -1,0 +1,18 @@
+/* Modifications to WET classes */
+
+.panel-info .panel-heading {
+    background-color: #335075;
+    border-color: #335075;
+    color: #FFF;
+}
+
+#img-gal .list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: 0 !important;
+}
+
+#img-gal .list-inline>li {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

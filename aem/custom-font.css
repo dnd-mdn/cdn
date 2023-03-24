@@ -1,0 +1,8 @@
+.lh-initial {
+    line-height: initial;
+}
+
+#wb-sec .list-group .list-group .list-group-item {
+    font-size: 17px !important;
+    line-height: normal !important;
+}

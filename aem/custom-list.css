@@ -1,0 +1,22 @@
+ul.checkmark {
+    padding-left: 40px;
+    text-indent: 2px;
+    list-style: none;
+    list-style-position: outside;
+}
+
+ul.checkmark li:before {
+    content: "\2713\0020";
+    font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial;
+    margin-left: -1.3em;
+    margin-right: .100em;
+}
+
+.lh-initial {
+    line-height: initial;
+}
+
+#wb-sec .list-group .list-group .list-group-item {
+    font-size: 17px !important;
+    line-height: normal !important;
+}

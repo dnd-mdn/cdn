@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/* Fallen canadian*/
+
+.media-body {
+	padding-left: 10px !important;
+}
+
+@media only screen and (max-width: 768px) {
+	.media-body {
+		display: block !important;
+		padding-top: 10px;
+		width: 95% !important;
+		padding-left: 3px !important;
+
+	}
+}
