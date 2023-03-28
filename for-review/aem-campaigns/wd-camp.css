@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* FONTS */
+
+.mrgn-0 {
+	margin: 0px !important;
+}
+
+.btn-drop {
+	box-shadow: #404040 3px 4px 6px !important;
+	border: 1px solid #3a3939 !important;
+}
+
+.panel-default {
+	border-color: #ddd;
+	min-height: 257px !important;
+}
+
+.panel-default>.panel-heading {
+	color: #ffffff !important;
+	background-color: #335075 !important;
+	border-color: #e9e9e9 !important;
+}
+
+.panel-body>p {
+	font-size: 115%;
+}
+
+
+/* ENGINEER HBANNER - DEFAULT*/
+
+.padding-top-banner {
+	padding-top: 3.3em;
+}
+
+blockquote {
+	font-size: 2.3em;
+	color: #F5F5F5;
+	border-left: none;
+}
+
+blockquote>footer {
+	font-size: .5em;
+	color: #F5F5F5;
+	text-align: right;
+}
+
+.banner-img {
+	background: linear-gradient(rgba(28, 28, 28, 0.20), rgba(28, 28, 28, 0.20)), url(http://canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/diversity-campaign-banner.jpg) center no-repeat;
+	min-height: 350px;
+	background-size: cover;
+}
+
+/* ENGINEER HBANNER - @MEDIA QUERIES */
+
+@media screen and (max-width: 991px) {
+	blockquote {
+		font-size: 1.6em;
+	}
+
+	blockquote>footer {
+		font-size: .65em;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.banner-img {
+		background: linear-gradient(rgba(28, 28, 28, 0.20), rgba(0, 0, 0, 0.20)), url(http://canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/diversity-campaign-banner.jpg) left no-repeat;
+		min-height: 280px;
+		background-size: cover;
+	}
+
+	blockquote {
+		font-size: 1.4em;
+		border: none;
+	}
+
+	blockquote>footer {
+		font-size: .75em;
+	}
+
+	.padding-top-banner {
+		padding-top: 5em;
+	}
+}
+
+@media screen and (max-width: 376px) {
+	.padding-top-banner {
+		padding-top: 4em;
+	}
+
+	blockquote {
+		font-size: 1.2em;
+		border: none;
+	}
+
+	blockquote>footer {
+		font-size: .65em;
+	}
+}
+
+/* VIDEO PLAYER 
+
+.wb-mm-ctrls input[type=range] {
+    width: 4em;
+}
+
+.wb-mm-ctrls .frstpnl {
+    width: 10em;
+	font-size: 80%;
+}
+*/
+
+.modal-footer {
+	display: none !important;
+}
+
+.video-full.modal-body {
+	background: #3e3e3e !important;
+	position: relative !important;
+	padding: 5px !important;
+}
+
+.overlay-def header {
+	background: #3e3e3e !important;
+	border-bottom: 5px #6b6b6b solid !important;
+}
+
+.text-white {
+	color: #FFF !important;
+}
+
+/* 6 BOX - WHY IS THE FORCES... */
+
+.div-career {
+	background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://www.canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/div-career.jpg) center no-repeat;
+	min-height: 278px;
+	background-size: cover;
+	box-shadow: #404040 3px 4px 6px;
+	border: 1px solid #3a3939;
+}
+
+.div-pb {
+	background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://canada.ca/content/dam/dnd-mdn/images/jobs/cook-pb.jpg) center no-repeat;
+	min-height: 278px;
+	background-size: cover;
+	box-shadow: #404040 3px 4px 6px;
+	border: 1px solid #3a3939;
+}
+
+.div-family {
+	background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://www.canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/div-family.jpg) center no-repeat;
+	min-height: 278px;
+	background-size: cover;
+	box-shadow: #404040 3px 4px 6px;
+	border: 1px solid #3a3939;
+}
+
+.div-training {
+	background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://www.canada.ca/content/dam/dnd-mdn/images/jobs/ongoing.jpg) center no-repeat;
+	min-height: 278px;
+	background-size: cover;
+	box-shadow: #404040 3px 4px 6px;
+	border: 1px solid #3a3939;
+}
+
+.div-pt {
+	background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/stay-close-to-home-360x203.jpg) center no-repeat;
+	min-height: 278px;
+	background-size: cover;
+	box-shadow: #404040 3px 4px 6px;
+	border: 1px solid #3a3939;
+}
+
+.div-jobs {
+	background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/exciting-job-360x203.jpg) center no-repeat;
+	min-height: 278px;
+	background-size: cover;
+	box-shadow: #404040 3px 4px 6px;
+	border: 1px solid #3a3939;
+}
+
+.padding-top-lg {
+	padding-top: 10em !important;
+	padding-left: 1em !important;
+}
+
+.padding-top-lg>p {
+	font-size: 1.6em !important;
+	color: #fff;
+	font-weight: 600;
+	text-shadow: 3px 3px #000;
+	text-transform: uppercase;
+	line-height: 1em;
+	width: 77%;
+}
+
+p>a.camp:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: -3px;
+	left: 0;
+	background-color: #FFF;
+	visibility: hidden;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	transition: all 0.5s ease-in-out 0s;
+	box-shadow: 2px 2px #000;
+}
+
+p>a.camp:hover:before {
+	visibility: visible;
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+
+p>a.camp {
+	position: relative;
+	color: #FFF;
+	text-decoration: none;
+}
+
+p>a.camp:visited {
+	position: relative;
+	color: #FFF;
+	text-decoration: none;
+}
+
+p>a.camp:hover {
+	color: #FFF;
+	text-decoration: none;
+}

@@ -1,0 +1,68 @@
+#pb summary {
+	display: list-item !important;
+	list-style-type: none;
+	list-style-type: disclosure-closed;
+	visibility: visible !important;
+}
+
+#pb details:not([open]) details summary,
+#pb details .out details summary {
+	display: none !important;
+}
+
+#pb details summary::-webkit-details-marker {
+	display: none;
+}
+
+#pb details:not([open]) summary::after {
+	content: "+ Learn more";
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#pb details[open] summary::after {
+	content: "Close";
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#pb details[open] {
+	border: 0px;
+}
+
+#pb details {
+	padding: 0px;
+}
+
+#pb details summary {
+	color: #ffffff;
+}
+
+#pb details summary:focus,
+#pb details summary:hover {
+	text-decoration: none;
+}
+
+#pb details>summary {
+	margin-left: 0em;
+	margin-right: 0em;
+}
+
+.wb-tabs [role="tablist"]>li.active a {
+	border-color: #000 !important;
+	border-style: solid !important;
+	background-color: #284162 !important;
+	color: #FFF !important;
+	font-weight: bold !important;
+}
+
+.wb-tabs [role="tablist"]>li {
+	background: #dcdcdc !important;
+	color: #000 !important;
+	border: none !important;
+}
+
+.wb-tabs>details,
+.wb-tabs>.tabpanels>details {
+	border: none !important;
+}

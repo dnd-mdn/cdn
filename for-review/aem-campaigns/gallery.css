@@ -1,0 +1,26 @@
+.text-white {
+	color: #FFF;
+}
+
+.btn-dark:visited {
+	color: #fff;
+}
+
+a.btn-dark:hover {
+	color: #acacac;
+}
+
+a.btn-dark {
+	color: #fff;
+}
+
+@media (min-width: 992px) {
+	.modal-lg {
+		width: 990px !important;
+	}
+}
+
+.overlay-def .modal-title {
+	font-size: 0.95em !important;
+	padding: 10px 0;
+}

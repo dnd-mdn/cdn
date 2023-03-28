@@ -1,0 +1,520 @@
+@charset "utf-8";
+/* FONTS */
+
+
+.hdr2-tp-bttm {
+    font-size: 2.5em;
+    text-align: center;
+    border-bottom: 0 !important;
+    padding: 14px;
+    border-top: 0 !important;
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+.mrgn-0 {
+    margin: 0px !important;
+}
+
+.btn-drop {
+    box-shadow: #404040 3px 4px 6px !important;
+    border: 1px solid #3a3939 !important;
+}
+
+.panel-default {
+    border-color: #ddd;
+    min-height: 257px !important;
+}
+
+.panel-default>.panel-heading {
+    color: #ffffff !important;
+    background-color: #335075 !important;
+    border-color: #e9e9e9 !important;
+}
+
+.panel-body>p {
+    font-size: 115%;
+}
+
+
+/* ENGINEER HBANNER - DEFAULT*/
+
+.padding-top-banner {
+    padding-top: 3.3em;
+}
+
+blockquote {
+    font-size: 2.3em;
+    color: #F5F5F5;
+    border-left: none;
+}
+
+blockquote>footer {
+    font-size: .5em;
+    color: #F5F5F5;
+    text-align: right;
+}
+
+.banner-img {
+    background: linear-gradient(rgba(28, 28, 28, 0.20), rgba(28, 28, 28, 0.20)), url(http://canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/diversity-campaign-banner.jpg) center no-repeat;
+    min-height: 350px;
+    background-size: cover;
+}
+
+/* ENGINEER HBANNER - @MEDIA QUERIES */
+
+@media screen and (max-width: 991px) {
+    blockquote {
+        font-size: 1.6em;
+    }
+
+    blockquote>footer {
+        font-size: .65em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-img {
+        background: linear-gradient(rgba(28, 28, 28, 0.20), rgba(0, 0, 0, 0.20)), url(http://canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/diversity-campaign-banner.jpg) left no-repeat;
+        min-height: 280px;
+        background-size: cover;
+    }
+
+    blockquote {
+        font-size: 1.4em;
+        border: none;
+    }
+
+    blockquote>footer {
+        font-size: .75em;
+    }
+
+    .padding-top-banner {
+        padding-top: 5em;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .padding-top-banner {
+        padding-top: 4em;
+    }
+
+    blockquote {
+        font-size: 1.2em;
+        border: none;
+    }
+
+    blockquote>footer {
+        font-size: .65em;
+    }
+}
+
+/* VIDEO PLAYER   
+  
+.wb-mm-ctrls input[type=range] {  
+    width: 4em;  
+}  
+  
+.wb-mm-ctrls .frstpnl {  
+    width: 10em;  
+ font-size: 80%;  
+}  
+*/
+
+.modal-footer {
+    display: none !important;
+}
+
+.video-full.modal-body {
+    background: #3e3e3e !important;
+    position: relative !important;
+    padding: 5px !important;
+}
+
+.overlay-def header {
+    background: #3e3e3e !important;
+    border-bottom: 5px #6b6b6b solid !important;
+}
+
+.text-white {
+    color: #FFF !important;
+}
+
+/* 6 BOX - WHY IS THE FORCES... */
+
+.div-career {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://www.canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/div-career.jpg) center no-repeat;
+    min-height: 320px;
+    background-size: cover;
+    box-shadow: #404040 3px 4px 6px;
+    border: 1px solid #3a3939;
+}
+
+.div-pb {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://canada.ca/content/dam/dnd-mdn/images/jobs/cook-pb.jpg) center no-repeat;
+    min-height: 320px;
+    background-size: cover;
+    box-shadow: #404040 3px 4px 6px;
+    border: 1px solid #3a3939;
+}
+
+.div-family {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://www.canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/div-family.jpg) center no-repeat;
+    min-height: 320px;
+    background-size: cover;
+    box-shadow: #404040 3px 4px 6px;
+    border: 1px solid #3a3939;
+}
+
+.div-training {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://www.canada.ca/content/dam/dnd-mdn/images/jobs/ongoing.jpg) center no-repeat;
+    min-height: 320px;
+    background-size: cover;
+    box-shadow: #404040 3px 4px 6px;
+    border: 1px solid #3a3939;
+}
+
+.div-pt {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/stay-close-to-home-360x203.jpg) center no-repeat;
+    min-height: 320px;
+    background-size: cover;
+    box-shadow: #404040 3px 4px 6px;
+    border: 1px solid #3a3939;
+}
+
+.div-jobs {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/exciting-job-360x203.jpg) center no-repeat;
+    min-height: 320px;
+    background-size: cover;
+    box-shadow: #404040 3px 4px 6px;
+    border: 1px solid #3a3939;
+}
+
+.padding-top-lg {
+    padding-top: 14em !important;
+    padding-left: 1em !important;
+}
+
+.padding-top-lg>p {
+    font-size: 1.7em !important;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 3px 3px #000;
+    text-transform: uppercase;
+    line-height: 1em;
+    width: 95%;
+}
+
+p>a.camp:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    box-shadow: 2px 2px #000;
+}
+
+p>a.camp:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+p>a.camp {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+a.camp:visited {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+a.camp:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* FULL VIDEO */
+
+header.masthead .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+header.masthead {
+    position: relative;
+    background-color: transparent;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 4em;
+    margin-bottom: 3em;
+}
+
+#background-video {
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;
+    z-index: 100;
+    filter: brightness(80%);
+}
+
+h1 {
+    font-size: 3em;
+    text-shadow: 3px 2px #000;
+    color: #FFF !important;
+    border: 0;
+    position: absolute;
+    top: 60%;
+    padding-left: 20px;
+}
+
+.full-video {
+    width: 100%;
+    box-shadow: #353535 0px 3px 9px;
+    margin-top: 10px;
+}
+
+video::-webkit-media-controls-panel {
+    background-color: #f8020200;
+    filter: brightness(400%);
+    font-weight: bold;
+    font-size: 115%;
+    position: absolute;
+    top: 80%;
+    left: 82%;
+}
+
+video::-webkit-media-controls-volume-slider {
+    display: none;
+}
+
+video::-webkit-media-controls-play-button {
+    transform: scale(2.5);
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-mute-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+/* Image zoom on hover + Overlay colour */
+
+
+.right {
+    float: right !important;
+}
+
+.parent {
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .9s;
+    -moz-transition: all .9s;
+    -o-transition: all .9s;
+    transition: all .9s;
+}
+
+
+#grid>.col-md-4 {
+    padding: 0;
+}
+
+#grid.row {
+    margin-left: 0;
+    margin-right: 0;
+    box-shadow: #404040 3px 4px 6px;
+
+}
+
+/* Several different images */
+.bg-1 {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://www.canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/div-career.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.bg-2 {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://canada.ca/content/dam/dnd-mdn/images/jobs/cook-pb.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.bg-3 {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://www.canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/div-family.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.bg-4 {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://www.canada.ca/content/dam/dnd-mdn/images/jobs/ongoing.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.bg-5 {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/stay-close-to-home-360x203.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.bg-6 {
+    background: linear-gradient(rgba(28, 28, 28, 0), rgba(28, 28, 28, 0.96)), url(http://canada.ca/content/dam/dnd-mdn/images/campaigns/jobs/exciting-job-360x203.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.child>a {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff !important;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.7em !important;
+    font-weight: 800;
+    text-shadow: 3px 3px #000;
+    text-transform: uppercase;
+    width: 80%;
+    line-height: .9;
+
+}
+
+.parent:hover .child,
+.parent:focus .child {
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.parent:hover .child:before,
+.parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a,
+.parent:focus a {
+    display: block;
+}
+
+
+/*ANIMATION */
+
+.grow {
+    transition: all .33s ease-in-out;
+}
+
+p.grow>a {
+    position: relative;
+    color: #FFF;
+    text-decoration: none;
+}
+
+p.grow>a:visited {
+    position: relative;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.grow:hover {
+    color: #FFF;
+    text-decoration: none;
+    transform: scale(1.03);
+}
+
+
+a.feat-jobs {
+    color: #FFF;
+    text-decoration: none;
+}
+
+
+.feat-apply-now {
+    font-size: 40%;
+    color: inherit;
+    text-shadow: none;
+    padding: 6px;
+    text-transform: uppercase;
+    background: #2a476b;
+}
+
+.padding-top-feat>h3 {
+    font-size: 1.8em !important;
+    color: #fff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000;
+    line-height: 1.1em;
+}
+
+
+.padding-top-feat>h3>a {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    text-decoration: none;
+}
+
+
+.padding-top-feat {
+    padding-top: 2em;
+    padding-left: .8em;
+    padding-right: .5em;
+}
+
+.feat-job-1 {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.85)), url(/content/dam/dnd-mdn/images/features/2018-02-13-fb-1.jpg) no-repeat;
+    min-height: 250px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.feat-job-2 {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.85)), url(/content/dam/dnd-mdn/images/features/2018-02-13-fb-2.jpg) no-repeat;
+    min-height: 250px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.feat-job-3 {
+    background: linear-gradient(rgba(28, 28, 28, 0.29), rgba(28, 28, 28, 0.85)), url(/content/dam/dnd-mdn/images/features/2018-02-12-feature-Job-360x203.jpg) no-repeat;
+    min-height: 250px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.feat-border {
+    box-shadow: 0px 3px 11px;
+    border: 2px solid;
+}

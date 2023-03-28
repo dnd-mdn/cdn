@@ -1,0 +1,8 @@
+.modal-footer {
+    display: none !important;
+}
+
+.wb-popup-mid {
+    max-height: 50%;
+    max-width: 40%;
+}

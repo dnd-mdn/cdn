@@ -1,0 +1,147 @@
+.btn-innovation {
+    color: #fff;
+    background-color: #6B1A66;
+    border-color: #071a07;
+}
+
+a.btn-innovation:visited {
+    color: #fff;
+}
+
+.btn-innovation:hover,
+.btn-innovation:focus,
+.btn-innovation.focus,
+.btn-innovation:active,
+.btn-innovation.active,
+.open>.btn-innovation.dropdown-toggle {
+    color: #fff;
+    background-color: #981290;
+    border-color: black;
+}
+
+.btn-innovation:active,
+.btn-innovation.active,
+.open>.btn-innovation.dropdown-toggle {
+    background-image: none;
+}
+
+.btn-innovation.disabled,
+.btn-innovation.disabled:hover,
+.btn-innovation.disabled:focus,
+.btn-innovation.disabled.focus,
+.btn-innovation.disabled:active,
+.btn-innovation.disabled.active,
+.btn-innovation[disabled],
+.btn-innovation[disabled]:hover,
+.btn-innovation[disabled]:focus,
+.btn-innovation[disabled].focus,
+.btn-innovation[disabled]:active,
+.btn-innovation[disabled].active,
+fieldset[disabled] .btn-innovation,
+fieldset[disabled] .btn-innovation:hover,
+fieldset[disabled] .btn-innovation:focus,
+fieldset[disabled] .btn-innovation.focus,
+fieldset[disabled] .btn-innovation:active,
+fieldset[disabled] .btn-innovation.active {
+    background-color: #6B1A66;
+    border-color: #071a07;
+}
+
+.btn-innovation .badge {
+    color: #6B1A66;
+    background-color: #fff;
+}
+
+.panel-innovation .panel-heading {
+    background-color: #6B1A66;
+    border-color: #6B1A66;
+    color: #FFF
+}
+
+.panel-innovation {
+    border-color: #6B1A66;
+}
+
+a.list-group-item {
+    text-decoration: none !important;
+    color: #555;
+    line-height: 1.4 !important;
+    font-size: 16px;
+}
+
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+    background-color: #eeeeee;
+    color: #696969;
+    cursor: pointer;
+}
+
+.theme h3 {
+    font-size: 22px;
+    background-color: #335075;
+    color: #fff;
+    padding: 13px;
+    margin-bottom: 0px;
+}
+
+#wb-auto-5 .field-name {
+    font-size: 1.5em;
+}
+
+/* PURPLE IDEAS BUTTON */
+
+.btn-danger {
+    background-color: #693163;
+    border-color: #4e4e4e66;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger.focus,
+.btn-danger:active,
+.btn-danger.active,
+.open>.btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #602c5d;
+    border-color: #4e4e4e66;
+}
+
+.btn-block>img {
+    vertical-align: middle;
+    margin-left: -3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+}
+
+/* DT / DD for FAQ */
+
+#faq dd {
+    padding-bottom: 13px;
+    border-bottom: 2px solid #e6e6e6;
+    margin-bottom: 25px;
+}
+
+#faq dt {
+    font-size: 1.1em;
+}
+
+/* INFO BOX */
+
+.alert-ideas {
+    border-color: #693163;
+    background: #ebe1ea;
+}
+
+.alert-ideas> :first-child:before {
+    color: #62295c;
+    content: "\e086";
+}
+
+.panel-info .panel-heading {
+    padding: 10px 15px;
+    background-color: #26374a;
+    color: #fff;
+    font-size: 110%;
+}

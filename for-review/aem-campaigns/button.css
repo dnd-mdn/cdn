@@ -1,0 +1,10 @@
+#top-buttons .btn {
+	height: 46px !important;
+	text-align: center !important;
+	vertical-align: middle !important;
+	cursor: pointer !important;
+	padding: 8px 10px !important;
+	font-size: 19px !important;
+	font-weight: bold;
+	line-height: 1.4375 !important;
+}

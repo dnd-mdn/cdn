@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/* Customize the data table Search, Filters, and Labels*/
+.dataTables_wrapper .dataTables_filter input {
+    font-size: 1.1em;
+    border: 0;
+    border-bottom: 4px solid;
+    width: 100%;
+    display: table-cell;
+    margin-top: 8px;
+    background-color: transparent;
+}
+
+.dataTables_wrapper .dataTables_filter {
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    display: table;
+    width: 100%;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0;
+}
+
+#centers-filter_filter>label {
+    display: block;
+    max-width: 100%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#centers-filter_filter input {
+    font-family: FontAwesome, Helvetica, Arial, sans-serif;
+    padding: 7px 10px;
+    margin-bottom: 40px;
+}
+
+/*Space between the table and the filter information */
+table.dataTable {
+    margin-top: 15px !important;
+}
+
+.dataTables_wrapper .dataTables_info {
+    font-size: 1.2em;
+}

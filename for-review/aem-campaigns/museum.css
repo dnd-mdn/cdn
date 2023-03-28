@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+/* Museum filters */
+#museums_filter {
+	float: right !important;
+}
+
+.mrgn-bttm-neg {
+	margin-bottom: -35px;
+}
+
+/* victoria filters */
+#victoria-cross_filter {
+	float: right !important;
+}
+
+/* table background colors */
+table.dataTable tbody tr.bg-saw {
+	background-color: #fcf8e3 !important;
+}
+
+table.dataTable tbody tr.bg-sww {
+	background-color: #d9edf7 !important;
+}
+
+.table-hover>tbody>tr.bg-saw:hover {
+	background-color: #FBF0C1 !important;
+}
+
+.table-hover>tbody>tr.bg-sww:hover {
+	background-color: #B4DAEE !important;
+}

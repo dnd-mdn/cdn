@@ -1,0 +1,35 @@
+.mfp-bottom-bar {
+    margin-top: -40px;
+    background-color: #335075;
+    padding: 20px;
+    border-top: 4px solid #2b2b2b6b;
+}
+
+.mfp-bottom-bar .mfp-counter {
+    font-size: .75em;
+    text-align: right;
+    width: 25%;
+    margin-top: 18px;
+    margin-right: 12px;
+    color: #FFF;
+}
+
+.mfp-iframe-holder .mfp-close,
+.mfp-image-holder .mfp-close {
+    margin-top: -90px;
+    font-size: 2.7em;
+}
+
+img.mfp-img {
+    padding: 0;
+    padding-bottom: 40px;
+    margin-top: -39px;
+}
+
+table.dataTable tbody tr {
+    display: inline-block !important;
+}
+
+section.wb-lbx {
+    list-style: none;
+}

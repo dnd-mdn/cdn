@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+#fip {
+	background-color: #000000;
+	padding: 1.15rem;
+	line-height: 0;
+}
+
+@media (min-width: 768px) {
+	#fip {
+		padding: 1.5rem 2rem;
+	}
+}
+
+#fip .logo {
+	height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+	#fip .logo {
+		height: 2rem;
+	}
+}
+
+@media (max-width: 767px) {
+	#fip .container {
+		padding: 0;
+	}
+
+	#fip .container .row {
+		width: 100%;
+	}
+}
+
+#fip .fip-logo:after {
+	bottom: 0;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+#fip .lang {
+	display: block;
+	text-align: right;
+	width: 100%;
+	color: #FFFFFF;
+}
+
+#fip .lang a {
+	display: inline-block;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 1.25rem;
+	font-weight: 400;
+	margin-top: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	padding-bottom: 1rem;
+	border-bottom: #000 1px solid;
+	transition: all 0.3s ease-in-out;
+}
+
+#fip .lang a:hover {
+	border-bottom: #CCC 1px solid;
+}
+
+@media (min-width: 992px) {
+	#fip .lang a {
+		font-weight: 200;
+		font-size: 2rem;
+	}
+}
+
+@media (min-width: 768px) {
+	#fip .lang a {
+		font-size: 1.5rem;
+	}
+}
+
+#wb-bnr {
+	display: none !important;
+}
+
+#wb-sm {
+	display: none !important;
+}
+
+#wb-bc {
+	display: none !important;
+}
+
+#wb-cont {
+	display: none !important;
+}
+
+.video-overlay {
+	position: absolute;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 3.5vw;
+	font-weight: 700;
+	top: 9.5em;
+	border: #fff solid 4px;
+	border-left: 0px;
+	background-color: #000;
+	padding-left: 1em;
+	padding-right: .50em;
+}
+
+.gtn-overlay {
+	position: absolute;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 700;
+	bottom: 0;
+	border: #fff solid .33vw;
+	border-left: 0px;
+	border-right: 0px;
+	background-color: rgba(0, 0, 0, 0.67);
+	padding-left: .75em;
+	width: 100%;
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+}
+
+.gtn-body {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	line-height: 1.4;
+}
+
+.btn-info {
+	color: #fff;
+	background-color: #1b1b1b;
+	border-color: #1a1a1a;
+}
+
+.flip-container {
+	perspective: 1000px;
+}
+
+.flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+	height: 275px;
+	width: 100%;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front,
+.back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+	background-image: url("/content/dam/dnd-mdn/images/jobs/gtnyk-mandy.jpg");
+}
+
+.back {
+	transform: rotateY(180deg);
+	background-image: url("/content/dam/dnd-mdn/images/campaigns/jobs/gtnyf-back.jpg");
+}
+
+.flip-overlay {
+	display: block;
+	background: rgba(72, 35, 15, 0.5);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.theme1 {
+	border: 2px solid #000;
+	background-color: darkmagenta;
+	color: white;
+	font-family: 'Fredoka One', cursive;
+}
+
+.theme2 {
+	border: 2px solid #000;
+	background-color: darkgreen;
+	color: white;
+	font-family: 'Fredoka One', cursive;
+}
+
+.theme3 {
+	border: 2px solid #000;
+	background-color: yellow;
+	color: black;
+	font-family: 'Fredoka One', cursive;
+}
+
+.theme4 {
+	border: 2px solid #000;
+	background-color: crimson;
+	color: white;
+	font-family: 'Fredoka One', cursive;
+}
+
+.theme5 {
+	border: 2px solid #000;
+	background-color: darkslateblue;
+	color: white;
+	font-family: 'Fredoka One', cursive;
+}
+
+.theme6 {
+	border: 2px solid #000;
+	background-color: darkblue;
+	color: white;
+	font-family: 'Fredoka One', cursive;
+}
+
+
+/*BLUR*/
+
+.blur img {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+	-webkit-filter: blur(3px);
+}
+
+.blur img:hover {
+	-webkit-filter: blur(0px);
+}
+
+
+/*B&W*/
+
+.bw {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+	-webkit-filter: grayscale(100%);
+}
+
+.bw:hover {
+	-webkit-filter: grayscale(0%);
+}
+
+
+/*GROW*/
+
+.grow img {
+	height: 300px;
+	width: 300px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+.grow img:hover {
+	width: 400px;
+	height: 400px;
+}
+
+.fip_text {
+	fill: #000;
+}
+
+.fip_flag {
+	fill: #F00;
+}
+
+@media screen {
+
+	.fip_text,
+	.fip_flag {
+		fill: #FFF;
+	}
+}

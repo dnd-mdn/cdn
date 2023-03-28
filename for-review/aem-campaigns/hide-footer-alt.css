@@ -1,0 +1,18 @@
+.full-video .modal-footer {
+    display: none !important;
+}
+
+.full-video .modal-body {
+    background: #3e3e3e !important;
+    position: relative !important;
+    padding: 5px !important;
+}
+
+.full-video .overlay-def header {
+    background: #3e3e3e !important;
+    border-bottom: 5px #6b6b6b solid !important;
+}
+
+.text-white {
+    color: #FFF !important;
+}

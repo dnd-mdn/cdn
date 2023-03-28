@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+.filter-box {
+    min-height: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ddd;
+    border: 1px solid #000000;
+}
+
+#wb-auto-11.form-control {
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+#wb-auto-12.form-control {
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
+
+#wb-auto-13.form-control {
+    font-size: 18px !important;
+    font-weight: bold !important;
+}
