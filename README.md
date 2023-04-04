@@ -8,7 +8,7 @@ This repository is for static assets used in our other applications.  It is reco
 
 Files are to be loaded through [jsDelivr](https://github.com/jsdelivr/jsdelivr#github), a free and open source CDN service with global infrastucture.  
 
-Example CSS file
+Example HTML
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dnd-mdn/cdn@latest/ml/maple-leaf.min.css" />
 ```
@@ -19,3 +19,9 @@ For CSS/JS files, adding `.min` before the file extension is optional, but recom
 ## Caching
 
 Updates to this repository will take time to reach users due to CDN [caching](https://github.com/jsdelivr/jsdelivr#caching).  To force changes to take effect immediately, use the [purge](https://www.jsdelivr.com/tools/purge) tool.
+
+Example purge tool input
+```
+https://cdn.jsdelivr.net/gh/dnd-mdn/cdn@latest/ml/maple-leaf.css
+https://cdn.jsdelivr.net/gh/dnd-mdn/cdn@latest/ml/maple-leaf.min.css
+```
