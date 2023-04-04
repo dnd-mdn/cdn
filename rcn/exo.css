@@ -12,6 +12,10 @@ h1.exo {
     text-transform: uppercase;
 }
 
+h3.exo {
+    font-size: 1.35em;
+}
+
 .exo-underline h2::after {
     font-family: 'Exo', sans-serif;
     border-bottom: 0.18em solid #5092c6;
@@ -19,4 +23,5 @@ h1.exo {
     display: block;
     padding-bottom: 8px;
     width: 70px;
+    text-transform: uppercase;
 }
