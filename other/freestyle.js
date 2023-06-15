@@ -4,19 +4,26 @@
 (function ($, window, wb) {
     "use strict";
 
+    // Check dependencies
+    if (typeof $ === 'undefined') {
+        throw new Error('jQuery.js must load before freestyle.js')
+    } else if (typeof wb === 'undefined') {
+        throw new Error('wet-beow.js must load before freestyle.js')
+    }
+
     // Environment detection
     if (!wb.env) {
-        wb.env = window.location.hostname === 'author-canada-prod.adobecqms.net' ? 'staging' : 'production';
+        wb.env = window.location.hostname === 'author-canada-prod.adobecqms.net' ? 'staging' : 'production'
     }
 
     // Replace breadcrumbs with new ones if present
-    var bc_old = $('#wb-bc ol.breadcrumb');
-    var bc_new = $('ol.breadcrumb.hidden');
+    var bc_old = $('#wb-bc ol.breadcrumb')
+    var bc_new = $('ol.breadcrumb.hidden:first')
 
     if (bc_old.length && bc_new.length) {
         bc_old.replaceWith(
             bc_new.detach().removeClass('hidden')
-        );
+        )
     }
 
     // Replace language links with new ones if present in meta tags
