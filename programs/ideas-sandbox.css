@@ -164,3 +164,11 @@ button.btn-text {
 button.btn-text:hover {
     color: #0535d2;
 }
+
+<!-- MARC - JULY 18 -->
+.text-purple {color: #6e2f69;}
+
+.bg-text-white {background-color: #ceb7ce;}
+
+.text-bg-nav {background-color: #ceb7ce; color: #6e2f69;}
+<!-- END MARC -->
