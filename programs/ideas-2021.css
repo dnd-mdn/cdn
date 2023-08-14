@@ -816,3 +816,20 @@ a.slide-btn:hover {
 .slide-btn h2 {
     margin: 0;
 }
+
+/* MARC - JULY 18 */
+
+.intro-leftnav {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+    background-color: #fff;
+}
+
+.intro-leftnav a {
+    text-decoration: none;
+    color: #6e2f69;
+    background-color: #fff;
+}
+/* END MARC */
