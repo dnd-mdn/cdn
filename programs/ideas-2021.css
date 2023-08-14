@@ -817,10 +817,9 @@ a.slide-btn:hover {
     margin: 0;
 }
 
-.leftnav-intro {
+H2.leftnav-intro {
     margin-top: 10px;
     font-weight: bold;
-    font-size: 1.5em;
     text-align: left;
     background-color: #fff;
     text-decoration: none;
