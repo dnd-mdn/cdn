@@ -823,10 +823,6 @@ a.slide-btn:hover {
     font-size: 1.5em;
     text-align: left;
     background-color: #fff;
-}
-
-.leftnav-intro a {
     text-decoration: none;
     color: #6e2f69;
-    background-color: #fff;
 }
