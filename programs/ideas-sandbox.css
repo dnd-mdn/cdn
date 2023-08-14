@@ -167,7 +167,7 @@ button.btn-text:hover {
 
 /* MARC - JULY 18 */
 
-.indexleftnav {
+.intro-leftnav {
     margin-top: 15px;
     font-weight: bold;
     font-size: 1.2em;
@@ -175,7 +175,7 @@ button.btn-text:hover {
     background-color: #fff;
 }
 
-.indexleftnav a {
+.intro-leftnav a {
     text-decoration: none;
     color: #6e2f69;
     background-color: #fff;
