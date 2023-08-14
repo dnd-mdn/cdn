@@ -817,7 +817,7 @@ a.slide-btn:hover {
     margin: 0;
 }
 
-.intro-leftnav {
+.leftnav-intro {
     margin-top: 15px;
     font-weight: bold;
     font-size: 1.2em;
@@ -825,7 +825,7 @@ a.slide-btn:hover {
     background-color: #fff;
 }
 
-.intro-leftnav a {
+.leftnav-intro a {
     text-decoration: none;
     color: #6e2f69;
     background-color: #fff;
