@@ -817,7 +817,7 @@ a.slide-btn:hover {
     margin: 0;
 }
 
-p.indexleftnav {
+.indexleftnav {
     margin-top: 15px;
     font-weight: bold;
     font-size: 1.2em;
@@ -825,7 +825,7 @@ p.indexleftnav {
     background-color: #fff;
 }
 
-p.indexleftnav a {
+.indexleftnav a {
     text-decoration: none;
     color: #6e2f69;
     background-color: #fff;
