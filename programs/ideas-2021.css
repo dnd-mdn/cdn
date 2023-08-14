@@ -816,3 +816,16 @@ a.slide-btn:hover {
 .slide-btn h2 {
     margin: 0;
 }
+
+p.indexleftnav {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+p.indexleftnav a {
+    text-decoration: none;
+    color: #6e2f69;
+    background-color: #fff;
+}
