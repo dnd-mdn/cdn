@@ -822,6 +822,7 @@ p.indexleftnav {
     font-weight: bold;
     font-size: 1.2em;
     text-align: left;
+    background-color: #fff;
 }
 
 p.indexleftnav a {
