@@ -199,6 +199,14 @@ button.btn-text:hover {
     color: #FFF;
 }
 
+.well-purp a {
+	color: mediumpurple;
+}
+
+.well-purp a:hover {
+	color: lightgray;
+}
+
 .w3-tag {
 	background-color:#000;
 	color:#fff;
