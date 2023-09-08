@@ -8,6 +8,12 @@
     background-size: cover;
 }
 
+.bg-drone2 {
+    background: url('https://canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/drones-colliding.jpg') left center;
+    height: 250px;
+    background-size: cover;
+}
+
 .bg-ship {
     background: url('https://canada.ca/content/dam/dnd-mdn/images/programs/sse-ideas/cdis-boat.jpg') left center;
     height: 250px;
@@ -181,4 +187,34 @@ button.btn-text:hover {
     color: #6e2f69;
     background-color: #fff;
 }
+
+.well-purp {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	border: 2px solid #284162;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    background-color: #693163;
+    color: #FFF;
+}
+
+.w3-tag {
+	background-color:#000;
+	color:#fff;
+	display:inline-block;
+	padding-left:8px;
+	padding-right:8px;
+	text-align:center;
+}
+
+.w3-round-large {
+	border-radius:8px;
+}
+
+.w3-purple,.w3-hover-purple:hover {
+	color:#fff!important;
+	background-color:#9c27b0!important
+}
+
 /* END MARC */
