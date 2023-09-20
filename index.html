@@ -5,7 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>CDN Tools</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha256-MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha256-MBffSnbbXwHCuZtgPYiwMQbfE7z+GOZ7fBPCNB06Z98=" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -20,16 +22,29 @@
         <div class="container my-2">
             <h1 class="h3 mt-4">CDN Tools</h1>
             <p class="lead">Test</p>
-
-            <ul id="list"></ul>
+            <ul id="list" class="list-group">
+                <li>
+                    <div class="d-flex justify-content-center">
+                        <div class="spinner-border text-primary" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js" integrity="sha384-5AkRS45j4ukf+JbWAfHL8P4onPA9p0KwwP7pUdjSQA3ss9edbJUJc/XcYAiheSSz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha256-gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"
+        integrity="sha384-5AkRS45j4ukf+JbWAfHL8P4onPA9p0KwwP7pUdjSQA3ss9edbJUJc/XcYAiheSSz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha256-gvZPYrsDwbwYJLD5yeBfcNujPhRoGOY831wwbIzz3t0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"
+        integrity="sha256-4XodgW4TwIJuDtf+v6vDJ39FVxI0veC/kSCCmnFp7ck=" crossorigin="anonymous"></script>
 
     <script type="module">
         import { Octokit } from "https://esm.sh/@octokit/rest"
+        import octicons from 'https://cdn.jsdelivr.net/npm/@primer/octicons@19.8.0/+esm'
 
         const octokit = new Octokit()
 
@@ -43,38 +58,89 @@
                 dir: dir
             })
 
-            // Ignore .md files
-            return content.data.filter(node => {
-                return !node.name.endsWith('.md') && node.name !== 'LICENSE'
+            // Sort nodes by type, then by name
+            return content.data.sort((a, b) => {
+                if (a.type === 'dir') {
+                    return b.type === 'dir' ? a.name > b.name : -1
+                } else {
+                    return b.type === 'dir' ? 1 : a.name > b.name
+                }
             })
         }
 
-        
-        content('programs').then(list => {
-            list.forEach(node => {
 
-                if (node.type === 'dir') {
-                    $list.append(`<li>${node.path}</li>`)
-                } else {
-                    $list.append(`<li>${node.path}</li>`)
-                }
-                
+        content().then(list => {
+            let html = ''
+            $list.empty()
+
+            console.log(list)
+            list.forEach(node => {
+                html += nodehtml(node)
             })
+
+            $list.html(html)
 
         })
-        
 
 
-        async function purge(path) {
-            const url = `https://purge.jsdelivr.net/gh/dnd-mdn/cdn@latest/${path}`
-            const response = await fetch(url)
-            const data = await response.json()
+        function nodehtml(node) {
+            const color = node.type === 'dir' ? ' list-group-item-warning' : ''
 
-            if (data.status !== 'finished') {
-                throw new Error('Unable to clear cache')
+            let html = `<li class="list-group-item list-group-item-action${color}">`
+            if (node.type === 'dir') {
+                html += `${octicons['file-directory'].toSVG({ "class": "me-2" })} ${node.path}`
+            } else {
+                html += `${octicons['file'].toSVG({ "class": "me-2 text-primary" })} ${node.path}`
+                html += `${octicons['copy'].toSVG()} ${octicons['mark-github'].toSVG()} ${octicons['sync'].toSVG()}`
+             
+
             }
+
+            return html + '</li>'
         }
 
+
+
+        async function purge(node) {
+            if (node.type === 'dir') {
+                throw new Error('Unable to purge directories')
+            }
+
+            const urls = [
+                `https://purge.jsdelivr.net/gh/dnd-mdn/cdn@latest/${node.path}`,
+            ]
+
+            if (node.path.endsWith('.js')) {
+                urls.push(`https://purge.jsdelivr.net/gh/dnd-mdn/cdn@latest/${node.path.replace(/\.js$/, '.min.js')}`)
+            } else if (node.path.endsWith('.css')) {
+                urls.push(`https://purge.jsdelivr.net/gh/dnd-mdn/cdn@latest/${node.path.replace(/\.css$/, '.min.js')}`)
+            }
+
+            console.log(urls)
+            //const response = await fetch(url)
+            //const data = await response.json()
+
+            //if (data.status !== 'finished') {
+            //    throw new Error('Unable to clear cache')
+            //}
+        }
+
+        purge({
+            "name": "SECURITY.md",
+            "path": "SECURITY.md",
+            "sha": "2101689adf414e5176b0b672b9be753503c83d71",
+            "size": 607,
+            "url": "https://api.github.com/repos/dnd-mdn/cdn/contents/SECURITY.md?ref=main",
+            "html_url": "https://github.com/dnd-mdn/cdn/blob/main/SECURITY.md",
+            "git_url": "https://api.github.com/repos/dnd-mdn/cdn/git/blobs/2101689adf414e5176b0b672b9be753503c83d71",
+            "download_url": "https://raw.githubusercontent.com/dnd-mdn/cdn/main/SECURITY.md",
+            "type": "file",
+            "_links": {
+                "self": "https://api.github.com/repos/dnd-mdn/cdn/contents/SECURITY.md?ref=main",
+                "git": "https://api.github.com/repos/dnd-mdn/cdn/git/blobs/2101689adf414e5176b0b672b9be753503c83d71",
+                "html": "https://github.com/dnd-mdn/cdn/blob/main/SECURITY.md"
+            }
+        })
 
     </script>
 
