@@ -1,4 +1,6 @@
-# cdn (gh-pages branch)
+# cdn ~ gh-pages
 
-This static web tool is designed to help users through the process of using cdn files in their projects
+The [CDN tools](https://dnd-mdn.github.io/cdn/) application is designed to help publishers with the use of our [cdn](https://github.com/dnd-mdn/cdn/) repository.
+
+
 
