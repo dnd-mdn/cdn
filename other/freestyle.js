@@ -22,15 +22,17 @@
         var empty_footer = $('body>footer').filter(function () { return !$(this).text().trim() });
 
         if (empty_header.length || empty_footer.length) {
-            var url = wb.lang == 'en' ? 'https://www.canada.ca/en/department-national-defence.html' : 'https://www.canada.ca/fr/ministere-defense-nationale.html'
+            $(function(){
+                var url = wb.lang == 'en' ? 'https://www.canada.ca/en/department-national-defence.html' : 'https://www.canada.ca/fr/ministere-defense-nationale.html'
 
-            $.get(url).done(function (data) {
-                var $doc = $($.parseHTML('<div>' + data + '</div>'));
+                $.get(url).done(function (data) {
+                    var $doc = $($.parseHTML('<div>' + data + '</div>'));
 
-                empty_header.replaceWith($doc.children('header'));
-                empty_footer.replaceWith($doc.children('footer'));
-            }).always(function () {
-                withTemplate()
+                    empty_header.replaceWith($doc.children('header'));
+                    empty_footer.replaceWith($doc.children('footer'));
+                }).always(function () {
+                    withTemplate()
+                })
             })
         } else {
             withTemplate();
