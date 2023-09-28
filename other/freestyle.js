@@ -25,10 +25,10 @@
             var url = wb.lang == 'en' ? 'https://www.canada.ca/en/department-national-defence.html' : 'https://www.canada.ca/fr/ministere-defense-nationale.html'
 
             $.get(url).done(function (data) {
-                var doc = $.parseHTML('<div>' + data + '</div>');
+                var $doc = $($.parseHTML('<div>' + data + '</div>'));
 
-                empty_header.replaceWith(doc.children('header'));
-                empty_footer.replaceWith(doc.children('footer'));
+                empty_header.replaceWith($doc.children('header'));
+                empty_footer.replaceWith($doc.children('footer'));
             }).always(function () {
                 withTemplate()
             })
