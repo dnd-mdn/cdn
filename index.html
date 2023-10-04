@@ -21,23 +21,38 @@
         <div class="container my-2">
             <h1 class="h3 mt-4 visually-hidden">CDN Tools</h1>
             <p>darfhgsdethg</p>
-
-            <ol id="path" class="breadcrumb">
-                <li class="breadcrumb-item"><a href="?path=">cdn</a></li>
-                <li class="breadcrumb-item"><a href="?path=homepage">homepage</a></li>
-            </ol>
-
-            <ul id="list" class="list-group">
-                <li class="list-group-item">
-                    <div class="d-flex justify-content-center">
-                        <div class="spinner-border text-primary" role="status">
-                            <span class="visually-hidden">Loading...</span>
+            <div class="card mb-5">
+                <div class="card-header me-0">
+                    <ol id="path" class="breadcrumb mb-1">
+                        <li class="breadcrumb-item"><a href="?path=">cdn</a></li>
+                    </ol>
+                </div>
+                <ul id="list" class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <div class="d-flex justify-content-center">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
                         </div>
-                    </div>
-                </li>
-            </ul>
-
+                    </li>
+                </ul>
+            </div>
         </div>
+  
+        <div class="modal" tabindex="-1" id="modal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js" integrity="sha384-5AkRS45j4ukf+JbWAfHL8P4onPA9p0KwwP7pUdjSQA3ss9edbJUJc/XcYAiheSSz" crossorigin="anonymous"></script>
@@ -48,25 +63,29 @@
         import { Octokit } from "https://esm.sh/@octokit/rest"
 
         const octokit = new Octokit()
+        const modal = new bootstrap.Modal('#modal')
+        
+        async function load(path) {
 
-        const $list = $('#list')
+            $('#path').html(path_html(path))
 
-
-
-
-        async function show(dir) {
-
-            update_nav(dir)
+            $('#list').html(`<li class="list-group-item">
+                <div class="d-flex justify-content-center">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                </div>
+            </li>`)
 
             // Get data
-            const content = await octokit.repos.getContent({
+            const { data } = await octokit.repos.getContent({
                 owner: 'dnd-mdn',
                 repo: 'cdn',
-                dir: dir
+                path: path
             })
 
             // Sort nodes by type, then by name
-            const nodes = content.data.sort((a, b) => {
+            data.sort((a, b) => {
                 if (a.type === 'dir') {
                     return b.type === 'dir' ? a.name > b.name : -1
                 } else {
@@ -74,12 +93,18 @@
                 }
             })
 
+            $('#list').html(list_html(data))
 
-            update_view(nodes)
+
+
 
         }
 
-        show()
+
+
+
+
+        load(getPath())
 
         function getPath(path) {
             return new URLSearchParams(window.location.search).get('path')
@@ -88,55 +113,77 @@
         //window.history.pushState(null, null, `?path=${path}`)
 
 
-        function update_nav(path) {
+        function path_html(path) {
             const parts = path ? path.split('/') : []
-
             let html = '<li class="breadcrumb-item"><a href="?path=">cdn</a></li>'
+
             for (let x = 1; x <= parts.length; x++) {
                 const subpath = parts.slice(0, x).join('/')
-                html += `<li class="breadcrumb-item"><a href="?path=${subpath}">${parts[x - 1]}</a></li>`
+                const active = x === parts.length ? ' active' : ''
+
+                if (x < parts.length) {
+                    html += `<li class="breadcrumb-item${active}">
+                        <a href="?path=${subpath}">${parts[x - 1]}</a>
+                    </li>`
+                } else {
+                    html += `<li class="breadcrumb-item active">${parts[x - 1]}</li>`
+                }
             }
 
-            $('#path').html(html)
+            return html
         }
 
-        function update_view(nodes) {
+        function list_html(nodes) {
             let html = ''
-            console.log(nodes)
 
             nodes.forEach(node => {
-                html += `<li class="list-group-item list-group-item-action d-flex justify-content-between">`
-
                 if (node.type === 'dir') {
-                    html += `<div><i class="octicon-file-directory-fill-16 me-2 text-primary" title="Directory"></i> <a href="?path=${node.path}">${node.path}</a></div>`
+                    html += `<li class="list-group-item list-group-item-action d-flex justify-content-between">
+                        <div>
+                            <i class="octicon-file-directory-fill-16 me-2 text-primary" title="Directory"></i>
+                            <a href="?path=${node.path}">${node.name}</a>
+                        </div>
+                    </li>`
                 } else {
-                    html += `<div>
-                        <i class="octicon-file-16 me-2" title="File"></i> ${node.path}
-                    </div>
-                    <div class="btn-group" role="group" data-path="${node.path}">
-                        <button class="btn btn-sm btn-light py-0" title="Copy HTML" data-action="copy"><i class="octicon-copy-16"></i></button>
-                        <button class="btn btn-sm btn-light py-0" title="Edit" data-action="edit"><i class="octicon-pencil-16 text-warning"></i></button>
-                        <button class="btn btn-sm btn-light py-0" title="Purge Cache" data-action="purge"><i class="octicon-sync-16 text-success"></i></button>
-                    </div>`
+                    html += `<li class="list-group-item list-group-item-action d-flex justify-content-between">
+                        <div>
+                            <i class="octicon-file-16 me-2" title="File"></i> ${node.name}
+                        </div>
+                        <div class="btn-group" role="group" data-path="${node.path}">
+                            <button class="btn btn-sm btn-light py-0" title="Copy HTML" data-action="copy"><i class="octicon-copy-16"></i></button>
+                            <button class="btn btn-sm btn-light py-0" title="Edit" data-action="edit"><i class="octicon-mark-github-16"></i></button>
+                            <button class="btn btn-sm btn-light py-0" title="Cache info" data-action="info"><i class="octicon-info-16"></i></button>
+                            <button class="btn btn-sm btn-light py-0" title="Purge Cache" data-action="purge"><i class="octicon-sync-16"></i></button>
+                            
+                            </div>
+                    </li>`
                 }
-
-                html += '</li>'
             })
 
-            $('#list').html(html)
+            return html
         }
 
+        function show_modal(title, body) {
+            $('#modal .modal-title').html(title)
+            $('#modal .modal-body').html(body)
+            modal.show()
+        }
+
+     
         // Handle action buttons
         $("#list").on("click", "button", function (event) {
-            let path = $(this).parent().data('path')
+            const path = $(this).parent().data('path')
+            const action = $(this).data('action')
 
             event.preventDefault();
-            console.log($(this).data('action') + ' ' + path);
+           
+
+            if (action === 'info'){
+                show_modal('info','srfgaer')
+            }
         });
 
 
-        window.setPath = update_nav
-        window.getPath = getPath
 
 
         async function purge(node) {
