@@ -1,0 +1,1746 @@
+{
+    "sections": [
+        {
+            "title": {
+                "en": "Defence Ethics",
+                "fr": "Éthique de la Défense"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/ethics.png",
+            "description": {
+                "en": "Defence Ethics",
+                "fr": "Éthique de la Défense"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Trusted To Serve",
+                        "fr": "Digne de servir"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/canadian-armed-forces-ethos-trusted-to-serve.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/rapports-publications/l-ethos-des-forces-armees-canadiennes-digne-de-servir.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "DND/CAF Code of Values and Ethics",
+                        "fr": "Code de valeurs et d’éthique du MDN et des FAC"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/defence-ethics/policies-publications/code-value-ethics.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/ethique-defense/publications-politiques/code-valeurs-ethique.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Duty with Honour: The Profession of Arms in Canada 2009",
+                        "fr": "Servir avec honneur : La profession des armes au Canada 2009"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/duty-with-honour-2009.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/rapports-publications/servir-avec-honneur-2009.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "About the Defence Ethics Programme",
+                        "fr": "À propos de l’éthique de la Défense"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/defence-ethics/about.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/ethique-defense/a-propos.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Ethics related policies and publications",
+                        "fr": "Publications et politiques portant sur l’éthique de la Défense"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/defence-ethics/policies-publications.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/ethique-defense/publications-politiques.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Education and training",
+                        "fr": "Éducation et formation"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/defence-ethics/education.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/ethique-defense/education.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Conversations on Defence Ethics (CODE)",
+                        "fr": "Conversations ouvertes de la Défense sur l'éthique (CODE)"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/defence-ethics/prof-dev-day-ethics.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/ethique-defense/jour-dev-prof-ethique.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Ethics scenarios: What would you do",
+                        "fr": "Scénarios d’éthique : Que feriez-vous?"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/defence-ethics/scenarios.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/ethique-defense/scenarios.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Conduct and Culture change",
+                "fr": "La conduite et le changement culturel"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/culture.png",
+            "description": {
+                "en": "Conduct and Culture change",
+                "fr": "La conduite et le changement culturel"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Conduct and culture change progress tracker",
+                        "fr": "Outil de suivi des progrès de la conduite et du changement culturel"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/conduct-and-culture/conduct-and-culture-tracker.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/conduite-et-culture/conduite-et-culture-traqueur.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Chief Professional Conduct and Culture",
+                        "fr": "Chef – Conduite professionnelle et culture"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/organizational-structure/chief-professional-conduct-culture.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/structure-organisationnelle/chef-conduite-professionnelle-culture.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Independent External Comprehensive Review",
+                        "fr": "Examen externe complet et indépendant"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/conduct-and-culture/independent-external-comprehensive-review.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/conduite-et-culture/examen-externe-complet-et-independant.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Defence Team Conduct and Culture Consultation",
+                        "fr": "Consultation de l’Équipe de la Défense sur la conduite et la culture"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/conduct-and-culture/join-the-discussion-defence-team-conduct-and-culture-consultation.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/conduite-et-culture/joignez-vous-a-la-discussion-consultation-de-lequipe-de-la-defense-sur-la-conduite-et-la-culture.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Workplace conflict, misconduct, and harassment resolution",
+                        "fr": "Résolution des conflits en milieu de travail et des cas d’inconduite et de harcèlement"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/conflict-misconduct.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/conflits-inconduite.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "CDS/DM Initiating Directive for Professional Conduct and Culture",
+                        "fr": "Directive de lancement du CEMD/SM concernant la conduite professionnelle et la culture"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/dm-cds-directives/cds-dm-initiating-directive-professional-conduct-culture.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes/directives-sm-cemd/directive-lancement-cemd-sm-concernant-conduite-professionnelle-culture.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Pay & pension",
+                "fr": "Solde et pension"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/pay.png",
+            "description": {
+                "en": "Pay rates, pension & severance",
+                "fr": "Taux de solde, pension et indemnite"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Pay rates",
+                        "fr": "Taux de solde"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/pay-pension-benefits/pay.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/solde-pension-indemnites/solde.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Severance & gratuities",
+                        "fr": "Indemnite et Gratifications"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/pay-pension-benefits/pay/severance.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/solde-pension-indemnites/solde/indemnite.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Pensions",
+                        "fr": "Pensions"
+                    },
+                    "web": {
+                        "en": "https://www.tpsgc-pwgsc.gc.ca/fac-caf/accueil-home-eng.html",
+                        "fr": "https://www.tpsgc-pwgsc.gc.ca/fac-caf/accueil-home-fra.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Instructions to access your pension",
+                        "fr": "Instructions pour accéder à votre pension"
+                    },
+                    "web": {
+                        "en": "https://www.tpsgc-pwgsc.gc.ca/fac-caf/eaopp-sappt-eng.html",
+                        "fr": "https://www.tpsgc-pwgsc.gc.ca/fac-caf/eaopp-sappt-fra.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Compensation & Benefit Instructions",
+                        "fr": "Directives sur la rémuneration et les avantages sociaux"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/compensation-benefits-instructions.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes/remunerations-avantages-sociaux.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "COVID-19",
+                "fr": "COVID-19"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/alert.png",
+            "description": {
+                "en": "Information & resources for military & civilian members of the Defence Team ",
+                "fr": "Informations et ressources à l’intention des civils et militaires de l’Équipe de la Défense "
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Defence Team – COVID-19",
+                        "fr": "Équipe de la Défense – COVID-19"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/campaigns/covid-19.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/campagnes/covid-19.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "COVID-19 vaccines for Defence Team members",
+                        "fr": "Vaccination des membres de l’Équipe de la Défense contre la COVID-19"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/campaigns/covid-19/covid-19-vaccines-for-canadian-armed-forces-members.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/campagnes/covid-19/vaccination-des-membres-des-fac-contre-la-covid-19.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Government of Canada - COVID-19",
+                        "fr": "Gouvernement du Canada – COVID-19"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html",
+                        "fr": "https://www.canada.ca/fr/sante-publique/services/maladies/maladie-coronavirus-covid-19.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "CDS/DM Directive on DND/CAF Operating and Reconstituting in a Persistent COVID-19 Environment",
+                        "fr": "Directive du CEMD/SM sur le fonctionnement et la reconstitution du MDN/des FAC dans un environnement COVID-19 persistant"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/dm-cds-directives/cds-dm-directive-dnd-caf-operating-reconstituting-persistent-covid-19-ennvironment.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes/directives-sm-cemd/directive-cemd-sm-fonctionnement-reconstitution-mdn-fac-environnement-covid-19-persistant.html?utm_source=resources&utm_medium=caf-mobile-app&utm_campaign=covid"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "COVID-19 Symptom Self-Assessment Tool",
+                        "fr": "Outil d'auto-évaluation des symptômes COVID-19"
+                    },
+                    "web": {
+                        "en": "https://ca.thrive.health/covid19/en",
+                        "fr": "https://ca.thrive.health/covid19/fr"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Services & benefits",
+                "fr": "Services et avantages sociaux"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/services-benefits.png",
+            "description": {
+                "en": "Military services & benefits, compensation, housing, Defence Ethics Programme (DEP)",
+                "fr": "Services et avantages sociaux du personnel militaire, rémunération, logement, Programme d’éthique de la Défense (PÉD)"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Health, support & casualty services",
+                        "fr": "Services de santé, de soutien et d’aide aux blessés"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/health-support.html?utm_source=resources&utm_medium=caf-mobile-app",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/sante-soutien.html?utm_source=resources&utm_medium=caf-mobile-app"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Workplace conflict, misconduct & harrassment resolution",
+                        "fr": "Résolution des conflits en milieu de travail et des cas d’inconduite et de harcèlement"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/conflict-misconduct.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/conflits-inconduite.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Military benefits",
+                        "fr": "Prestations du personnel militaire"
+                    },
+                    "web": {
+                        "en": "http://www.canada.ca/en/department-national-defence/services/benefits-military/pay-pension-benefits/benefits.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/solde-pension-indemnites/prestations.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Relocation, travel & accomodation benefits",
+                        "fr": "Prestations pour la réinstallation, les déplacements et l’hébergement"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/pay-pension-benefits/benefits/relocation-travel-accommodation.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/solde-pension-indemnites/prestations/reinstallation-deplacements-hebergement.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Compensation & Benefit Instructions",
+                        "fr": "Directives sur la rémuneration et les avantages sociaux"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/compensation-benefits-instructions.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes/remunerations-avantages-sociaux.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Military mental health services",
+                        "fr": "Services en santé mentale à l’intention des militaires"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/military-mental-health.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/sante-mentale-militaires.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Military housing",
+                        "fr": "Logements militaires"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/military-housing.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/logements-militaires.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Veterans Affairs Canada",
+                        "fr": "Anciens Combattants Canada"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/veterans-affairs-canada.html",
+                        "fr": "https://www.canada.ca/fr/anciens-combattants-canada.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Legal services",
+                        "fr": "Services juridiques"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/legal-services.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/services-juridiques.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Defence Ethics",
+                        "fr": "Éthique de la Défense"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/defence-ethics.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/ethique-defense.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Military career transition",
+                        "fr": "Transition de carrière pour les militaires"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/transition.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/transition.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "CANEX Discounts",
+                        "fr": "Rabais de CANEX"
+                    },
+                    "web": {
+                        "en": "https://www.cfmws.com/en/AboutUs/CANEX/Pages/default.aspx",
+                        "fr": "https://www.cfmws.com/fr/aboutus/canex/pages/default.aspx"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Jobs",
+                "fr": "Emplois"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/jobs.png",
+            "description": {
+                "en": "Available jobs, recruiters near you, specialized employment ",
+                "fr": "Emplois disponibles, recruteurs locaux, emplois spécialisé "
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Canadian Armed Forces jobs",
+                        "fr": "Emplois dans les Forces armées canadiennes"
+                    },
+                    "web": {
+                        "en": "https://forces.ca/en/careers/",
+                        "fr": "https://forces.ca/fr/carrieres/"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Reserve Employment Opportunities",
+                        "fr": "Emplois de la Réserve"
+                    },
+                    "web": {
+                        "en": "https://mcsportal-portaillcm.forces.gc.ca/reo/en/index.aspx",
+                        "fr": "https://mcsportal-portaillcm.forces.gc.ca/reo/fr/index.aspx"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Talk to a recruiter",
+                        "fr": "Parlez à un recruteur"
+                    },
+                    "web": {
+                        "en": "https://forces.ca/en/talk-to-a-recruiter/",
+                        "fr": "https://forces.ca/fr/parlez-a-un-recruteur/"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Specialized employment - CANSOFCOM",
+                        "fr": "Emplois spécialisé - COMFOSCAN"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/special-operations-forces-command.html",
+                        "fr": "https://www.canada.ca/fr/commandement-forces-operations-speciales.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Civilian jobs",
+                        "fr": "Emplois civils"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/job-opportunities/civilian-jobs.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/possibilites-demploi/emplois-civils.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Jobs in national security & defence",
+                        "fr": "Emplois en sécurité nationale et en défense"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/jobs.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/emplois.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "OP Unified Recruiter Aide-Mémoire",
+                        "fr": "Aide-mémoire sur le recrutement"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/campaigns/get-involved-caf-recruitment/recruiting-aide-memoire.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/campagnes/impliquez-vous-recrutement-fac/aide-memoire-sur-le-recrutement.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Leave & Travel",
+                "fr": "Congés et déplacements"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/leave-travel.png",
+            "description": {
+                "en": "Canadian Forces Leave Policy Manual, Canadian Forces Temporary Duty Travel Instructions",
+                "fr": "Manuel sur les politiques régissant les congés des Forces canadiennes, Directive des Forces Canadiennes sur les voyages en service temporaire"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Canadian Forces Leave Policy Manual",
+                        "fr": "Manuel sur les politiques régissant les congés des Forces canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/leave-policy-manual.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes/manuel-politiques-regissant-conges.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Canadian Forces Temporary Duty Travel Instructions",
+                        "fr": "Directive des Forces Canadiennes sur les voyages en service temporaire"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/pay-pension-benefits/benefits/canadian-forces-temporary-duty-travel-instructions.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/solde-pension-indemnites/prestations/directive-des-forces-canadiennes-sur-les-voyages-en-service-temporaire.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Dress, drill & heritage manuals",
+                "fr": "Exercice, tenue, cérémonial et patrimoine"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/drill.png",
+            "description": {
+                "en": "Military ranks, badges, colours, medals, flags & banners",
+                "fr": "Tenue, manuels sur l’exercice et le patrimoine. Grades, insignes, drapeaux consacrés, médailles, drapeaux et bannières militaires"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Canadian Forces Dress Instructions",
+                        "fr": "Instructions sur la tenue des Forces canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/military-identity-system/dress-manual.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/histoire-militaire/histoire-patrimoine/instructions-tenue.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Drill manual",
+                        "fr": "Manuel de l'exercice"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/military-identity-system/drill-manual.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/systeme-identite-militaire/manuel-exercice.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Heritage manual",
+                        "fr": "Manuel sur le patrimoine"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/military-identity-system/heritage-manual.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/systeme-identite-militaire/manuel-patrimoine.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Military ranks",
+                        "fr": "Grades militaires"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/military-identity-system/rank-appointment-insignia.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/systeme-identite-militaire/insignes-grade-fonction.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Badges",
+                        "fr": "Insignes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/military-identity-system/canadian-forces-badges.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/systeme-identite-militaire/insignes-forces-canadiennes.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Colours",
+                        "fr": "Drapeaux consacrés"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/military-identity-system/guidons-colours-standards-gallery.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/systeme-identite-militaire/galerie-guidons-drapeaux-etandards.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Honours, medals & awards",
+                        "fr": "Distinctions honorifiques et récompenses"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/honours-medals-awards.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/distinctions-honorifiques-recompenses.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Flags",
+                        "fr": "Drapeaux"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/military-identity-system/flags.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/systeme-identite-militaire/galerie-drapeaux.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Policies, standards, orders, directives & regulations",
+                "fr": "Politiques, normes, ordonnances, directives et règlements"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/orders.png",
+            "description": {
+                "en": "QR&Os, DAODs",
+                "fr": "ORFC, DOAD"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Drill manual",
+                        "fr": "Manuel de l'exercice"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/military-identity-system/drill-manual.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/systeme-identite-militaire/manuel-exercice.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Queen's Regulations & Orders",
+                        "fr": "Ordonnances et règlements royaux applicables aux Forces canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/queens-regulations-orders.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes/ordonnances-reglements-royaux.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Defence Administrative Orders & Directives",
+                        "fr": "Directives et ordonnances administratives de la défense"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/defence-administrative-orders-directives.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes/directives-ordonnances-administratives-defense.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Canadian Forces Leave Policy Manual",
+                        "fr": "Manuel sur les politiques régissant les congés des Forces canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/leave-policy-manual.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes/manuel-politiques-regissant-conges.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Other policies & orders",
+                        "fr": "Autres politiques et ordonnances"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "CANELECTGENS",
+                        "fr": "CANELECTGENS"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/legal-services/voting-and-elections.html#canelectgens",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/services-juridiques/votes-et-elections.html#canelectgens"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Military operations",
+                "fr": "Opérations militaires"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/operations.png",
+            "description": {
+                "en": "Operations, exercises, allies & partners",
+                "fr": "Opérations, exercices, alliés et partenaires"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Military operations",
+                        "fr": "Opérations militaires"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/operations/military-operations.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/operations/operations-militaires.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Military exercises",
+                        "fr": "Exercices militaires"
+                    },
+                    "web": {
+                        "en": "http://dgpaapp.forces.gc.ca/en/exercises/index.html",
+                        "fr": "http://dgpaapp.forces.gc.ca/fr/exercices/index.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Allies & partners",
+                        "fr": "Alliés et partenaires"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/operations/allies-partners.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/operations/allies-partenaires.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Military history",
+                "fr": "Histoire militaires"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/history.png",
+            "description": {
+                "en": "Records, research & publications about Canada’s military history, the Canadian Armed Forces & the wars they fought",
+                "fr": "Dossiers, documents et publications sur l’histoire militaire du Canada, les Forces canadiennes et les guerres qu’elles ont menées"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Military history & heritage",
+                        "fr": "Histoire et patrimoine militaires"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/militaryhistory/military-history-heritage.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/histoiremilitaire/histoire-patrimoine-militaires.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Wars & operations",
+                        "fr": "Guerres et opérations"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/militaryhistory/wars-operations.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/histoiremilitaire/guerres-operations.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Remembrance",
+                        "fr": "Souvenir"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/militaryhistory/remembrance.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/histoiremilitaire/souvenir.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Memorials, monuments & cemeteries",
+                        "fr": "Mémoriaux, monuments commémoratifs et cimetières"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/militaryhistory/memorials-monuments-cemeteries.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/histoiremilitaire/memoriaux-monuments-cimetieres.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Military museums, art & films",
+                        "fr": "Musées, arts et films militaires"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/services/defence/caf/militaryhistory/militarymuseums.html",
+                        "fr": "https://www.canada.ca/fr/services/defense/fac/histoiremilitaire/museesmilitaires.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Education & training",
+                "fr": "Éducation et formation"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/education.png",
+            "description": {
+                "en": "Universities & training establishments, paid education & basic training",
+                "fr": "Universités et établissements d’enseignement, études payées et instruction de base"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Paid education",
+                        "fr": "Programmes d'études subventionnees"
+                    },
+                    "web": {
+                        "en": "https://forces.ca/en/paid-education/",
+                        "fr": "https://forces.ca/fr/etudes-payees/"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Canadian Armed Forces schools & training establishments",
+                        "fr": "Écoles et établissements d'instruction militaires"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/education-training/establishments.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/education-formation/etablissements.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Royal Military College of Canada",
+                        "fr": "Collège militaire royal du Canada"
+                    },
+                    "web": {
+                        "en": "https://www.rmc-cmr.ca/en",
+                        "fr": "https://www.rmc-cmr.ca/fr"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Royal Military College Saint-Jean",
+                        "fr": "Collège militaire royal de Saint-Jean"
+                    },
+                    "web": {
+                        "en": "http://www.cmrsj-rmcsj.forces.gc.ca/index-eng.asp",
+                        "fr": "https://www.cmrsj-rmcsj.forces.gc.ca/index-fra.asp"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Canadian Forces College",
+                        "fr": "Collège des Forces canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.cfc.forces.gc.ca/221-eng.html",
+                        "fr": "https://www.cfc.forces.gc.ca/221-fra.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Basic training",
+                        "fr": "Instruction de base"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/caf-jobs/life/training/basic-training.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/emplois-fac/vie/formation/instruction-base.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "International education & training",
+                        "fr": "Éducation et formation internationales"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/education-training/international-education-training.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/education-formation/education-formation-internationales.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Professional development",
+                "fr": "Perfectionnement professionnel"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/professional-development.png",
+            "description": {
+                "en": "DLN, Canadian Forces Personnel Appraisal System, Second Language Training, Canadian Armed Forces professional development framework, CFAT",
+                "fr": "RAD, Système d’évaluation du personnel des Forces canadiennes, formation en langue seconde, cadre de perfectionnement professionnel des Forces armées canadiennes, TAFC"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Canadian Armed Forces professional development framework",
+                        "fr": "Système de perfectionnement professionnel des Forces armées canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/education-training/professional-development/framework.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/education-formation/perfectionnement-professionnel/cadre.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Performance and Competency Evaluation (PaCE)",
+                        "fr": "Évaluation de la performance et des compétences (EPC)"
+                    },
+                    "web": {
+                        "en": "http://www.cmp-cpm.forces.gc.ca/pace-epc/en/index.asp",
+                        "fr": "http://www.cmp-cpm.forces.gc.ca/pace-epc/fr/index.asp"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Defence Learning Network",
+                        "fr": "Réseau d'apprentissage de la Défense"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/education-training/professional-development/defence-learning-network.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/education-formation/perfectionnement-professionnel/reseau-apprentissage-defense.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Reimbursements & allowances",
+                        "fr": "Remboursement et indemnités"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/education-training/reimbursements-allowances.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/education-formation/remboursement-indemnites.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Canadian Forces Language School",
+                        "fr": "École de langues des Forces canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/education-training/establishments/language-school.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/education-formation/etablissements/ecole-langues.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Veterans Affairs Canada",
+                "fr": "Anciens Combattants Canada "
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/vac.png",
+            "description": {
+                "en": "My VAC Account, services & benefits for veterans",
+                "fr": "Mon dossier ACC, services et avantages sociaux des vétérans"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Veterans Affairs Canada",
+                        "fr": "Anciens Combattants Canada"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/veterans-affairs-canada.html",
+                        "fr": "https://www.canada.ca/fr/anciens-combattants-canada.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "My VAC Account",
+                        "fr": "Mon dossier ACC"
+                    },
+                    "web": {
+                        "en": "https://www.veterans.gc.ca/eng/e_services?utm_source=header&utm_medium=button&utm_campaign=MVA",
+                        "fr": "https://www.veterans.gc.ca/fra/endirect?utm_source=header&utm_medium=button&utm_campaign=MVA"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Veteran's Service Card",
+                        "fr": "Carte de service des anciens combattants"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/transition/service-card.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/transition/carte-service.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Disability benefits",
+                        "fr": "Prestations d'invalidité"
+                    },
+                    "web": {
+                        "en": "https://www.veterans.gc.ca/eng/services/after-injury/disability-benefits",
+                        "fr": "https://www.veterans.gc.ca/fra/services/after-injury/prestations-invalidite"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Veteran's Affairs Canada",
+                        "fr": "Anciens Combattants Canada"
+                    },
+                    "web": {
+                        "en": "https://www.veterans.gc.ca/eng",
+                        "fr": "https://www.veterans.gc.ca/fra"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Rates",
+                        "fr": "Taux"
+                    },
+                    "web": {
+                        "en": "https://www.veterans.gc.ca/eng/services/rates",
+                        "fr": "https://www.veterans.gc.ca/fra/services/rates"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Veterans Matter mobile app",
+                        "fr": "Les vétérans le méritent - Application mobile"
+                    },
+                    "web": {
+                        "en": "https://www.veterans.gc.ca/eng/resources/stay-connected/mobile-app/veterans-matter",
+                        "fr": "https://www.veterans.gc.ca/fra/resources/stay-connected/mobile-app/veterans-matter"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "PTSD Coach Canada",
+                        "fr": "Coach ESPT Canada"
+                    },
+                    "web": {
+                        "en": "https://www.veterans.gc.ca/eng/resources/stay-connected/mobile-app/ptsd-coach-canada",
+                        "fr": "https://www.veterans.gc.ca/fra/resources/stay-connected/mobile-app/ptsd-coach-canada"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "My Transition Services (iOS - mobile app)",
+                        "fr": "Mes Services de Transition (Aplication mobile - iOS)"
+                    },
+                    "web": {
+                        "en": "https://apps.apple.com/ca/app/my-transition-services/id1439355659",
+                        "fr": "https://apps.apple.com/ca/app/my-transition-services/id1439355659"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "My Transition Services (Google Play - mobile app)",
+                        "fr": "Mes Services de Transition (Aplication mobile - Google Play)"
+                    },
+                    "web": {
+                        "en": "https://play.google.com/store/apps/details?id=ca.forces.transition&hl=en_CA",
+                        "fr": "https://play.google.com/store/apps/details?id=ca.forces.transition&hl=fr_CA"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Bases & infrastructure",
+                "fr": "Bases et infrastructure"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/bases.png",
+            "description": {
+                "en": "Bases & support units, infrastructure projects",
+                "fr": "Bases et unités de soutien, projet d'infrastructure"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Bases & support units",
+                        "fr": "Bases et unités de soutien"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/bases-support-units.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/bases-unites-de-soutien.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Navy bases",
+                        "fr": "Bases de la Marine"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/navy/corporate/our-organization/structure.html",
+                        "fr": "https://www.canada.ca/fr/marine/organisation/notre-organisation.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Army bases",
+                        "fr": "Bases de l'armée"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/bases-support-units.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/bases-unites-de-soutien.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Air Force wings & squadrons",
+                        "fr": "Ailes et escadrons de la Force aérienne"
+                    },
+                    "web": {
+                        "en": "http://www.rcaf-arc.forces.gc.ca/en/wings-squadrons.page",
+                        "fr": "http://www.rcaf-arc.forces.gc.ca/fr/escadres-escadrons.page"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Operational & support units",
+                        "fr": "Unités opérationnelles et de soutien"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/bases-support-units.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/bases-unites-de-soutien.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Defence infrastructure projects",
+                        "fr": "Projet d'infrastructure de la Défense"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/infrastructure-projects.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/projets-infrastructure.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Canadian Forces Support Group Ottawa-Gatineau (CFSG (O-G))",
+                        "fr": "Groupe de soutien des Forces canadiennes Ottawa-Gatineau (GSFC(O-G))"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/bases-support-units/canadian-forces-support-unit-ottawa.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/bases-unites-de-soutien/unite-soutien-forces-canadiennes-ottawa.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Cadets & Junior Canadian Rangers",
+                "fr": "Cadets et Rangers juniors canadiens"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/cadets.png",
+            "description": {
+                "en": "Cadets, Junior Canadian Rangers",
+                "fr": "Cadets, Rangers juniors canadiens"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Cadets",
+                        "fr": "Cadets"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/cadets-junior-canadian-rangers/cadets.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/cadets-rangers-juniors-canadiens/cadets.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Junior Canadian Rangers",
+                        "fr": "Rangers juniors canadiens"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/cadets-junior-canadian-rangers/junior-canadian-rangers.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/cadets-rangers-juniors-canadiens/rangers-juniors-canadiens.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "How adults can help",
+                        "fr": "Comment les adultes peuvent aider"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/cadets-junior-canadian-rangers/how-adults-can-help.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/cadets-rangers-juniors-canadiens/comment-adultes-peuvent-aider.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "News",
+                "fr": "Nouvelles"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/news.png",
+            "description": {
+                "en": "Get news about the Defence Team",
+                "fr": "Nouvelles concernant l’Équipe de la Défense"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "National Defence News",
+                        "fr": "Nouvelles de la Défense nationale"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/news/advanced-news-search/news-results.html?_=1505314181338&dprtmnt=departmentnationaldefense&start=&end=",
+                        "fr": "https://www.canada.ca/fr/nouvelles/recherche-avancee-de-nouvelles/resultats-de-nouvelles.html?_=1508424869604&typ=&dprtmnt=departmentnationaldefense&mnstr=&start=&end="
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Maple Leaf",
+                        "fr": "La Feuille d'érable"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/maple-leaf.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/feuille-derable.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Health, support & casualty services",
+                "fr": "Services de santé, de soutien et d’aide aux blessés"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/health-support.png",
+            "description": {
+                "en": "Medical, dental, mental health, morale, wellness, chaplain",
+                "fr": "Santé, soins dentaires, santé mentale, moral, bien-être, aumônerie"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "The Defence Team Total Health and Wellness Strategy",
+                        "fr": "La Stratégie de santé globale et de mieux-être de l'Équipe de la Défense"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/health-support/total-health-and-wellness-strategy.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/sante-soutien/strategie-de-sante-globale-et-de-mieux-etre.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Mental health in the Canadian Armed Forces",
+                        "fr": "Santé mentale dans les Forces armées canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/health-support/mental-health.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/sante-soutien/sante-mentale.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Medical & dental benefits",
+                        "fr": "Prestations médicaux et dentaires"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/pay-pension-benefits/benefits/medical-dental.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/solde-pension-indemnites/prestations/medicales-dentaires.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Member & Family Assistance services",
+                        "fr": "Services d’aide aux militaires et à leur famille"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/health-support/member-family-assistance-services.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/sante-soutien/services-aide-militaires-famille.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Canadian Armed Forces medical centres",
+                        "fr": "Les centres médicaux et dentaires des Forces armées canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/health-support/medical-dental-centers.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/sante-soutien/centres-medicaux-dentaires.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Staying healthy & active",
+                        "fr": "Mode de vie sain et actif"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/health-support/staying-healthy-active.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/sante-soutien/mode-vie-sain-actif.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Casualty support services",
+                        "fr": "Services de soutien aux blessés"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/health-support/casualty-support.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/sante-soutien/soutien-blesses.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Morale & wellness",
+                        "fr": "Bien-être et moral "
+                    },
+                    "web": {
+                        "en": "http://www.cafconnection.ca/",
+                        "fr": "https://www.connexionfac.ca/Nationale/Accueil.aspx"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Chaplaincy & spiritual wellness",
+                        "fr": "Aumônerie et mieux-être spirituel"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/health-support/chaplain.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/sante-soutien/aumonerie1.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Spiritual Resilience in the CAF",
+                        "fr": "Résilience spirituelle au sein des FAC"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/health-support/spiritual-resilience-caf.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/sante-soutien/resilience-spirituelle-sein-fac.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Sexual misconduct",
+                        "fr": "Inconduite sexuelle"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/conflict-misconduct/operation-honour.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/conflits-inconduite/operation-honour.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Reservists",
+                "fr": "Les réservistes"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/reservists.png",
+            "description": {
+                "en": "Military transition process, Canadian Forces Liaison Council, Reserve Force Foreign Service Arrangements",
+                "fr": "Processus de libération du service militaire, Le Conseil de liaison des Forces canadiennes, Ententes sur le service extérieur"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Reserve Employment Opportunities",
+                        "fr": "Emplois de la Réserve"
+                    },
+                    "web": {
+                        "en": "https://mcsportal-portaillcm.forces.gc.ca/reo/en/index.aspx",
+                        "fr": "https://mcsportal-portaillcm.forces.gc.ca/reo/fr/index.aspx"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Health Care for Reservists",
+                        "fr": "Soins de santé pour les réservistes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/ombudsman-national-defence-forces/education-information/caf-members/reservist-information/health-care.html",
+                        "fr": "https://www.canada.ca/en/ombudsman-national-defence-forces/education-information/caf-members/reservist-information/health-care.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Reservist Employer Support Services",
+                        "fr": "Services de soutien à l'employeur de réservistes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/canada-reserve-force/information-reservists/reservist-employers-support-services.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/force-reserve-canada/information-reservistes/propos-services-soutien-employeurs-reservistes.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Programs and Tools for Employers of Reservists",
+                        "fr": "Programmes et outils pour les employeurs de réservistes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/canada-reserve-force/supporting-reservists.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/force-reserve-canada/soutenir-reservistes.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Reserve Force Foreign Service Arrangements (RFFSA)",
+                        "fr": "Ententes sur le service extérieur des Forces de réserve (ESEFR)"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/policies-standards/defence-administrative-orders-directives/2000-series/2020/2020-5-reserve-forces-foreign-service-arrangements.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/politiques-normes/directives-ordonnances-administratives-defense/serie-2000/2020/2020-5-ententes-sur-le-service-a-letranger-des-forces-de-reserve.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Military release process",
+                        "fr": "Processus de libération du service militaire"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/benefits-military/transition/release.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/avantages-militaires/transition/liberation.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Other mobile apps",
+                "fr": "Autres applications mobiles"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/mobile-apps.png",
+            "description": {
+                "en": "Respect in the CAF, HR Go, Cadets, Forces Jobs, R2MR",
+                "fr": "Respect dans les FAC, RH Go, Cadets, Emplois dans les FAC, RVPM"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Respect in the CAF (iOS App Store)",
+                        "fr": "Respect dans les FAC (iOS App Store)"
+                    },
+                    "web": {
+                        "en": "https://apps.apple.com/ca/app/respect-in-the-caf/id1249418271",
+                        "fr": "https://apps.apple.com/ca/app/respect-in-the-caf/id1249418271?l=fr"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Respect in the CAF (Google Play/Android)",
+                        "fr": "Respect dans les FAC (Google Play/Android)"
+                    },
+                    "web": {
+                        "en": "https://play.google.com/store/apps/details?id=ca.gc.forces.ritcaf",
+                        "fr": "https://play.google.com/store/apps/details?id=ca.gc.forces.ritcaf&hl=fr"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "HR Go (iOS App Store)",
+                        "fr": "Go RH (iOS App Store)"
+                    },
+                    "web": {
+                        "en": "https://apps.apple.com/ca/app/hr-go-rh/id1460154062",
+                        "fr": "https://apps.apple.com/ca/app/hr-go-rh/id1460154062?l=fr"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "HR Go (Google Play/Android)",
+                        "fr": "Go RH (Google Play/Android)"
+                    },
+                    "web": {
+                        "en": "https://play.google.com/store/apps/details?id=ca.forces.hrciv.hrgo&hl=en_CA",
+                        "fr": "https://play.google.com/store/apps/details?id=ca.forces.hrciv.hrgo&hl=fr_CA"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "R2MR (iOS App Store)",
+                        "fr": "RVPM (iOS App Store)"
+                    },
+                    "web": {
+                        "en": "https://apps.apple.com/us/app/r2mr/id1148743063",
+                        "fr": "https://apps.apple.com/ca/app/rvpm/id1148743063?l=fr"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "My Transition Services (iOS - mobile app)",
+                        "fr": "Mes Services de Transition (Aplication mobile - iOS)"
+                    },
+                    "web": {
+                        "en": "https://apps.apple.com/ca/app/my-transition-services/id1439355659",
+                        "fr": "https://apps.apple.com/ca/app/my-transition-services/id1439355659"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "My Transition Services (Google Play - mobile app)",
+                        "fr": "Mes Services de Transition (Aplication mobile - Google Play)"
+                    },
+                    "web": {
+                        "en": "https://play.google.com/store/apps/details?id=ca.forces.transition&hl=en_CA",
+                        "fr": "https://play.google.com/store/apps/details?id=ca.forces.transition&hl=fr_CA"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "R2MR (Google Play/Android)",
+                        "fr": "RVPM (Google Play/Android)"
+                    },
+                    "web": {
+                        "en": "https://play.google.com/store/apps/details?id=ca.drdc.rddc.r2mr",
+                        "fr": "https://play.google.com/store/apps/details?id=ca.drdc.rddc.r2mr&hl=fr"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Environments & organizational structure",
+                "fr": "Environnements et structure organisationnelle"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/enviro.png",
+            "description": {
+                "en": "RCN, Army, RCAF, Organizational structure",
+                "fr": "MRC, Armée, ARC, Structure organisationnelle"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "National Defence",
+                        "fr": "Défense nationale"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Royal Canadian Navy",
+                        "fr": "Marine royale canadienne"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/navy.html",
+                        "fr": "https://www.canada.ca/fr/marine.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Canadian Army",
+                        "fr": "Armée canadienne"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/army.html",
+                        "fr": "https://www.canada.ca/fr/armee.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Royal Canadian Air Force",
+                        "fr": "Aviation royale canadienne"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/air-force.html",
+                        "fr": "https://www.canada.ca/fr/force-aerienne.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Organizational structure",
+                        "fr": "Structure organisationnelle"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/organizational-structure.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/structure-organisationnelle.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Defence portfolio",
+                        "fr": "Portefeuille de la défense"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/corporate/defence-portfolio.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/organisation/portefeuille-de-la-defense.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "Contact us",
+                "fr": "Contactez-nous"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/contact.png",
+            "description": {
+                "en": "Find contact information related to the Department of National Defence (DND) or the Canadian Armed Forces (CAF)",
+                "fr": "Trouver les coordonnées associées au ministère de la Défense nationale (MDN) ou aux Forces armées canadiennes (FAC)"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "Contact the Department of National Defence",
+                        "fr": "Contactez le ministère de la Défense nationale"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/contact-us.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/contactez-nous.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Chief Military Personnel Administrative Response Centre (ARC)",
+                        "fr": "Centre de réponses administratives du Chef du Commandement du personnel militaire"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/contact-us/contact-us-cmp.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/contactez-nous/contactez-nous-ccpm.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Public Inquiries",
+                        "fr": "Demandes de renseignements du public"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/contact-us/dnd-public-inquiries.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/contactez-nous/demandes-renseignements-public-mdn.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Sexual Misconduct Response Centre",
+                        "fr": "Centre de réponse à l'inconduite sexuelle"
+                    },
+                    "phone": "1-844-750-1648",
+                    "email": "DND.SMRC-CIIS.MDN@forces.gc.ca"
+                },
+                {
+                    "title": {
+                        "en": "24/7 Member Assistance",
+                        "fr": "24/7 Programme d'aide aux membres"
+                    },
+                    "phone": "1-800-268-7708"
+                },
+                {
+                    "title": {
+                        "en": "24/7 Family Information Line",
+                        "fr": "24/7 Ligne d’information pour les familles"
+                    },
+                    "phone": "1-800-866-4546",
+                    "web": {
+                        "en": "https://www.cafconnection.ca",
+                        "fr": "https://www.connexionfac.ca/Nationale/Accueil.aspx"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "24/7 Family Information Line (international)",
+                        "fr": "24/7 Ligne d’information pour les familles (international)"
+                    },
+                    "phone": "00-800-771-17722"
+                },
+                {
+                    "title": {
+                        "en": "Whistleblowing for employees of National Defence and the Canadian Armed Forces",
+                        "fr": "Dénonciation pour le personnel du ministère de la Défense nationale et des Forces armées canadiennes"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/contact-us/whistleblowing/submit-disclosure-wrongdoing.html?utm_source=resources&utm_medium=caf-mobile-app",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/contactez-nous/denonciation/divulgation-actes-reprehensibles.html?utm_source=resources&utm_medium=caf-mobile-app"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Find a base or support unit",
+                        "fr": "Trouvez une base ou unité de soutien"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/department-national-defence/services/bases-support-units.html",
+                        "fr": "https://www.canada.ca/fr/ministere-defense-nationale/services/bases-unites-de-soutien.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Minister of National Defence",
+                        "fr": "Ministre de la Défense nationale"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/government/ministers/anita-anand.html",
+                        "fr": "https://www.canada.ca/fr/gouvernement/ministres/anita-anand.html"
+                    }
+                }
+            ]
+        },
+        {
+            "title": {
+                "en": "OUTCAN (Outside Canada)",
+                "fr": "OUTCAN (Extérieur du Canada)"
+            },
+            "image": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-app/v2/outcan.png",
+            "description": {
+                "en": "OUTCAN program, policies, screening, education",
+                "fr": "Programme OUTCAN, politiques, dépistage, éducation"
+            },
+            "list": [
+                {
+                    "title": {
+                        "en": "About OUTCAN",
+                        "fr": "À propos d'OUTCAN"
+                    },
+                    "web": {
+                        "en": "https://www.canada.ca/en/ombudsman-national-defence-forces/education-information/caf-members/career/outcan.html",
+                        "fr": "https://www.canada.ca/fr/ombudsman-defense-nationale-forces/information-educative/militaires-fac/carriere/outcan.html"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Children's Education Management",
+                        "fr": "Gestion de l'éducation des enfants"
+                    },
+                    "web": {
+                        "en": "https://www.cafconnection.ca/National/Programs-Services/Children-s-Education-Management.aspx",
+                        "fr": "https://www.connexionfac.ca/Nationale/Programmes-et-Services/Gestion-de-l-education-des-enfants.aspx"
+                    }
+                },
+                {
+                    "title": {
+                        "en": "Government of Canada publications about working & travelling abroad",
+                        "fr": "Publications du gouvernement du Canada de travailler et voyager à l'étranger"
+                    },
+                    "web": {
+                        "en": "https://travel.gc.ca/travelling/publications",
+                        "fr": "https://voyage.gc.ca/voyager/publications"
+                    }
+                }
+            ]
+        }
+    ]
+}

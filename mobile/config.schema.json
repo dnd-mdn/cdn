@@ -1,0 +1,292 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$comment": "Configuration file for the caf mobile app",
+    "type": "object",
+    "properties": {
+        "latest_app_version": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "apiServer": {
+            "type": "string",
+            "format": "uri"
+        },
+        "canforgens": {
+            "type": "object",
+            "properties": {
+                "ip": {
+                    "type": "string",
+                    "format": "uri"
+                }
+            },
+            "required": [
+                "ip"
+            ]
+        },
+        "resources": {
+            "type": "object",
+            "properties": {
+                "ip": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "path": {
+                    "type": "string",
+                    "format": "uri-reference"
+                }
+            },
+            "required": [
+                "ip",
+                "path"
+            ]
+        },
+        "subscriptions": {
+            "type": "object",
+            "properties": {
+                "ip": {
+                    "type": "string",
+                    "format": "uri"
+                },
+                "path": {
+                    "type": "string",
+                    "format": "uri-reference"
+                }
+            },
+            "required": [
+                "ip",
+                "path"
+            ]
+        },
+        "feedbackForm": {
+            "type": "object",
+            "properties": {
+                "web": {
+                    "type": "object",
+                    "properties": {
+                        "en": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "fr": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    },
+                    "required": [
+                        "en",
+                        "fr"
+                    ]
+                }
+            },
+            "required": [
+                "web"
+            ]
+        },
+        "appStore": {
+            "type": "object",
+            "properties": {
+                "android": {
+                    "type": "object",
+                    "properties": {
+                        "en": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "fr": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    },
+                    "required": [
+                        "en",
+                        "fr"
+                    ]
+                },
+                "ios": {
+                    "type": "object",
+                    "properties": {
+                        "en": {
+                            "type": "string",
+                            "format": "uri"
+                        },
+                        "fr": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    },
+                    "required": [
+                        "en",
+                        "fr"
+                    ]
+                }
+            },
+            "required": [
+                "android",
+                "ios"
+            ]
+        },
+        "homeTab": {
+            "type": "object",
+            "properties": {
+                "backgroundImages": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "url": {
+                                "type": "string",
+                                "format": "uri"
+                            }
+                        },
+                        "required": [
+                            "url"
+                        ]
+                    }
+                },
+                "featuredNews": {
+                    "type": "object",
+                    "properties": {
+                        "published": {
+                            "type": "boolean"
+                        },
+                        "size": {
+                            "type": "string",
+                            "pattern": "^\\d+$"
+                        },
+                        "id": {
+                            "type": "string",
+                            "pattern": "^\\d+$"
+                        }
+                    },
+                    "required": [
+                        "published",
+                        "size",
+                        "id"
+                    ]
+                },
+                "alerts": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "published": {
+                                "type": "boolean"
+                            },
+                            "size": {
+                                "type": "string",
+                                "pattern": "^\\d+$"
+                            },
+                            "en": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "url": {
+                                        "type": "string",
+                                        "format": "uri-reference"
+                                    }
+                                },
+                                "required": [
+                                    "name",
+                                    "url"
+                                ]
+                            },
+                            "fr": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "url": {
+                                        "type": "string",
+                                        "format": "uri-reference"
+                                    }
+                                },
+                                "required": [
+                                    "name",
+                                    "url"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "published",
+                            "size",
+                            "en",
+                            "fr"
+                        ]
+                    }
+                },
+                "buttons": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "published": {
+                                "type": "boolean"
+                            },
+                            "size": {
+                                "type": "string",
+                                "pattern": "^\\d+$"
+                            },
+                            "en": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "url": {
+                                        "type": "string",
+                                        "format": "uri-reference"
+                                    }
+                                },
+                                "required": [
+                                    "name",
+                                    "url"
+                                ]
+                            },
+                            "fr": {
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "type": "string"
+                                    },
+                                    "url": {
+                                        "type": "string",
+                                        "format": "uri-reference"
+                                    }
+                                },
+                                "required": [
+                                    "name",
+                                    "url"
+                                ]
+                            }
+                        },
+                        "required": [
+                            "published",
+                            "size",
+                            "en",
+                            "fr"
+                        ]
+                    }
+                }
+            },
+            "required": [
+                "backgroundImages",
+                "featuredNews",
+                "alerts",
+                "buttons"
+            ]
+        }
+    },
+    "required": [
+        "latest_app_version",
+        "apiServer",
+        "canforgens",
+        "resources",
+        "subscriptions",
+        "feedbackForm",
+        "appStore",
+        "homeTab"
+    ]
+}

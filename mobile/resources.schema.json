@@ -1,0 +1,109 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "#comment": "Resources section of the mobile app",
+    "type": "object",
+    "properties": {
+        "sections": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "title": {
+                        "type": "object",
+                        "properties": {
+                            "en": {
+                                "type": "string"
+                            },
+                            "fr": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "en",
+                            "fr"
+                        ]
+                    },
+                    "image": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "description": {
+                        "type": "object",
+                        "properties": {
+                            "en": {
+                                "type": "string"
+                            },
+                            "fr": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "en",
+                            "fr"
+                        ]
+                    },
+                    "list": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "title": {
+                                    "type": "object",
+                                    "properties": {
+                                        "en": {
+                                            "type": "string"
+                                        },
+                                        "fr": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "en",
+                                        "fr"
+                                    ]
+                                },
+                                "web": {
+                                    "type": "object",
+                                    "properties": {
+                                        "en": {
+                                            "type": "string",
+                                            "format": "uri"
+                                        },
+                                        "fr": {
+                                            "type": "string",
+                                            "format": "uri"
+                                        }
+                                    },
+                                    "required": [
+                                        "en",
+                                        "fr"
+                                    ]
+                                },
+                                "phone": {
+                                    "type:": "string",
+                                    "pattern": "^[\\d\\-]+$"
+                                },
+                                "email": {
+                                    "type": "string",
+                                    "format": "email"
+                                }
+                            },
+                            "required": [
+                                "title"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "title",
+                    "image",
+                    "description",
+                    "list"
+                ]
+            }
+        }
+    },
+    "required": [
+        "sections"
+    ]
+}

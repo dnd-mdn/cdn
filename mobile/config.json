@@ -1,0 +1,173 @@
+{
+    "latest_app_version": "3.2.0",
+    "apiServer": "https://mobile.caf-fac.ca/api/v4",
+    "canforgens": {
+        "ip": "https://mobile.caf-fac.ca"
+    },
+    "resources": {
+        "ip": "https://www.canada.ca",
+        "path": "/content/dam/dnd-mdn/documents/json/mobile/resources.json"
+    },
+    "subscriptions": {
+        "ip": "https://www.canada.ca",
+        "path": "/content/dam/dnd-mdn/documents/json/mobile/caf-subscriptions.json"
+    },
+    "feedbackForm": {
+        "web": {
+            "en": "https://apps.forces.gc.ca/en/mobile/feedback.asp",
+            "fr": "https://apps.forces.gc.ca/fr/mobile/retroaction.asp"
+        }
+    },
+    "appStore": {
+        "android": {
+            "en": "https://play.google.com/store/apps/details?id=ca.forces.dnd.caf",
+            "fr": "https://play.google.com/store/apps/details?id=ca.forces.dnd.caf&hl=fr"
+        },
+        "ios": {
+            "en": "https://apps.apple.com/us/app/canadian-forces/id1125442156",
+            "fr": "https://apps.apple.com/fr/app/canadian-forces/id1125442156"
+        }
+    },
+    "homeTab": {
+        "backgroundImages": [
+            {
+                "url": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-apps/caf-mobile-app/backgrounds/1.jpg"
+            },
+            {
+                "url": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-apps/caf-mobile-app/backgrounds/2.jpg"
+            },
+            {
+                "url": "https://www.canada.ca/content/dam/dnd-mdn/images/mobile-apps/caf-mobile-app/backgrounds/3.jpg"
+            }
+        ],
+        "featuredNews": {
+            "published": false,
+            "size": "12",
+            "id": "28797"
+        },
+        "alerts": [
+            {
+                "published": false,
+                "size": "12",
+                "en": {
+                    "name": "App not available on GC-WiFi",
+                    "url": "/tabs/tab-voice"
+                },
+                "fr": {
+                    "name": "App inaccessible sur GC-WIFI",
+                    "url": "/tabs/tab-voice"
+                }
+            }
+        ],
+        "buttons": [
+            {
+                "published": false,
+                "size": "6",
+                "en": {
+                    "name": "Latest CANFORGEN",
+                    "url": "/canforgens-detail/142-20_e"
+                },
+                "fr": {
+                    "name": "Derniers CANFORGEN",
+                    "url": "/canforgens-detail/142-20_f"
+                }
+            },
+            {
+                "published": true,
+                "size": "6",
+                "en": {
+                    "name": "Contact us",
+                    "url": "/resource-detail",
+                    "params": {
+                        "n": "21"
+                    }
+                },
+                "fr": {
+                    "name": "Contactez-nous",
+                    "url": "/resource-detail",
+                    "params": {
+                        "n": "21"
+                    }
+                }
+            },
+            {
+                "published": true,
+                "size": "6",
+                "en": {
+                    "name": "Canforgens",
+                    "url": "/tabs/tab-canforgens"
+                },
+                "fr": {
+                    "name": "Canforgens",
+                    "url": "/tabs/tab-canforgens"
+                }
+            },
+            {
+                "published": true,
+                "size": "6",
+                "en": {
+                    "name": "Resources",
+                    "url": "/tabs/tab-resources"
+                },
+                "fr": {
+                    "name": "Ressources",
+                    "url": "/tabs/tab-resources"
+                }
+            },
+            {
+                "published": false,
+                "size": "6",
+                "en": {
+                    "name": "Covid-19",
+                    "url": "/resource-detail",
+                    "params": {
+                        "n": "3"
+                    }
+                },
+                "fr": {
+                    "name": "Covid-19",
+                    "url": "/resource-detail",
+                    "params": {
+                        "n": "3"
+                    }
+                }
+            },
+            {
+                "published": true,
+                "size": "6",
+                "en": {
+                    "name": "Maple Leaf",
+                    "url": "https://www.canada.ca/en/department-national-defence/maple-leaf.html?utm_campaign=dnd-mdn-mobile-app-22-23&utm_medium=ma&utm_source=cafapp&utm_content=homepage-en",
+                    "params": {
+                        "type": "web"
+                    }
+                },
+                "fr": {
+                    "name": "Feuille d'érable",
+                    "url": "https://www.canada.ca/fr/ministere-defense-nationale/feuille-derable.html?utm_campaign=dnd-mdn-mobile-app-22-23&utm_medium=ma&utm_source=cafapp&utm_content=homepage-fr",
+                    "params": {
+                        "type": "web"
+                    }
+                }
+            },
+            {
+                "published": true,
+                "size": "12",
+                "en": {
+                    "name": "OP Unified Recruiter Aide-Mémoire",
+                    "url": "https://www.canada.ca/en/department-national-defence/campaigns/get-involved-caf-recruitment/recruiting-aide-memoire.html",
+                    "params": {
+                        "type": "web"
+                    }
+                },
+                "fr": {
+                    "name": "Aide-mémoire sur le recrutement",
+                    "url": "https://www.canada.ca/fr/ministere-defense-nationale/campagnes/impliquez-vous-recrutement-fac/aide-memoire-sur-le-recrutement.html",
+                    "params": {
+                        "type": "web"
+                    }
+                }
+            }
+        ]
+    }
+}
