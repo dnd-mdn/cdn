@@ -1,17 +1,21 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "$comment": "Configuration file for the caf mobile app",
+    "title": "CAF Mobile App configuration",
+    "description": "Defines API and asset locations as well as the home tab configuration.",
     "type": "object",
     "properties": {
         "latest_app_version": {
+            "description": "The latest version of the app. Used to determine if a new version is available.",
             "type": "string",
             "pattern": "^\\d+\\.\\d+\\.\\d+$"
         },
         "apiServer": {
+            "description": "The base URL of the API.",
             "type": "string",
             "format": "uri"
         },
         "canforgens": {
+            "description": "The base URL of the CANFORGENS API.",
             "type": "object",
             "properties": {
                 "ip": {
@@ -24,6 +28,7 @@
             ]
         },
         "resources": {
+            "description": "The URL of the resources data",
             "type": "object",
             "properties": {
                 "ip": {
@@ -41,6 +46,7 @@
             ]
         },
         "subscriptions": {
+            "description": "The URL of the social media account data.  No longer in use.",
             "type": "object",
             "properties": {
                 "ip": {
@@ -58,6 +64,7 @@
             ]
         },
         "feedbackForm": {
+            "description": "Localized URL of the feedback form.",
             "type": "object",
             "properties": {
                 "web": {
@@ -83,9 +90,11 @@
             ]
         },
         "appStore": {
+            "description": "Localized App store URLs.",
             "type": "object",
             "properties": {
                 "android": {
+                    "descrption": "Android app store URL.",
                     "type": "object",
                     "properties": {
                         "en": {
@@ -103,6 +112,7 @@
                     ]
                 },
                 "ios": {
+                    "descrption": "IOS app store URL.",
                     "type": "object",
                     "properties": {
                         "en": {
@@ -126,9 +136,11 @@
             ]
         },
         "homeTab": {
+            "description": "The home tab configuration.",
             "type": "object",
             "properties": {
                 "backgroundImages": {
+                    "description": "List of URLs of background images.",
                     "type": "array",
                     "items": {
                         "type": "object",
@@ -144,16 +156,20 @@
                     }
                 },
                 "featuredNews": {
+                    "description": "Configure the featured news element.",
                     "type": "object",
                     "properties": {
                         "published": {
+                            "description": "If false, it will default to displaying the latest news item.",
                             "type": "boolean"
                         },
                         "size": {
+                            "description": "The grid size of the element. 12 is full width.",
                             "type": "string",
                             "pattern": "^\\d+$"
                         },
                         "id": {
+                            "description": "The postID of the post to feature.",
                             "type": "string",
                             "pattern": "^\\d+$"
                         }
@@ -165,14 +181,17 @@
                     ]
                 },
                 "alerts": {
+                    "description": "Red high priority buttons on the home tab.",
                     "type": "array",
                     "items": {
                         "type": "object",
                         "properties": {
                             "published": {
+                                "description": "If false, it will not display the button.",
                                 "type": "boolean"
                             },
                             "size": {
+                                "description": "The grid size of the element. 12 is full width.",
                                 "type": "string",
                                 "pattern": "^\\d+$"
                             },
@@ -180,6 +199,7 @@
                                 "type": "object",
                                 "properties": {
                                     "name": {
+                                        "description": "The text of the button.",
                                         "type": "string"
                                     },
                                     "url": {
@@ -196,6 +216,7 @@
                                 "type": "object",
                                 "properties": {
                                     "name": {
+                                        "description": "The text of the button.",
                                         "type": "string"
                                     },
                                     "url": {
@@ -218,14 +239,17 @@
                     }
                 },
                 "buttons": {
+                    "description": "Buttons for the home tab.",
                     "type": "array",
                     "items": {
                         "type": "object",
                         "properties": {
                             "published": {
+                                "description": "If false, it will not display the button.",
                                 "type": "boolean"
                             },
                             "size": {
+                                "description": "The grid size of the element. 12 is full width.",
                                 "type": "string",
                                 "pattern": "^\\d+$"
                             },
@@ -233,6 +257,7 @@
                                 "type": "object",
                                 "properties": {
                                     "name": {
+                                        "description": "The text of the button.",
                                         "type": "string"
                                     },
                                     "url": {
@@ -249,6 +274,7 @@
                                 "type": "object",
                                 "properties": {
                                     "name": {
+                                        "description": "The text of the button.",
                                         "type": "string"
                                     },
                                     "url": {

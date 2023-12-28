@@ -1,14 +1,17 @@
 {
     "$schema": "http://json-schema.org/draft-04/schema#",
-    "#comment": "Resources section of the mobile app",
+    "title": "CAF Mobile App resources tab",
+    "description": "Defines groups of web links and contact information for the resources tab.",
     "type": "object",
     "properties": {
         "sections": {
+            "description": "An array of sections to display in the resources tab.",
             "type": "array",
             "items": {
                 "type": "object",
                 "properties": {
                     "title": {
+                        "description": "Localized title of the section.",
                         "type": "object",
                         "properties": {
                             "en": {
@@ -24,10 +27,12 @@
                         ]
                     },
                     "image": {
+                        "description": "Icon URL of the section.",
                         "type": "string",
                         "format": "uri"
                     },
                     "description": {
+                        "description": "Localized description of the section. Not used currently.",
                         "type": "object",
                         "properties": {
                             "en": {
@@ -43,11 +48,13 @@
                         ]
                     },
                     "list": {
+                        "description": "An array of links and/or contact information.",
                         "type": "array",
                         "items": {
                             "type": "object",
                             "properties": {
                                 "title": {
+                                    "description": "Localized title of the entry.",
                                     "type": "object",
                                     "properties": {
                                         "en": {
@@ -63,6 +70,7 @@
                                     ]
                                 },
                                 "web": {
+                                    "descriptions": "Localized URL.",
                                     "type": "object",
                                     "properties": {
                                         "en": {
@@ -80,10 +88,12 @@
                                     ]
                                 },
                                 "phone": {
+                                    "description": "Phone number.",
                                     "type:": "string",
                                     "pattern": "^[\\d\\-]+$"
                                 },
                                 "email": {
+                                    "description": "Email address.",
                                     "type": "string",
                                     "format": "email"
                                 }
