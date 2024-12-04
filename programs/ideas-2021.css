@@ -36,14 +36,24 @@
 .box-what {
     background: #754471;
     color: #fff;
-    min-height: 670px;
+    min-height: 500px;
 }
 
 .box-table {
     background: #fbfbfb;
     min-height: 670px;
 }
-
+.box-video {
+    background: #754471;
+    min-height: 670px;
+}
+.box-journey {
+     background: #754471;
+    color: #fff;
+    min-height: 670px;
+	border-radius: 15px 50px 30px 5px;
+	
+}
 .all-opp a {
     background-color: #6e2f69;
     color: #fff !important;
@@ -579,13 +589,13 @@ p.subscribe {
     }
 }
 
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 500px) {
     .box-what {
-        min-height: 800px;
+        min-height: 700px;
     }
 
     .box-table {
-        min-height: 800px;
+        min-height: 700px;
     }
 }
 
@@ -825,3 +835,28 @@ H2.leftnav-intro {
     text-decoration: none;
     color: #6e2f69;
 }
+/* Video player + lightbox */
+
+.wb-mm-ctrls {
+    background: #3e3e3e;
+    color: #fff;
+    display: table;
+    padding-top: 2em;
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+}
+
+.wb-mm-ctrls .frstpnl {
+    width: auto;
+}
+
+.overlay-def header {
+    background: #5d1349;
+}
+
+.wb-mltmd {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
