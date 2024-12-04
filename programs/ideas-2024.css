@@ -43,6 +43,18 @@
     background: #fbfbfb;
     min-height: 670px;
 }
+.box-video {
+    background: #754471;
+    min-height: 670px;
+}
+.box-journey {
+     background: #754471;
+    color: #fff;
+    min-height: 670px;
+	border-radius: 15px 50px 30px 5px;
+	
+}
+
 
 .all-opp a {
     background-color: #6e2f69;
@@ -577,15 +589,27 @@ p.subscribe {
     .box-what {
         min-height: 300px;
     }
+	.box-journey {
+        min-height: 300px;
+		border-radius: 15px 50px 30px 5px;
+    }
 }
 
 @media only screen and (min-width: 991px) {
     .box-what {
-        min-height: 800px;
+        min-height: 750px;
     }
 
     .box-table {
-        min-height: 800px;
+        min-height: 750px;
+    }
+	
+	  .box-video {
+        min-height: 660px;
+    }
+	.box-journey {
+        min-height: 640px;
+	border-radius: 15px 50px 30px 5px;
     }
 }
 
@@ -656,6 +680,10 @@ p.subscribe {
 
     .box-what {
         min-height: 450px;
+    }
+	  .box-journey {
+        min-height: 450px;
+		border-radius: 15px 50px 30px 5px;
     }
 
     .apply-now p {
@@ -771,31 +799,6 @@ p.subscribe {
 }
 
 
-.wb-tabs.carousel-s1 [role="tabpanel"] a figcaption,
-.wb-tabs.carousel-s2 [role="tabpanel"] a figcaption {
-    color: #fff;
-    text-decoration: none;
-}
-
-
-.wb-tabs.carousel-s1 figure,
-.wb-tabs.carousel-s2 figure {
-    background-color: #fff;
-}
-
-
-.wb-tabs.carousel-s1 figcaption,
-.wb-tabs.carousel-s2 figcaption {
-    bottom: 60px;
-    left: 0;
-    padding: .5em .5em .5em .85em;
-    position: relative;
-    right: 0;
-    z-index: 101;
-    font-size: 17px;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.81) 0%, rgba(36, 36, 36, 0.94) 54%, rgba(3, 3, 3, 0.78) 100%);
-    font-weight: bold;
-}
 
 a.slide-btn {
     background-color: #313131;
@@ -824,4 +827,13 @@ H2.leftnav-intro {
     background-color: #fff;
     text-decoration: none;
     color: #6e2f69;
+}
+figcaption1 {    
+bottom: 0;
+    color: #754471;
+    left: 0;
+    padding: .5em 1em;
+    position: relative;
+    right: 0;
+    z-index: 101;
 }
