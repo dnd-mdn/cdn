@@ -50,7 +50,7 @@
 .box-journey {
      background: #754471;
     color: #fff;
-    min-height: 670px;
+    min-height: 600px;
 	border-radius: 15px 50px 30px 5px;
 	
 }
@@ -597,18 +597,18 @@ p.subscribe {
 
 @media only screen and (min-width: 991px) {
     .box-what {
-        min-height: 750px;
+        min-height: 700px;
     }
 
     .box-table {
-        min-height: 750px;
+        min-height: 700px;
     }
 	
 	  .box-video {
         min-height: 660px;
     }
 	.box-journey {
-        min-height: 640px;
+        min-height: 600px;
 	border-radius: 15px 50px 30px 5px;
     }
 }
